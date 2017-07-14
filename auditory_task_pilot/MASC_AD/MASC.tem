@@ -1,0 +1,37 @@
+trial {
+    trial_duration = 1000;
+	 stimulus_event {
+
+picture {
+        text asterisk;
+		  x = 0; y = 0;
+    };
+
+	time = 0;
+
+};
+};
+
+
+# then sound begins, and options remain onscreen
+trial {
+   trial_type = specific_response;
+	terminator_button = 3;
+   trial_duration = stimuli_length;
+	 
+
+   stimulus_event {
+
+sound {
+        wavefile $soundName;
+    };
+	
+	time = 1000;
+	code = "$soundName; $block";
+	port_code = $trigger;
+
+
+};
+
+
+};

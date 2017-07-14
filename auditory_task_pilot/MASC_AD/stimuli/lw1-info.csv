@@ -1,0 +1,1004 @@
+,wav_file,sentence_number,word,silence_length,speech_rate,voice,condition,pronounced_item,word_numbers,depth,opening_nodes,closing_nodes,relative_depth,tree_segment,indices,file
+0,0.0,1,Tara,0.401,205,Allison,sentence,1,0,3,3,2,0,((NP-SBJ-1(NNPTara)),"(0, 0, 0)",lw1.mrg
+1,0.0,1,stood,0.401,205,Allison,sentence,1,1,3,2,1,-2,(V(VBDstood),"(1, 0, 0)",lw1.mrg
+2,0.0,1,*PRO*-1,0.401,205,Allison,sentence,1,1,5,3,2,0,(S-AD(NP-SBJ(-NONE-*PRO*-1)),"(1, 1, 0, 0, 0)",lw1.mrg
+3,0.0,1,stock,0.401,205,Allison,sentence,1,2,5,2,1,0,(ADJP-PRD(RBstock),"(1, 1, 1, 0, 0)",lw1.mrg
+4,0.0,1,-,0.401,205,Allison,sentence,0,2,5,1,1,0,(HYPH-),"(1, 1, 1, 1, 0)",lw1.mrg
+5,0.0,1,still,0.401,205,Allison,sentence,1,3,5,1,3,2,(JJstill))),"(1, 1, 1, 2, 0)",lw1.mrg
+6,0.0,1,",",0.401,205,Allison,sentence,0,3,3,1,1,-2,"(,,)","(1, 2, 0)",lw1.mrg
+7,0.0,1,*PRO*-1,0.401,205,Allison,sentence,0,3,5,3,2,0,(S-AD(NP-SBJ(-NONE-*PRO*-1)),"(1, 3, 0, 0, 0)",lw1.mrg
+8,0.0,1,waiting,0.401,205,Allison,sentence,1,4,5,2,1,-1,(V(VBGwaiting),"(1, 3, 1, 0, 0)",lw1.mrg
+9,0.0,1,for,0.401,205,Allison,sentence,1,5,6,2,1,-3,(SBA(INfor),"(1, 3, 1, 1, 0, 0)",lw1.mrg
+10,0.0,1,the,0.401,205,Allison,sentence,1,6,9,4,1,0,((NP-SB(NP(DTthe),"(1, 3, 1, 1, 1, 0, 0, 0, 0)",lw1.mrg
+11,0.0,1,first,0.401,205,Allison,sentence,1,7,9,1,1,0,(JJfirst),"(1, 3, 1, 1, 1, 0, 0, 1, 0)",lw1.mrg
+12,0.0,1,tiny,0.401,205,Allison,sentence,1,8,9,1,1,0,(JJtiny),"(1, 3, 1, 1, 1, 0, 0, 2, 0)",lw1.mrg
+13,0.0,1,gleam,0.401,205,Allison,sentence,1,9,9,1,2,0,(NNgleam)),"(1, 3, 1, 1, 1, 0, 0, 3, 0)",lw1.mrg
+14,0.0,1,from,0.401,205,Allison,sentence,1,10,9,2,1,-1,(PP(INfrom),"(1, 3, 1, 1, 1, 0, 1, 0, 0)",lw1.mrg
+15,0.0,1,the,0.401,205,Allison,sentence,1,11,10,2,1,0,(NP(DTthe),"(1, 3, 1, 1, 1, 0, 1, 1, 0, 0)",lw1.mrg
+16,0.0,1,scout,0.401,205,Allison,sentence,1,12,10,1,1,0,(NNscout),"(1, 3, 1, 1, 1, 0, 1, 1, 1, 0)",lw1.mrg
+17,0.0,1,craft,0.401,205,Allison,sentence,1,13,10,1,4,2,(NNcraft)))),"(1, 3, 1, 1, 1, 0, 1, 1, 2, 0)",lw1.mrg
+18,0.0,1,to,0.401,205,Allison,sentence,1,14,8,2,1,-1,(V(TOto),"(1, 3, 1, 1, 1, 1, 0, 0)",lw1.mrg
+19,0.0,1,appear,0.401,205,Allison,sentence,1,15,9,2,1,-1,(V(VBappear),"(1, 3, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+20,0.0,1,in,0.401,205,Allison,sentence,1,16,10,2,1,-2,(PP-LOC-CL(INin),"(1, 3, 1, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+21,0.0,1,the,0.401,205,Allison,sentence,1,17,12,3,1,0,(N(NP(DTthe),"(1, 3, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0)",lw1.mrg
+22,0.0,1,darkness,0.401,205,Allison,sentence,1,18,12,1,2,0,(NNdarkness)),"(1, 3, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0)",lw1.mrg
+23,0.0,1,of,0.401,205,Allison,sentence,1,19,12,2,1,-1,(PP(INof),"(1, 3, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+24,0.0,1,the,0.401,205,Allison,sentence,1,20,13,2,1,0,(NP(DTthe),"(1, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+25,0.0,1,wormhole,0.401,205,Allison,sentence,1,21,13,1,12,11,(NNwormhole)))))))))))),"(1, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0)",lw1.mrg
+26,0.0,1,.,0.401,205,Allison,sentence,0,21,2,1,2,-3,(..)),"(2, 0)",lw1.mrg
+27,0.0,2,The,0.142,205,Allison,sentence,1,0,5,5,1,0,(((NP-SB(NP(DTThe),"(0, 0, 0, 0, 0)",lw1.mrg
+28,0.0,2,gentle,0.142,205,Allison,sentence,1,1,5,1,1,0,(JJgentle),"(0, 0, 0, 1, 0)",lw1.mrg
+29,0.0,2,constant,0.142,205,Allison,sentence,1,2,5,1,1,0,(JJconstant),"(0, 0, 0, 2, 0)",lw1.mrg
+30,0.0,2,breeze,0.142,205,Allison,sentence,1,3,5,1,2,0,(NNbreeze)),"(0, 0, 0, 3, 0)",lw1.mrg
+31,0.0,2,of,0.142,205,Allison,sentence,1,4,5,2,1,-2,(P(INof),"(0, 0, 1, 0, 0)",lw1.mrg
+32,0.0,2,recycled,0.142,205,Allison,sentence,1,5,7,3,1,0,(N(NP(VBNrecycled),"(0, 0, 1, 1, 0, 0, 0)",lw1.mrg
+33,0.0,2,air,0.142,205,Allison,sentence,1,6,7,1,2,0,(NNair)),"(0, 0, 1, 1, 0, 1, 0)",lw1.mrg
+34,0.0,2,from,0.142,205,Allison,sentence,1,7,7,2,1,-2,(P(INfrom),"(0, 0, 1, 1, 1, 0, 0)",lw1.mrg
+35,0.0,2,the,0.142,205,Allison,sentence,1,8,9,3,1,0,(NP(NP(DTthe),"(0, 0, 1, 1, 1, 1, 0, 0, 0)",lw1.mrg
+36,0.0,2,vent,0.142,205,Allison,sentence,1,9,9,1,2,0,(NNvent)),"(0, 0, 1, 1, 1, 1, 0, 1, 0)",lw1.mrg
+37,0.0,2,above,0.142,205,Allison,sentence,1,10,9,2,7,5,(ADVP-LOC(RBabove))))))),"(0, 0, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+38,0.0,2,blew,0.142,205,Allison,sentence,1,11,4,2,1,-1,(V(VBDblew),"(0, 1, 0, 0)",lw1.mrg
+39,0.0,2,an,0.142,205,Allison,sentence,1,12,5,2,1,0,(NP(DTan),"(0, 1, 1, 0, 0)",lw1.mrg
+40,0.0,2,annoying,0.142,205,Allison,sentence,1,13,5,1,1,0,(VBGannoying),"(0, 1, 1, 1, 0)",lw1.mrg
+41,0.0,2,hair,0.142,205,Allison,sentence,1,14,5,1,2,0,(NNhair)),"(0, 1, 1, 2, 0)",lw1.mrg
+42,0.0,2,against,0.142,205,Allison,sentence,1,15,5,2,1,-1,(PP-CLR(INagainst),"(0, 1, 2, 0, 0)",lw1.mrg
+43,0.0,2,her,0.142,205,Allison,sentence,1,16,6,2,1,0,(NP(PRP$her),"(0, 1, 2, 1, 0, 0)",lw1.mrg
+44,0.0,2,nose,0.142,205,Allison,sentence,1,17,6,1,5,4,(NNnose))))),"(0, 1, 2, 1, 1, 0)",lw1.mrg
+45,0.0,2,",",0.142,205,Allison,sentence,0,17,2,1,1,0,"(,,)","(1, 0)",lw1.mrg
+46,0.0,2,but,0.142,205,Allison,sentence,1,18,2,1,1,-2,(CCbut),"(2, 0)",lw1.mrg
+47,0.0,2,she,0.142,205,Allison,sentence,1,19,4,3,2,0,(S(NP-SBJ(PRPshe)),"(3, 0, 0, 0)",lw1.mrg
+48,0.0,2,ignored,0.142,205,Allison,sentence,1,20,4,2,1,-1,(VP(VBDignored),"(3, 1, 0, 0)",lw1.mrg
+49,0.0,2,it,0.142,205,Allison,sentence,1,21,5,2,4,3,(NP(PRPit)))),"(3, 1, 1, 0, 0)",lw1.mrg
+50,0.0,2,.,0.142,205,Allison,sentence,0,21,2,1,2,-3,(..)),"(4, 0)",lw1.mrg
+51,0.0,3,A,0.069,145,Allison,sentence,1,0,5,5,1,0,(((NP-SB(NP(DTA),"(0, 0, 0, 0, 0)",lw1.mrg
+52,0.0,3,gasp,0.069,145,Allison,sentence,1,1,5,1,2,0,(NNgasp)),"(0, 0, 0, 1, 0)",lw1.mrg
+53,0.0,3,from,0.069,145,Allison,sentence,1,2,5,2,1,-1,(PP(INfrom),"(0, 0, 1, 0, 0)",lw1.mrg
+54,0.0,3,the,0.069,145,Allison,sentence,1,3,6,2,1,0,(NP(DTthe),"(0, 0, 1, 1, 0, 0)",lw1.mrg
+55,0.0,3,psychic,0.069,145,Allison,sentence,1,4,6,1,4,2,(NNpsychic)))),"(0, 0, 1, 1, 1, 0)",lw1.mrg
+56,0.0,3,broke,0.069,145,Allison,sentence,1,5,4,2,1,-1,(VP(VBDbroke),"(0, 1, 0, 0)",lw1.mrg
+57,0.0,3,her,0.069,145,Allison,sentence,1,6,5,2,1,0,(NP(PRP$her),"(0, 1, 1, 0, 0)",lw1.mrg
+58,0.0,3,silent,0.069,145,Allison,sentence,1,7,5,1,1,0,(JJsilent),"(0, 1, 1, 1, 0)",lw1.mrg
+59,0.0,3,vigil,0.069,145,Allison,sentence,1,8,5,1,4,3,(NNvigil)))),"(0, 1, 1, 2, 0)",lw1.mrg
+60,0.0,3,",",0.069,145,Allison,sentence,0,8,2,1,1,0,"(,,)","(1, 0)",lw1.mrg
+61,0.0,3,and,0.069,145,Allison,sentence,1,9,2,1,1,-2,(CCand),"(2, 0)",lw1.mrg
+62,0.0,3,she,0.069,145,Allison,sentence,1,10,4,3,2,0,(S(NP-SBJ(PRPshe)),"(3, 0, 0, 0)",lw1.mrg
+63,0.0,3,turned,0.069,145,Allison,sentence,1,11,4,2,3,2,(VP(VBDturned))),"(3, 1, 0, 0)",lw1.mrg
+64,0.0,3,.,0.069,145,Allison,sentence,0,11,2,1,2,0,(..)),"(4, 0)",lw1.mrg
+65,0.0,4,"""",0.706,145,Allison,sentence,0,-1,2,2,1,-2,"(UC(``"")","(0, 0)",lw1.mrg
+66,0.0,4,Results,0.706,145,Allison,sentence,1,0,4,3,2,1,(FRAG(NP(NNSResults)),"(1, 0, 0, 0)",lw1.mrg
+67,0.0,4,",",0.706,145,Allison,sentence,0,0,3,1,1,-1,"(,,)","(1, 1, 0)",lw1.mrg
+68,0.0,4,Harmon,0.706,145,Allison,sentence,1,1,4,2,2,4,(NP-VOC(NNPHarmon)),"(1, 2, 0, 0)",lw1.mrg
+69,0.0,4,rar,0.706,145,Allison,pseudo_words,1,1,0,0,0,-3,,0,lw1.mrg
+70,0.0,4,?,0.706,145,Allison,sentence,0,1,3,1,2,1,"(,?))","(1, 3, 0)",lw1.mrg
+71,0.0,4,"""",0.706,145,Allison,sentence,0,1,2,1,1,-2,"(''"")","(2, 0)",lw1.mrg
+72,0.0,4,she,0.706,145,Allison,sentence,1,2,4,3,2,0,((NP-SBJ(PRPshe)),"(3, 0, 0, 0)",lw1.mrg
+73,0.0,4,suppressed,0.706,145,Allison,sentence,1,3,4,2,1,-3,(V(VBDsuppressed),"(3, 1, 0, 0)",lw1.mrg
+74,0.0,4,the,0.706,145,Allison,sentence,1,4,7,4,1,0,(N(N(NP(DTthe),"(3, 1, 1, 0, 0, 0, 0)",lw1.mrg
+75,0.0,4,surge,0.706,145,Allison,sentence,1,5,7,1,2,0,(NNsurge)),"(3, 1, 1, 0, 0, 1, 0)",lw1.mrg
+76,0.0,4,of,0.706,145,Allison,sentence,1,6,7,2,1,-1,(PP(INof),"(3, 1, 1, 0, 1, 0, 0)",lw1.mrg
+77,0.0,4,annoyance,0.706,145,Allison,sentence,1,7,8,2,4,1,(NP(NNannoyance)))),"(3, 1, 1, 0, 1, 1, 0, 0)",lw1.mrg
+78,0.0,4,that,0.706,145,Allison,sentence,1,8,7,3,2,-1,(SBA(WHNP-1(WDTthat)),"(3, 1, 1, 1, 0, 0, 0)",lw1.mrg
+79,0.0,4,*T*-1,0.706,145,Allison,sentence,1,8,8,3,2,0,((NP-SBJ(-NONE-*T*-1)),"(3, 1, 1, 1, 1, 0, 0, 0)",lw1.mrg
+80,0.0,4,ran,0.706,145,Allison,sentence,1,9,8,2,1,-1,(V(VBDran),"(3, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+81,0.0,4,through,0.706,145,Allison,sentence,1,10,9,2,1,-1,(PP-CLR(INthrough),"(3, 1, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+82,0.0,4,her,0.706,145,Allison,sentence,1,11,10,2,3,1,(NP(PRPher))),"(3, 1, 1, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+83,0.0,4,as,0.706,145,Allison,sentence,1,12,9,2,1,-2,(SBAR-TM(INas),"(3, 1, 1, 1, 1, 1, 2, 0, 0)",lw1.mrg
+84,0.0,4,she,0.706,145,Allison,sentence,1,13,11,3,2,0,((NP-SBJ(PRPshe)),"(3, 1, 1, 1, 1, 1, 2, 1, 0, 0, 0)",lw1.mrg
+85,0.0,4,contemplated,0.706,145,Allison,sentence,1,14,11,2,1,-3,(V(VBDcontemplated),"(3, 1, 1, 1, 1, 1, 2, 1, 1, 0, 0)",lw1.mrg
+86,0.0,4,the,0.706,145,Allison,sentence,1,15,14,4,1,0,(N(NP(NP(DTthe),"(3, 1, 1, 1, 1, 1, 2, 1, 1, 1, 0, 0, 0, 0)",lw1.mrg
+87,0.0,4,psi,0.706,145,Allison,sentence,1,16,14,1,1,0,(NNpsi),"(3, 1, 1, 1, 1, 1, 2, 1, 1, 1, 0, 0, 1, 0)",lw1.mrg
+88,0.0,4,'s,0.706,145,Allison,sentence,1,17,14,1,2,1,(POS's)),"(3, 1, 1, 1, 1, 1, 2, 1, 1, 1, 0, 0, 2, 0)",lw1.mrg
+89,0.0,4,gift,0.706,145,Allison,sentence,1,18,13,1,2,0,(NNgift)),"(3, 1, 1, 1, 1, 1, 2, 1, 1, 1, 0, 1, 0)",lw1.mrg
+90,0.0,4,of,0.706,145,Allison,sentence,1,19,13,2,1,-2,(P(INof),"(3, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 0, 0)",lw1.mrg
+91,0.0,4,*PRO*,0.706,145,Allison,sentence,1,19,15,3,2,0,(S-NO(NP-SBJ(-NONE-*PRO*)),"(3, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 0, 0, 0)",lw1.mrg
+92,0.0,4,getting,0.706,145,Allison,sentence,1,20,15,2,1,-1,(V(VBGgetting),"(3, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+93,0.0,4,all,0.706,145,Allison,sentence,1,21,16,2,1,0,(N(PDTall),"(3, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+94,0.0,4,the,0.706,145,Allison,sentence,1,22,16,1,1,0,(DTthe),"(3, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 0)",lw1.mrg
+95,0.0,4,hot,0.706,145,Allison,sentence,1,23,16,1,1,0,(JJhot),"(3, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 2, 0)",lw1.mrg
+96,0.0,4,news,0.706,145,Allison,sentence,1,24,16,1,2,0,(NNnews)),"(3, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 3, 0)",lw1.mrg
+97,0.0,4,first,0.706,145,Allison,sentence,1,25,16,2,15,14,(ADVP-TMP(RBfirst))))))))))))))),"(3, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 2, 0, 0)",lw1.mrg
+98,0.0,4,.,0.706,145,Allison,sentence,0,25,2,1,2,-2,(..)),"(4, 0)",lw1.mrg
+99,0.0,5,Harmon,0.371,145,Allison,sentence,1,0,4,4,1,0,((NP-SBJ(NP(NNPHarmon),"(0, 0, 0, 0)",lw1.mrg
+100,0.0,5,'s,0.371,145,Allison,sentence,1,1,4,1,2,1,(POS's)),"(0, 0, 1, 0)",lw1.mrg
+101,0.0,5,face,0.371,145,Allison,sentence,1,2,3,1,2,0,(NNface)),"(0, 1, 0)",lw1.mrg
+102,0.0,5,slowly,0.371,145,Allison,sentence,1,3,3,2,2,0,(ADVP-MNR(RBslowly)),"(1, 0, 0)",lw1.mrg
+103,0.0,5,animated,0.371,145,Allison,sentence,1,4,3,2,1,0,(V(VBDanimated),"(2, 0, 0)",lw1.mrg
+104,0.0,5,-,0.371,145,Allison,sentence,0,4,3,1,1,-2,(:-),"(2, 1, 0)",lw1.mrg
+105,0.0,5,joy,0.371,145,Allison,sentence,1,5,5,3,2,0,(S-AD(NP-SBJ-1(NNjoy)),"(2, 2, 0, 0, 0)",lw1.mrg
+106,0.0,5,sweeping,0.371,145,Allison,sentence,1,6,5,2,1,-1,(V(VBGsweeping),"(2, 2, 1, 0, 0)",lw1.mrg
+107,0.0,5,in,0.371,145,Allison,sentence,1,7,6,2,2,6,(ADVP-DIR(RBin)),"(2, 2, 1, 1, 0, 0)",lw1.mrg
+108,0.0,5,swarted,0.371,145,Allison,pseudo_words,1,7,0,0,0,-7,,0,lw1.mrg
+109,0.0,5,*PRO*-1,0.371,145,Allison,sentence,1,7,7,3,2,0,(S-PR(NP-SBJ(-NONE-*PRO*-1)),"(2, 2, 1, 2, 0, 0, 0)",lw1.mrg
+110,0.0,5,to,0.371,145,Allison,sentence,1,8,7,2,1,-1,(V(TOto),"(2, 2, 1, 2, 1, 0, 0)",lw1.mrg
+111,0.0,5,replace,0.371,145,Allison,sentence,1,9,8,2,1,-1,(VP(VBreplace),"(2, 2, 1, 2, 1, 1, 0, 0)",lw1.mrg
+112,0.0,5,stern,0.371,145,Allison,sentence,1,10,9,2,1,0,(NP(JJstern),"(2, 2, 1, 2, 1, 1, 1, 0, 0)",lw1.mrg
+113,0.0,5,concentration,0.371,145,Allison,sentence,1,11,9,1,8,7,(NNconcentration)))))))),"(2, 2, 1, 2, 1, 1, 1, 1, 0)",lw1.mrg
+114,0.0,5,.,0.371,145,Allison,sentence,0,11,2,1,2,0,(..)),"(3, 0)",lw1.mrg
+115,0.0,6,"""",0.579,145,Allison,sentence,0,-1,2,2,1,-1,"((``"")","(0, 0)",lw1.mrg
+116,0.0,6,Tarrin,0.579,145,Allison,sentence,1,0,3,2,2,0,(NP-SBJ(NNPTarrin)),"(1, 0, 0)",lw1.mrg
+117,0.0,6,says,0.579,145,Allison,sentence,1,1,3,2,1,-1,(V(VBZsays),"(2, 0, 0)",lw1.mrg
+118,0.0,6,0,0.579,145,Allison,sentence,1,1,4,2,1,-2,(SBA(-NONE-0),"(2, 1, 0, 0)",lw1.mrg
+119,0.0,6,the,0.579,145,Allison,sentence,1,2,6,3,1,0,((NP-SBJ(DTthe),"(2, 1, 1, 0, 0, 0)",lw1.mrg
+120,0.0,6,planet,0.579,145,Allison,sentence,1,3,6,1,2,0,(NNplanet)),"(2, 1, 1, 0, 1, 0)",lw1.mrg
+121,0.0,6,'s,0.579,145,Allison,sentence,1,4,6,2,1,-1,(VP(VBZ's),"(2, 1, 1, 1, 0, 0)",lw1.mrg
+122,0.0,6,a,0.579,145,Allison,sentence,1,5,7,2,1,0,(NP-PRD(DTa),"(2, 1, 1, 1, 1, 0, 0)",lw1.mrg
+123,0.0,6,freaking,0.579,145,Allison,sentence,1,6,7,1,1,0,(JJfreaking),"(2, 1, 1, 1, 1, 1, 0)",lw1.mrg
+124,0.0,6,gemstone,0.579,145,Allison,sentence,1,7,7,1,6,5,(NNgemstone)))))),"(2, 1, 1, 1, 1, 2, 0)",lw1.mrg
+125,0.0,6,!,0.579,145,Allison,sentence,0,7,2,1,2,2,(.!)),"(3, 0)",lw1.mrg
+126,0.0,7,tell,0.713,145,Allison,word_list,1,0,0,0,0,0,,0,lw1.mrg
+127,0.0,7,there,0.713,145,Allison,word_list,1,1,0,0,0,0,,0,lw1.mrg
+128,0.0,7,seemed,0.713,145,Allison,word_list,1,2,0,0,0,0,,0,lw1.mrg
+129,0.0,7,planet,0.713,145,Allison,word_list,1,3,0,0,0,0,,0,lw1.mrg
+130,0.0,7,tiny,0.713,145,Allison,word_list,1,4,0,0,0,0,,0,lw1.mrg
+131,0.0,7,away,0.713,145,Allison,word_list,1,5,0,0,0,0,,0,lw1.mrg
+132,0.0,7,contemplated,0.713,145,Allison,word_list,1,6,0,0,0,0,,0,lw1.mrg
+133,0.0,7,to,0.713,145,Allison,word_list,1,7,0,0,0,0,,0,lw1.mrg
+134,0.0,7,not,0.713,145,Allison,word_list,1,8,0,0,0,0,,0,lw1.mrg
+135,0.0,7,blonde,0.713,145,Allison,word_list,1,9,0,0,0,0,,0,lw1.mrg
+136,0.0,7,dont,0.713,145,Allison,word_list,1,10,0,0,0,0,,0,lw1.mrg
+137,0.0,7,slowly,0.713,145,Allison,word_list,1,11,0,0,0,0,,0,lw1.mrg
+138,0.0,7,broke,0.713,145,Allison,word_list,1,12,0,0,0,0,,0,lw1.mrg
+139,0.0,7,by,0.713,145,Allison,word_list,1,13,0,0,0,0,,0,lw1.mrg
+140,0.0,7,chattered,0.713,145,Allison,word_list,1,14,0,0,0,0,,0,lw1.mrg
+141,0.0,7,,0.713,145,Allison,word_list,1,15,0,0,0,-4,,0,lw1.mrg
+142,0.0,8,*PRO*,0.583,145,Allison,sentence,0,-1,4,4,2,0,(UC(S-AD(NP-SBJ(-NONE-*PRO*)),"(0, 0, 0, 0)",lw1.mrg
+143,0.0,8,Thriving,0.583,145,Allison,sentence,1,0,4,2,1,-1,(V(VBGThriving),"(0, 1, 0, 0)",lw1.mrg
+144,0.0,8,with,0.583,145,Allison,sentence,1,1,5,2,1,-2,(PP-CL(INwith),"(0, 1, 1, 0, 0)",lw1.mrg
+145,0.0,8,life,0.583,145,Allison,sentence,1,2,7,3,2,7,(N(NP(NNlife)),"(0, 1, 1, 1, 0, 0, 0)",lw1.mrg
+146,0.0,8,spittered,0.583,145,Allison,pseudo_words,1,2,0,0,0,-6,,0,lw1.mrg
+147,0.0,8,",",0.583,145,Allison,sentence,0,2,6,1,1,-2,"(,,)","(0, 1, 1, 1, 1, 0)",lw1.mrg
+148,0.0,8,large,0.583,145,Allison,sentence,1,3,8,3,1,0,(NP(ADJP(JJlarge),"(0, 1, 1, 1, 2, 0, 0, 0)",lw1.mrg
+149,0.0,8,and,0.583,145,Allison,sentence,1,4,8,1,1,0,(CCand),"(0, 1, 1, 1, 2, 0, 1, 0)",lw1.mrg
+150,0.0,8,small,0.583,145,Allison,sentence,1,5,8,1,2,1,(JJsmall)),"(0, 1, 1, 1, 2, 0, 2, 0)",lw1.mrg
+151,0.0,8,forms,0.583,145,Allison,sentence,1,6,7,1,6,5,(NNSforms)))))),"(0, 1, 1, 1, 2, 1, 0)",lw1.mrg
+152,0.0,8,",",0.583,145,Allison,sentence,0,6,2,1,1,-2,"(,,)","(1, 0)",lw1.mrg
+153,0.0,8,no,0.583,145,Allison,sentence,1,7,4,3,1,0,(N(NP(DTno),"(2, 0, 0, 0)",lw1.mrg
+154,0.0,8,buildings,0.583,145,Allison,sentence,1,8,4,1,2,0,(NNSbuildings)),"(2, 0, 1, 0)",lw1.mrg
+155,0.0,8,of,0.583,145,Allison,sentence,1,9,4,2,1,-1,(PP(INof),"(2, 1, 0, 0)",lw1.mrg
+156,0.0,8,any,0.583,145,Allison,sentence,1,10,5,2,1,0,(NP(DTany),"(2, 1, 1, 0, 0)",lw1.mrg
+157,0.0,8,kind,0.583,145,Allison,sentence,1,11,5,1,4,3,(NNkind)))),"(2, 1, 1, 1, 0)",lw1.mrg
+158,0.0,8,",",0.583,145,Allison,sentence,0,11,2,1,1,-1,"(,,)","(3, 0)",lw1.mrg
+159,0.0,8,hydrocarbons,0.583,145,Allison,sentence,1,12,3,2,2,1,(NP(NNShydrocarbons)),"(4, 0, 0)",lw1.mrg
+160,0.0,8,",",0.583,145,Allison,sentence,0,12,2,1,1,-1,"(,,)","(5, 0)",lw1.mrg
+161,0.0,8,metals,0.583,145,Allison,sentence,1,13,3,2,2,1,(NP(NNSmetals)),"(6, 0, 0)",lw1.mrg
+162,0.0,8,",",0.583,145,Allison,sentence,0,13,2,1,1,0,"(,,)","(7, 0)",lw1.mrg
+163,0.0,8,and,0.583,145,Allison,sentence,1,14,2,1,1,-1,(CCand),"(8, 0)",lw1.mrg
+164,0.0,8,a,0.583,145,Allison,sentence,1,15,3,2,1,0,(NP(DTa),"(9, 0, 0)",lw1.mrg
+165,0.0,8,stable,0.583,145,Allison,sentence,1,16,3,1,1,0,(JJstable),"(9, 1, 0)",lw1.mrg
+166,0.0,8,atmosphere,0.583,145,Allison,sentence,1,17,3,1,2,1,(NNatmosphere)),"(9, 2, 0)",lw1.mrg
+167,0.0,8,.,0.583,145,Allison,sentence,0,17,2,1,2,2,(..)),"(10, 0)",lw1.mrg
+168,0.0,9,excellent,0.367,145,Allison,word_list,1,0,0,0,0,0,,0,lw1.mrg
+169,0.0,9,onto,0.367,145,Allison,word_list,1,1,0,0,0,0,,0,lw1.mrg
+170,0.0,9,the,0.367,145,Allison,word_list,1,2,0,0,0,0,,0,lw1.mrg
+171,0.0,9,secretively,0.367,145,Allison,word_list,1,3,0,0,0,0,,0,lw1.mrg
+172,0.0,9,there,0.367,145,Allison,word_list,1,4,0,0,0,0,,0,lw1.mrg
+173,0.0,9,only,0.367,145,Allison,word_list,1,5,0,0,0,0,,0,lw1.mrg
+174,0.0,9,masons,0.367,145,Allison,word_list,1,6,0,0,0,0,,0,lw1.mrg
+175,0.0,9,head,0.367,145,Allison,word_list,1,7,0,0,0,0,,0,lw1.mrg
+176,0.0,9,planet,0.367,145,Allison,word_list,1,8,0,0,0,0,,0,lw1.mrg
+177,0.0,9,pointed,0.367,145,Allison,word_list,1,9,0,0,0,0,,0,lw1.mrg
+178,0.0,9,a,0.367,145,Allison,word_list,1,10,0,0,0,0,,0,lw1.mrg
+179,0.0,9,blackness,0.367,145,Allison,word_list,1,11,0,0,0,0,,0,lw1.mrg
+180,0.0,9,now,0.367,145,Allison,word_list,1,12,0,0,0,0,,0,lw1.mrg
+181,0.0,9,get,0.367,145,Allison,word_list,1,13,0,0,0,0,,0,lw1.mrg
+182,0.0,9,gentle,0.367,145,Allison,word_list,1,14,0,0,0,0,,0,lw1.mrg
+183,0.0,9,imposing,0.367,145,Allison,word_list,1,15,0,0,0,0,,0,lw1.mrg
+184,0.0,9,alpha,0.367,145,Allison,word_list,1,16,0,0,0,-3,,0,lw1.mrg
+185,0.0,10,He,0.571,145,Allison,sentence,1,0,3,3,2,0,((NP-SBJ(PRPHe)),"(0, 0, 0)",lw1.mrg
+186,0.0,10,'s,0.571,145,Allison,sentence,1,1,3,2,1,0,(V(VBZ's),"(1, 0, 0)",lw1.mrg
+187,0.0,10,not,0.571,145,Allison,sentence,1,2,3,1,1,-1,(RBnot),"(1, 1, 0)",lw1.mrg
+188,0.0,10,even,0.571,145,Allison,sentence,1,3,4,2,2,0,(ADVP(RBeven)),"(1, 2, 0, 0)",lw1.mrg
+189,0.0,10,bringing,0.571,145,Allison,sentence,1,4,4,2,1,-1,(V(VBGbringing),"(1, 3, 0, 0)",lw1.mrg
+190,0.0,10,them,0.571,145,Allison,sentence,1,5,5,2,2,0,(NP(PRPthem)),"(1, 3, 1, 0, 0)",lw1.mrg
+191,0.0,10,back,0.571,145,Allison,sentence,1,6,5,2,1,0,(ADVP-DIR(RBback),"(1, 3, 2, 0, 0)",lw1.mrg
+192,0.0,10,through,0.571,145,Allison,sentence,1,7,5,1,2,0,(RBthrough)),"(1, 3, 2, 1, 0)",lw1.mrg
+193,0.0,10,for,0.571,145,Allison,sentence,1,8,5,2,1,-1,(PP-PR(INfor),"(1, 3, 3, 0, 0)",lw1.mrg
+194,0.0,10,a,0.571,145,Allison,sentence,1,9,6,2,1,-2,(N(DTa),"(1, 3, 3, 1, 0, 0)",lw1.mrg
+195,0.0,10,face,0.571,145,Allison,sentence,1,10,8,3,2,0,(NML(NML(NNface)),"(1, 3, 3, 1, 1, 0, 0, 0)",lw1.mrg
+196,0.0,10,to,0.571,145,Allison,sentence,1,11,8,2,1,-1,(PP(TOto),"(1, 3, 3, 1, 1, 1, 0, 0)",lw1.mrg
+197,0.0,10,face,0.571,145,Allison,sentence,1,12,9,2,4,3,(NP(NNface)))),"(1, 3, 3, 1, 1, 1, 1, 0, 0)",lw1.mrg
+198,0.0,10,briefing,0.571,145,Allison,sentence,1,13,6,1,5,4,(NNbriefing))))),"(1, 3, 3, 1, 2, 0)",lw1.mrg
+199,0.0,10,.,0.571,145,Allison,sentence,0,13,2,1,2,-1,(..)),"(2, 0)",lw1.mrg
+200,0.0,11,He,0.606,145,Allison,sentence,1,0,3,3,2,0,((NP-SBJ(PRPHe)),"(0, 0, 0)",lw1.mrg
+201,0.0,11,says,0.606,145,Allison,sentence,1,1,3,2,1,-1,(V(VBZsays),"(1, 0, 0)",lw1.mrg
+202,0.0,11,0,0.606,145,Allison,sentence,1,1,4,2,1,-2,(SBA(-NONE-0),"(1, 1, 0, 0)",lw1.mrg
+203,0.0,11,we,0.606,145,Allison,sentence,1,2,6,3,2,0,((NP-SBJ(PRPwe)),"(1, 1, 1, 0, 0, 0)",lw1.mrg
+204,0.0,11,should,0.606,145,Allison,sentence,1,3,6,2,1,-1,(V(MDshould),"(1, 1, 1, 1, 0, 0)",lw1.mrg
+205,0.0,11,come,0.606,145,Allison,sentence,1,4,7,2,1,-1,(V(VBcome),"(1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+206,0.0,11,through,0.606,145,Allison,sentence,1,5,8,2,2,0,(ADVP-DIR(RBthrough)),"(1, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+207,0.0,11,now,0.606,145,Allison,sentence,1,6,8,2,2,1,(ADVP-TMP(RBnow)),"(1, 1, 1, 1, 1, 2, 0, 0)",lw1.mrg
+208,0.0,11,",",0.606,145,Allison,sentence,0,6,7,1,1,-1,"(,,)","(1, 1, 1, 1, 1, 3, 0)",lw1.mrg
+209,0.0,11,immediately,0.606,145,Allison,sentence,1,7,8,2,2,1,(ADVP-TMP(RBimmediately)),"(1, 1, 1, 1, 1, 4, 0, 0)",lw1.mrg
+210,0.0,11,",",0.606,145,Allison,sentence,0,7,7,1,1,-1,"(,,)","(1, 1, 1, 1, 1, 5, 0)",lw1.mrg
+211,0.0,11,before,0.606,145,Allison,sentence,1,8,8,2,1,-2,(SBAR-TM(INbefore),"(1, 1, 1, 1, 1, 6, 0, 0)",lw1.mrg
+212,0.0,11,the,0.606,145,Allison,sentence,1,9,10,3,1,0,((NP-SBJ-1(DTthe),"(1, 1, 1, 1, 1, 6, 1, 0, 0, 0)",lw1.mrg
+213,0.0,11,probe,0.606,145,Allison,sentence,1,10,10,1,2,0,(NNprobe)),"(1, 1, 1, 1, 1, 6, 1, 0, 1, 0)",lw1.mrg
+214,0.0,11,is,0.606,145,Allison,sentence,1,11,10,2,1,-1,(V(VBZis),"(1, 1, 1, 1, 1, 6, 1, 1, 0, 0)",lw1.mrg
+215,0.0,11,reported,0.606,145,Allison,sentence,1,12,11,2,1,-1,(V(VBNreported),"(1, 1, 1, 1, 1, 6, 1, 1, 1, 0, 0)",lw1.mrg
+216,0.0,11,*-1,0.606,145,Allison,sentence,1,12,12,2,2,-1,(NP-2(-NONE-*-1)),"(1, 1, 1, 1, 1, 6, 1, 1, 1, 1, 0, 0)",lw1.mrg
+217,0.0,11,*PRO*-2,0.606,145,Allison,sentence,1,12,13,3,2,0,(S-CL(NP-SBJ(-NONE-*PRO*-2)),"(1, 1, 1, 1, 1, 6, 1, 1, 1, 2, 0, 0, 0)",lw1.mrg
+218,0.0,11,late,0.606,145,Allison,sentence,1,13,13,2,12,11,(ADJP-PRD(JJlate)))))))))))),"(1, 1, 1, 1, 1, 6, 1, 1, 1, 2, 1, 0, 0)",lw1.mrg
+219,0.0,11,.,0.606,145,Allison,sentence,0,13,2,1,1,0,(..),"(2, 0)",lw1.mrg
+220,0.0,11,"""",0.606,145,Allison,sentence,0,13,2,1,2,0,"(''""))","(3, 0)",lw1.mrg
+221,0.0,12,"""",0.079,145,Allison,sentence,0,-1,2,2,1,-2,"((``"")","(0, 0)",lw1.mrg
+222,0.0,12,Harmon,0.079,145,Allison,sentence,1,0,4,1,0,1,(S-IMP-TPC-2,"(1, 0, 0, 0)",lw1.mrg
+223,0.0,12,",",0.079,145,Allison,sentence,0,0,3,2,2,-1,(NP-VOC(NNPHarmon)),"(1, 1, 0)",lw1.mrg
+224,0.0,12,*PRO*,0.079,145,Allison,sentence,0,0,4,1,1,0,"(,,)","(1, 2, 0, 0)",lw1.mrg
+225,0.0,12,tell,0.079,145,Allison,sentence,1,1,4,2,2,-2,(NP-SBJ(-NONE-*PRO*)),"(1, 3, 0, 0)",lw1.mrg
+226,0.0,12,that,0.079,145,Allison,sentence,1,2,6,2,1,-1,(V(VBtell),"(1, 3, 1, 0, 0, 0)",lw1.mrg
+227,0.0,12,good,0.079,145,Allison,sentence,1,3,7,1,0,-1,(NP-1,"(1, 3, 1, 0, 1, 0, 0)",lw1.mrg
+228,0.0,12,for,0.079,145,Allison,sentence,1,4,8,2,1,-1,(N(DTthat),"(1, 3, 1, 0, 1, 1, 0, 0)",lw1.mrg
+229,0.0,12,nothing,0.079,145,Allison,sentence,1,5,9,2,1,3,(ADJP(JJgood),"(1, 3, 1, 0, 1, 1, 1, 0, 0)",lw1.mrg
+230,0.0,12,son,0.079,145,Allison,sentence,1,6,6,2,1,0,(PP(INfor),"(1, 3, 1, 0, 2, 0)",lw1.mrg
+231,0.0,12,of,0.079,145,Allison,sentence,1,7,6,2,4,-1,(NP(NNnothing)))),"(1, 3, 1, 1, 0, 0)",lw1.mrg
+232,0.0,12,a,0.079,145,Allison,sentence,1,8,7,1,2,0,(NNson)),"(1, 3, 1, 1, 1, 0, 0)",lw1.mrg
+233,0.0,12,beta,0.079,145,Allison,sentence,1,9,7,2,1,1,(PP(INof),"(1, 3, 1, 1, 1, 1, 0)",lw1.mrg
+234,0.0,12,*PRO*-1,0.079,145,Allison,sentence,1,9,6,2,1,0,(NP(DTa),"(1, 3, 2, 0, 0, 0)",lw1.mrg
+235,0.0,12,to,0.079,145,Allison,sentence,1,10,6,1,4,-1,(NNbeta)))),"(1, 3, 2, 1, 0, 0)",lw1.mrg
+236,0.0,12,get,0.079,145,Allison,sentence,1,11,7,3,2,-1,((NP-SBJ(-NONE-*PRO*-1)),"(1, 3, 2, 1, 1, 0, 0)",lw1.mrg
+237,0.0,12,his,0.079,145,Allison,sentence,1,12,8,2,1,0,(V(TOto),"(1, 3, 2, 1, 1, 1, 0, 0)",lw1.mrg
+238,0.0,12,hindquarters,0.079,145,Allison,sentence,1,13,8,2,1,-1,(V(VBget),"(1, 3, 2, 1, 1, 1, 1, 0)",lw1.mrg
+239,0.0,12,through,0.079,145,Allison,sentence,1,14,9,2,1,-1,(NP(PRP$his),"(1, 3, 2, 1, 1, 2, 0, 0, 0)",lw1.mrg
+240,0.0,12,the,0.079,145,Allison,sentence,1,15,10,1,2,0,(NNShindquarters)),"(1, 3, 2, 1, 1, 2, 0, 1, 0, 0)",lw1.mrg
+241,0.0,12,gate,0.079,145,Allison,sentence,1,16,10,3,1,2,(UCP-CL(PP(INthrough),"(1, 3, 2, 1, 1, 2, 0, 1, 1, 0)",lw1.mrg
+242,0.0,12,and,0.079,145,Allison,sentence,1,17,8,2,1,-1,(NP(DTthe),"(1, 3, 2, 1, 1, 2, 1, 0)",lw1.mrg
+243,0.0,12,back,0.079,145,Allison,sentence,1,18,9,1,3,9,(NNgate))),"(1, 3, 2, 1, 1, 2, 2, 0, 0)",lw1.mrg
+244,0.0,12,gake,0.079,145,Allison,pseudo_words,1,18,0,0,0,-9,,0,lw1.mrg
+245,0.0,12,here,0.079,145,Allison,sentence,1,19,9,1,1,1,(CCand),"(1, 3, 2, 1, 1, 2, 2, 1, 0)",lw1.mrg
+246,0.0,12,NOW,0.079,145,Allison,sentence,1,20,8,2,1,4,(ADVP(RBback),"(1, 3, 2, 1, 1, 3, 0, 0)",lw1.mrg
+247,0.0,12,",",0.079,145,Allison,sentence,0,20,4,1,3,0,(RBhere))),"(1, 3, 3, 0)",lw1.mrg
+248,0.0,12,or,0.079,145,Allison,sentence,1,21,4,2,5,-2,(ADVP-TMP(RBNOW))))),"(1, 3, 4, 0)",lw1.mrg
+249,0.0,12,I,0.079,145,Allison,sentence,1,22,6,1,1,0,"(,,)","(1, 3, 5, 0, 0, 0)",lw1.mrg
+250,0.0,12,'ll,0.079,145,Allison,sentence,1,23,6,1,1,-1,(CCor),"(1, 3, 5, 1, 0, 0)",lw1.mrg
+251,0.0,12,open,0.079,145,Allison,sentence,1,24,7,3,2,-1,((NP-SBJ(PRPI)),"(1, 3, 5, 1, 1, 0, 0)",lw1.mrg
+252,0.0,12,fire,0.079,145,Allison,sentence,1,25,8,2,1,0,(V(MD'll),"(1, 3, 5, 1, 1, 1, 0, 0)",lw1.mrg
+253,0.0,12,on,0.079,145,Allison,sentence,1,26,8,2,1,-1,(V(VBopen),"(1, 3, 5, 1, 1, 2, 0, 0)",lw1.mrg
+254,0.0,12,him,0.079,145,Allison,sentence,1,27,9,2,2,0,(NP(NNfire)),"(1, 3, 5, 1, 1, 2, 1, 0, 0)",lw1.mrg
+255,0.0,12,when,0.079,145,Allison,sentence,1,28,9,2,1,-1,(PP-CLR(INon),"(1, 3, 5, 1, 1, 3, 0, 0, 0)",lw1.mrg
+256,0.0,12,we,0.079,145,Allison,sentence,1,29,10,2,3,0,(NP(PRPhim))),"(1, 3, 5, 1, 1, 3, 1, 0, 0, 0)",lw1.mrg
+257,0.0,12,come,0.079,145,Allison,sentence,1,30,10,3,2,-1,(SBAR-TM(WHADVP-3(WRBwhen)),"(1, 3, 5, 1, 1, 3, 1, 1, 0, 0)",lw1.mrg
+258,0.0,12,back,0.079,145,Allison,sentence,1,31,11,3,2,0,((NP-SBJ(PRPwe)),"(1, 3, 5, 1, 1, 3, 1, 1, 1, 0, 0)",lw1.mrg
+259,0.0,12,through,0.079,145,Allison,sentence,1,32,11,2,1,0,(V(VBPcome),"(1, 3, 5, 1, 1, 3, 1, 1, 1, 1, 0)",lw1.mrg
+260,0.0,12,*T*-3,0.079,145,Allison,sentence,1,32,11,2,1,8,(ADVP-DIR(RPback),"(1, 3, 5, 1, 1, 3, 1, 1, 2, 0, 0)",lw1.mrg
+261,0.0,12,.,0.079,145,Allison,sentence,0,32,3,1,2,1,(RBthrough)),"(1, 4, 0)",lw1.mrg
+262,0.0,12,"""",0.079,145,Allison,sentence,0,32,2,2,9,-1,(ADVP-TMP(-NONE-*T*-3))))))))),"(2, 0)",lw1.mrg
+263,0.0,12,Tara,0.079,145,Allison,sentence,1,33,3,1,2,0,"(,.))","(3, 0, 0)",lw1.mrg
+264,0.0,12,fumed,0.079,145,Allison,sentence,1,34,3,1,1,-1,"(''"")","(4, 0, 0)",lw1.mrg
+265,0.0,12,*T*-2,0.079,145,Allison,sentence,1,34,4,2,2,2,(NP-SBJ(NNPTara)),"(4, 1, 0, 0)",lw1.mrg
+266,0.0,12,.,0.079,145,Allison,sentence,0,34,2,2,1,0,(VP(VBDfumed),"(5, 0)",lw1.mrg
+267,0.0,13,Of,0.649,145,Allison,sentence,1,0,2,2,1,-1,(PP(INOf),"(0, 0)",lw1.mrg
+268,0.0,13,all,0.649,145,Allison,sentence,1,1,3,2,1,0,(NP(PDTall),"(1, 0, 0)",lw1.mrg
+269,0.0,13,the,0.649,145,Allison,sentence,1,2,3,1,1,0,(DTthe),"(1, 1, 0)",lw1.mrg
+270,0.0,13,impertinence,0.649,145,Allison,sentence,1,3,3,1,2,1,(NNimpertinence)),"(1, 2, 0)",lw1.mrg
+271,0.0,13,!,0.649,145,Allison,sentence,0,3,2,1,2,2,(.!)),"(2, 0)",lw1.mrg
+272,0.0,13,flevies,0.649,145,Allison,pseudo_words,1,3,0,0,0,-3,,0,lw1.mrg
+273,0.0,14,Tarrin,0.35,145,Allison,sentence,1,0,3,3,2,1,((NP-SBJ(NNPTarrin)),"(0, 0, 0)",lw1.mrg
+274,0.0,14,",",0.35,145,Allison,sentence,0,0,2,1,1,-2,"(,,)","(1, 0)",lw1.mrg
+275,0.0,14,no,0.35,145,Allison,sentence,1,1,4,3,1,0,(P(NP-ADV(DTno),"(2, 0, 0, 0)",lw1.mrg
+276,0.0,14,doubt,0.35,145,Allison,sentence,1,2,4,1,2,1,(NNdoubt)),"(2, 0, 1, 0)",lw1.mrg
+277,0.0,14,with,0.35,145,Allison,sentence,1,3,3,1,1,-2,(INwith),"(2, 1, 0)",lw1.mrg
+278,0.0,14,orders,0.35,145,Allison,sentence,1,4,5,3,2,0,(NP(NP(NNSorders)),"(2, 2, 0, 0, 0)",lw1.mrg
+279,0.0,14,from,0.35,145,Allison,sentence,1,5,5,2,1,-1,(PP(INfrom),"(2, 2, 1, 0, 0)",lw1.mrg
+280,0.0,14,Mason,0.35,145,Allison,sentence,1,6,6,2,5,4,(NP(NNPMason))))),"(2, 2, 1, 1, 0, 0)",lw1.mrg
+281,0.0,14,",",0.35,145,Allison,sentence,0,6,2,1,1,-1,"(,,)","(3, 0)",lw1.mrg
+282,0.0,14,was,0.35,145,Allison,sentence,1,7,3,2,1,-1,(V(VBDwas),"(4, 0, 0)",lw1.mrg
+283,0.0,14,questioning,0.35,145,Allison,sentence,1,8,4,2,1,-1,(V(VBGquestioning),"(4, 1, 0, 0)",lw1.mrg
+284,0.0,14,her,0.35,145,Allison,sentence,1,9,5,2,1,0,(NP(PRP$her),"(4, 1, 1, 0, 0)",lw1.mrg
+285,0.0,14,command,0.35,145,Allison,sentence,1,10,5,1,1,0,(NNcommand),"(4, 1, 1, 1, 0)",lw1.mrg
+286,0.0,14,decisions,0.35,145,Allison,sentence,1,11,5,1,4,3,(NNSdecisions)))),"(4, 1, 1, 2, 0)",lw1.mrg
+287,0.0,14,.,0.35,145,Allison,sentence,0,11,2,1,2,-1,(..)),"(5, 0)",lw1.mrg
+288,1.0,15,That,0.995,145,Allison,sentence,1,0,3,3,2,0,((NP-SBJ(DTThat)),"(0, 0, 0)",lw1.mrg
+289,1.0,15,'s,0.995,145,Allison,sentence,1,1,3,2,1,-2,(V(VBZ's),"(1, 0, 0)",lw1.mrg
+290,1.0,15,what,0.995,145,Allison,sentence,1,2,5,3,2,-1,(SBAR-NOM-PR(WHNP-1(WPwhat)),"(1, 1, 0, 0, 0)",lw1.mrg
+291,1.0,15,I,0.995,145,Allison,sentence,1,3,6,3,2,0,((NP-SBJ-2(PRPI)),"(1, 1, 1, 0, 0, 0)",lw1.mrg
+292,1.0,15,get,0.995,145,Allison,sentence,1,4,6,2,1,-1,(V(VBPget),"(1, 1, 1, 1, 0, 0)",lw1.mrg
+293,1.0,15,*T*-1,0.995,145,Allison,sentence,1,4,7,2,2,0,(NP(-NONE-*T*-1)),"(1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+294,1.0,15,for,0.995,145,Allison,sentence,1,5,7,2,1,-2,(PP-PR(INfor),"(1, 1, 1, 1, 2, 0, 0)",lw1.mrg
+295,1.0,15,*PRO*-2,0.995,145,Allison,sentence,1,5,9,3,2,1,(S-NO(NP-SBJ(-NONE-*PRO*-2)),"(1, 1, 1, 1, 2, 1, 0, 0, 0)",lw1.mrg
+296,1.0,15,not,0.995,145,Allison,sentence,1,6,8,1,1,-1,(RBnot),"(1, 1, 1, 1, 2, 1, 1, 0)",lw1.mrg
+297,1.0,15,using,0.995,145,Allison,sentence,1,7,9,2,1,-1,(VP(VBGusing),"(1, 1, 1, 1, 2, 1, 2, 0, 0)",lw1.mrg
+298,1.0,15,mercenaries,0.995,145,Allison,sentence,1,8,10,2,9,8,(NP(NNSmercenaries))))))))),"(1, 1, 1, 1, 2, 1, 2, 1, 0, 0)",lw1.mrg
+299,1.0,15,.,0.995,145,Allison,sentence,0,8,2,1,2,-1,(..)),"(2, 0)",lw1.mrg
+300,1.0,16,She,0.135,145,Allison,sentence,1,0,3,3,2,0,((NP-SBJ-1(PRPShe)),"(0, 0, 0)",lw1.mrg
+301,1.0,16,returned,0.135,145,Allison,sentence,1,1,3,2,1,-1,(V(VBDreturned),"(1, 0, 0)",lw1.mrg
+302,1.0,16,to,0.135,145,Allison,sentence,1,2,4,2,1,-1,(PP-CLR(TOto),"(1, 1, 0, 0)",lw1.mrg
+303,1.0,16,her,0.135,145,Allison,sentence,1,3,5,2,1,0,(NP(PRP$her),"(1, 1, 1, 0, 0)",lw1.mrg
+304,1.0,16,watch,0.135,145,Allison,sentence,1,4,5,1,3,2,(NNwatch))),"(1, 1, 1, 1, 0)",lw1.mrg
+305,1.0,16,",",0.135,145,Allison,sentence,0,4,3,1,1,-2,"(,,)","(1, 2, 0)",lw1.mrg
+306,1.0,16,*PRO*-1,0.135,145,Allison,sentence,0,4,5,3,2,0,(S-AD(NP-SBJ(-NONE-*PRO*-1)),"(1, 3, 0, 0, 0)",lw1.mrg
+307,1.0,16,regarding,0.135,145,Allison,sentence,1,5,5,2,1,-2,(V(VBGregarding),"(1, 3, 1, 0, 0)",lw1.mrg
+308,1.0,16,her,0.135,145,Allison,sentence,1,6,7,3,1,0,(N(NP(PRP$her),"(1, 3, 1, 1, 0, 0, 0)",lw1.mrg
+309,1.0,16,own,0.135,145,Allison,sentence,1,7,7,1,1,0,(JJown),"(1, 3, 1, 1, 0, 1, 0)",lw1.mrg
+310,1.0,16,reflection,0.135,145,Allison,sentence,1,8,7,1,2,0,(NNreflection)),"(1, 3, 1, 1, 0, 2, 0)",lw1.mrg
+311,1.0,16,in,0.135,145,Allison,sentence,1,9,7,2,1,-1,(PP-LOC(INin),"(1, 3, 1, 1, 1, 0, 0)",lw1.mrg
+312,1.0,16,the,0.135,145,Allison,sentence,1,10,8,2,1,0,(NP(DTthe),"(1, 3, 1, 1, 1, 1, 0, 0)",lw1.mrg
+313,1.0,16,long,0.135,145,Allison,sentence,1,11,8,1,1,0,(JJlong),"(1, 3, 1, 1, 1, 1, 1, 0)",lw1.mrg
+314,1.0,16,window,0.135,145,Allison,sentence,1,12,8,1,7,6,(NNwindow))))))),"(1, 3, 1, 1, 1, 1, 2, 0)",lw1.mrg
+315,1.0,16,.,0.135,145,Allison,sentence,0,12,2,1,2,-3,(..)),"(2, 0)",lw1.mrg
+316,1.0,17,Mahogany,0.431,145,Allison,sentence,1,0,5,5,1,0,((NP-SB(N(ADJP(NNMahogany),"(0, 0, 0, 0, 0)",lw1.mrg
+317,1.0,17,-,0.431,145,Allison,sentence,0,0,5,1,1,0,(HYPH-),"(0, 0, 0, 1, 0)",lw1.mrg
+318,1.0,17,black,0.431,145,Allison,sentence,1,1,5,1,2,1,(JJblack)),"(0, 0, 0, 2, 0)",lw1.mrg
+319,1.0,17,curly,0.431,145,Allison,sentence,1,2,4,1,1,0,(JJcurly),"(0, 0, 1, 0)",lw1.mrg
+320,1.0,17,hair,0.431,145,Allison,sentence,1,3,4,1,2,1,(NNhair)),"(0, 0, 2, 0)",lw1.mrg
+321,1.0,17,",",0.431,145,Allison,sentence,0,3,3,1,1,-1,"(,,)","(0, 1, 0)",lw1.mrg
+322,1.0,17,cut,0.431,145,Allison,sentence,1,4,4,2,1,-1,(V(VBNcut),"(0, 2, 0, 0)",lw1.mrg
+323,1.0,17,*,0.431,145,Allison,sentence,1,4,5,2,2,-1,(NP-1(-NONE-*)),"(0, 2, 1, 0, 0)",lw1.mrg
+324,1.0,17,*PRO*-1,0.431,145,Allison,sentence,1,4,6,3,2,0,(S-CLR(NP-SBJ(-NONE-*PRO*-1)),"(0, 2, 2, 0, 0, 0)",lw1.mrg
+325,1.0,17,short,0.431,145,Allison,sentence,1,5,6,2,3,1,(ADJP-PRD(JJshort))),"(0, 2, 2, 1, 0, 0)",lw1.mrg
+326,1.0,17,in,0.431,145,Allison,sentence,1,6,5,2,1,-1,(PP-MN(INin),"(0, 2, 3, 0, 0)",lw1.mrg
+327,1.0,17,the,0.431,145,Allison,sentence,1,7,6,2,1,0,(NP(DTthe),"(0, 2, 3, 1, 0, 0)",lw1.mrg
+328,1.0,17,typical,0.431,145,Allison,sentence,1,8,6,1,1,0,(JJtypical),"(0, 2, 3, 1, 1, 0)",lw1.mrg
+329,1.0,17,military,0.431,145,Allison,sentence,1,9,6,1,1,0,(JJmilitary),"(0, 2, 3, 1, 2, 0)",lw1.mrg
+330,1.0,17,style,0.431,145,Allison,sentence,1,10,6,1,5,3,(NNstyle))))),"(0, 2, 3, 1, 3, 0)",lw1.mrg
+331,1.0,17,framed,0.431,145,Allison,sentence,1,11,3,2,1,-1,(V(VBDframed),"(1, 0, 0)",lw1.mrg
+332,1.0,17,a,0.431,145,Allison,sentence,1,12,4,2,1,0,(N(DTa),"(1, 1, 0, 0)",lw1.mrg
+333,1.0,17,careworn,0.431,145,Allison,sentence,1,13,4,1,1,0,(JJcareworn),"(1, 1, 1, 0)",lw1.mrg
+334,1.0,17,",",0.431,145,Allison,sentence,0,13,4,1,1,-1,"(,,)","(1, 1, 2, 0)",lw1.mrg
+335,1.0,17,dark,0.431,145,Allison,sentence,1,14,5,2,1,0,(ADJP(JJdark),"(1, 1, 3, 0, 0)",lw1.mrg
+336,1.0,17,-,0.431,145,Allison,sentence,0,14,5,1,1,0,(HYPH-),"(1, 1, 3, 1, 0)",lw1.mrg
+337,1.0,17,skinned,0.431,145,Allison,sentence,1,15,5,1,2,1,(JJskinned)),"(1, 1, 3, 2, 0)",lw1.mrg
+338,1.0,17,face,0.431,145,Allison,sentence,1,16,4,1,3,2,(NNface))),"(1, 1, 4, 0)",lw1.mrg
+339,1.0,17,.,0.431,145,Allison,sentence,0,16,2,1,2,-1,(..)),"(2, 0)",lw1.mrg
+340,1.0,18,It,0.074,145,Allison,sentence,1,0,3,3,2,0,((NP-SBJ(PRPIt)),"(0, 0, 0)",lw1.mrg
+341,1.0,18,was,0.074,145,Allison,sentence,1,1,3,2,1,0,(V(VBDwas),"(1, 0, 0)",lw1.mrg
+342,1.0,18,not,0.074,145,Allison,sentence,1,2,3,1,1,-1,(RBnot),"(1, 1, 0)",lw1.mrg
+343,1.0,18,an,0.074,145,Allison,sentence,1,3,4,2,1,0,(NP-PRD(DTan),"(1, 2, 0, 0)",lw1.mrg
+344,1.0,18,attractive,0.074,145,Allison,sentence,1,4,4,1,1,0,(JJattractive),"(1, 2, 1, 0)",lw1.mrg
+345,1.0,18,face,0.074,145,Allison,sentence,1,5,4,1,2,0,(NNface)),"(1, 2, 2, 0)",lw1.mrg
+346,1.0,18,right,0.074,145,Allison,sentence,1,6,4,2,1,0,(ADVP-TMP(RBright),"(1, 3, 0, 0)",lw1.mrg
+347,1.0,18,now,0.074,145,Allison,sentence,1,7,4,1,2,1,(RBnow)),"(1, 3, 1, 0)",lw1.mrg
+348,1.0,18,;,0.074,145,Allison,sentence,0,7,3,1,1,-2,(:;),"(1, 4, 0)",lw1.mrg
+349,1.0,18,her,0.074,145,Allison,sentence,1,8,5,3,1,0,(S-AD(NP-SBJ-1(PRP$her),"(1, 5, 0, 0, 0)",lw1.mrg
+350,1.0,18,ebony,0.074,145,Allison,sentence,1,9,5,1,1,0,(JJebony),"(1, 5, 0, 1, 0)",lw1.mrg
+351,1.0,18,eyes,0.074,145,Allison,sentence,1,10,5,1,2,0,(NNSeyes)),"(1, 5, 0, 2, 0)",lw1.mrg
+352,1.0,18,shadowed,0.074,145,Allison,sentence,1,11,5,2,1,5,(V(VBNshadowed),"(1, 5, 1, 0, 0)",lw1.mrg
+353,1.0,18,rith,0.074,145,Allison,pseudo_words,1,11,0,0,0,-6,,0,lw1.mrg
+354,1.0,18,*-1,0.074,145,Allison,sentence,1,11,6,2,2,0,(NP(-NONE-*-1)),"(1, 5, 1, 1, 0, 0)",lw1.mrg
+355,1.0,18,by,0.074,145,Allison,sentence,1,12,6,2,1,-2,(P(INby),"(1, 5, 1, 2, 0, 0)",lw1.mrg
+356,1.0,18,hours,0.074,145,Allison,sentence,1,13,8,3,2,0,(NP-LG(NP(NNShours)),"(1, 5, 1, 2, 1, 0, 0, 0)",lw1.mrg
+357,1.0,18,on,0.074,145,Allison,sentence,1,14,8,2,1,-1,(PP(INon),"(1, 5, 1, 2, 1, 1, 0, 0)",lw1.mrg
+358,1.0,18,the,0.074,145,Allison,sentence,1,15,9,2,1,0,(NP(DTthe),"(1, 5, 1, 2, 1, 1, 1, 0, 0)",lw1.mrg
+359,1.0,18,watch,0.074,145,Allison,sentence,1,16,9,1,7,6,(NNwatch))))))),"(1, 5, 1, 2, 1, 1, 1, 1, 0)",lw1.mrg
+360,1.0,18,",",0.074,145,Allison,sentence,0,16,3,1,1,-2,"(,,)","(1, 6, 0)",lw1.mrg
+361,1.0,18,full,0.074,145,Allison,sentence,1,17,5,3,1,0,(S-AD(NP-SBJ-2(JJfull),"(1, 7, 0, 0, 0)",lw1.mrg
+362,1.0,18,lips,0.074,145,Allison,sentence,1,18,5,1,2,0,(NNSlips)),"(1, 7, 0, 1, 0)",lw1.mrg
+363,1.0,18,pursed,0.074,145,Allison,sentence,1,19,5,2,1,-1,(V(VBNpursed),"(1, 7, 1, 0, 0)",lw1.mrg
+364,1.0,18,*-2,0.074,145,Allison,sentence,1,19,6,2,2,0,(NP(-NONE-*-2)),"(1, 7, 1, 1, 0, 0)",lw1.mrg
+365,1.0,18,with,0.074,145,Allison,sentence,1,20,6,2,1,-1,(PP-CLR(INwith),"(1, 7, 1, 2, 0, 0)",lw1.mrg
+366,1.0,18,frustration,0.074,145,Allison,sentence,1,21,7,2,6,5,(NP(NNfrustration)))))),"(1, 7, 1, 2, 1, 0, 0)",lw1.mrg
+367,1.0,18,.,0.074,145,Allison,sentence,0,21,2,1,2,-1,(..)),"(2, 0)",lw1.mrg
+368,1.0,19,She,0.346,145,Allison,sentence,1,0,3,3,2,0,((NP-SBJ(PRPShe)),"(0, 0, 0)",lw1.mrg
+369,1.0,19,had,0.346,145,Allison,sentence,1,1,3,2,1,-2,(V(VBDhad),"(1, 0, 0)",lw1.mrg
+370,1.0,19,the,0.346,145,Allison,sentence,1,2,5,3,1,0,(N(NP(DTthe),"(1, 1, 0, 0, 0)",lw1.mrg
+371,1.0,19,look,0.346,145,Allison,sentence,1,3,5,1,2,0,(NNlook)),"(1, 1, 0, 1, 0)",lw1.mrg
+372,1.0,19,of,0.346,145,Allison,sentence,1,4,5,2,1,-2,(P(INof),"(1, 1, 1, 0, 0)",lw1.mrg
+373,1.0,19,every,0.346,145,Allison,sentence,1,5,7,3,1,0,(N(NP(DTevery),"(1, 1, 1, 1, 0, 0, 0)",lw1.mrg
+374,1.0,19,leader,0.346,145,Allison,sentence,1,6,7,1,2,-1,(NNleader)),"(1, 1, 1, 1, 0, 1, 0)",lw1.mrg
+375,1.0,19,0,0.346,145,Allison,sentence,1,6,8,3,2,-1,(SBA(WHNP-1(-NONE-0)),"(1, 1, 1, 1, 1, 0, 0, 0)",lw1.mrg
+376,1.0,19,she,0.346,145,Allison,sentence,1,7,9,3,2,0,((NP-SBJ(PRPshe)),"(1, 1, 1, 1, 1, 1, 0, 0, 0)",lw1.mrg
+377,1.0,19,had,0.346,145,Allison,sentence,1,8,9,2,1,-1,(V(VBDhad),"(1, 1, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+378,1.0,19,ever,0.346,145,Allison,sentence,1,9,10,2,2,0,(ADVP-TMP(RBever)),"(1, 1, 1, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+379,1.0,19,known,0.346,145,Allison,sentence,1,10,10,2,1,-1,(VP(VBNknown),"(1, 1, 1, 1, 1, 1, 1, 2, 0, 0)",lw1.mrg
+380,1.0,19,*T*-1,0.346,145,Allison,sentence,1,10,11,2,10,9,(NP(-NONE-*T*-1)))))))))),"(1, 1, 1, 1, 1, 1, 1, 2, 1, 0, 0)",lw1.mrg
+381,1.0,19,.,0.346,145,Allison,sentence,0,10,2,1,2,-1,(..)),"(2, 0)",lw1.mrg
+382,1.0,20,At,0.192,145,Allison,sentence,1,0,3,3,1,-2,((PP(INAt),"(0, 0, 0)",lw1.mrg
+383,1.0,20,six,0.192,145,Allison,sentence,1,1,5,3,1,0,(NP(NP(CDsix),"(0, 1, 0, 0, 0)",lw1.mrg
+384,1.0,20,foot,0.192,145,Allison,sentence,1,2,5,1,2,0,(NNfoot)),"(0, 1, 0, 1, 0)",lw1.mrg
+385,1.0,20,two,0.192,145,Allison,sentence,1,3,5,2,4,3,(NP(CDtwo)))),"(0, 1, 1, 0, 0)",lw1.mrg
+386,1.0,20,",",0.192,145,Allison,sentence,0,3,2,1,1,-1,"(,,)","(1, 0)",lw1.mrg
+387,1.0,20,she,0.192,145,Allison,sentence,1,4,3,2,2,0,(NP-SBJ-1(PRPshe)),"(2, 0, 0)",lw1.mrg
+388,1.0,20,stood,0.192,145,Allison,sentence,1,5,3,2,1,-2,(V(VBDstood),"(3, 0, 0)",lw1.mrg
+389,1.0,20,*PRO*-1,0.192,145,Allison,sentence,1,5,5,3,2,-2,(S-CL(NP-SBJ(-NONE-*PRO*-1)),"(3, 1, 0, 0, 0)",lw1.mrg
+390,1.0,20,a,0.192,145,Allison,sentence,1,6,7,4,1,0,(ADJP-PR(ADJP(NML(DTa),"(3, 1, 1, 0, 0, 0, 0)",lw1.mrg
+391,1.0,20,full,0.192,145,Allison,sentence,1,7,7,1,1,0,(JJfull),"(3, 1, 1, 0, 0, 1, 0)",lw1.mrg
+392,1.0,20,head,0.192,145,Allison,sentence,1,8,7,1,2,1,(NNhead)),"(3, 1, 1, 0, 0, 2, 0)",lw1.mrg
+393,1.0,20,taller,0.192,145,Allison,sentence,1,9,6,1,2,0,(JJRtaller)),"(3, 1, 1, 0, 1, 0)",lw1.mrg
+394,1.0,20,than,0.192,145,Allison,sentence,1,10,6,2,1,-1,(P(INthan),"(3, 1, 1, 1, 0, 0)",lw1.mrg
+395,1.0,20,even,0.192,145,Allison,sentence,1,11,7,2,1,0,(N(RBeven),"(3, 1, 1, 1, 1, 0, 0)",lw1.mrg
+396,1.0,20,her,0.192,145,Allison,sentence,1,12,7,1,1,0,(PRP$her),"(3, 1, 1, 1, 1, 1, 0)",lw1.mrg
+397,1.0,20,Arrallin,0.192,145,Allison,sentence,1,13,7,1,1,0,(JJArrallin),"(3, 1, 1, 1, 1, 2, 0)",lw1.mrg
+398,1.0,20,first,0.192,145,Allison,sentence,1,14,7,1,1,0,(JJfirst),"(3, 1, 1, 1, 1, 3, 0)",lw1.mrg
+399,1.0,20,officer,0.192,145,Allison,sentence,1,15,7,1,6,5,(NNofficer)))))),"(3, 1, 1, 1, 1, 4, 0)",lw1.mrg
+400,1.0,20,.,0.192,145,Allison,sentence,0,15,2,1,2,2,(..)),"(4, 0)",lw1.mrg
+401,1.0,21,than,0.585,145,Allison,word_list,1,0,0,0,0,0,,0,lw1.mrg
+402,1.0,21,golden,0.585,145,Allison,word_list,1,1,0,0,0,0,,0,lw1.mrg
+403,1.0,21,craft,0.585,145,Allison,word_list,1,2,0,0,0,0,,0,lw1.mrg
+404,1.0,21,blew,0.585,145,Allison,word_list,1,3,0,0,0,0,,0,lw1.mrg
+405,1.0,21,prepare,0.585,145,Allison,word_list,1,4,0,0,0,0,,0,lw1.mrg
+406,1.0,21,color,0.585,145,Allison,word_list,1,5,0,0,0,0,,0,lw1.mrg
+407,1.0,21,attractive,0.585,145,Allison,word_list,1,6,0,0,0,0,,0,lw1.mrg
+408,1.0,21,crew,0.585,145,Allison,word_list,1,7,0,0,0,-3,,0,lw1.mrg
+409,1.0,22,Her,0.177,145,Allison,sentence,1,0,3,3,1,0,((NP-SBJ(PRP$Her),"(0, 0, 0)",lw1.mrg
+410,1.0,22,glowering,0.177,145,Allison,sentence,1,1,3,1,1,0,(VBGglowering),"(0, 1, 0)",lw1.mrg
+411,1.0,22,expression,0.177,145,Allison,sentence,1,2,3,1,2,0,(NNexpression)),"(0, 2, 0)",lw1.mrg
+412,1.0,22,completed,0.177,145,Allison,sentence,1,3,3,2,1,-1,(VP(VBDcompleted),"(1, 0, 0)",lw1.mrg
+413,1.0,22,the,0.177,145,Allison,sentence,1,4,4,2,1,0,(NP(DTthe),"(1, 1, 0, 0)",lw1.mrg
+414,1.0,22,imposing,0.177,145,Allison,sentence,1,5,4,1,1,0,(JJimposing),"(1, 1, 1, 0)",lw1.mrg
+415,1.0,22,effect,0.177,145,Allison,sentence,1,6,4,1,3,2,(NNeffect))),"(1, 1, 2, 0)",lw1.mrg
+416,1.0,22,.,0.177,145,Allison,sentence,0,6,2,1,2,-1,(..)),"(2, 0)",lw1.mrg
+417,1.0,23,She,0.915,145,Allison,sentence,1,0,3,3,2,-1,((NP-SBJ(PRPShe)),"(0, 0, 0)",lw1.mrg
+418,1.0,23,picked,0.915,145,Allison,sentence,1,1,4,3,1,-1,(V(V(VBDpicked),"(1, 0, 0, 0)",lw1.mrg
+419,1.0,23,imaginary,0.915,145,Allison,sentence,1,2,5,2,1,0,(NP(JJimaginary),"(1, 0, 1, 0, 0)",lw1.mrg
+420,1.0,23,flecks,0.915,145,Allison,sentence,1,3,5,1,2,0,(NNSflecks)),"(1, 0, 1, 1, 0)",lw1.mrg
+421,1.0,23,off,0.915,145,Allison,sentence,1,4,5,2,1,-1,(PP-CL(INoff),"(1, 0, 2, 0, 0)",lw1.mrg
+422,1.0,23,her,0.915,145,Allison,sentence,1,5,6,2,1,0,(NP(PRP$her),"(1, 0, 2, 1, 0, 0)",lw1.mrg
+423,1.0,23,stark,0.915,145,Allison,sentence,1,6,6,1,1,0,(JJstark),"(1, 0, 2, 1, 1, 0)",lw1.mrg
+424,1.0,23,gray,0.915,145,Allison,sentence,1,7,6,1,1,0,(JJgray),"(1, 0, 2, 1, 2, 0)",lw1.mrg
+425,1.0,23,jumpsuit,0.915,145,Allison,sentence,1,8,6,1,4,3,(NNjumpsuit)))),"(1, 0, 2, 1, 3, 0)",lw1.mrg
+426,1.0,23,",",0.915,145,Allison,sentence,0,8,3,1,1,0,"(,,)","(1, 1, 0)",lw1.mrg
+427,1.0,23,and,0.915,145,Allison,sentence,1,9,3,1,1,-1,(CCand),"(1, 2, 0)",lw1.mrg
+428,1.0,23,snorted,0.915,145,Allison,sentence,1,10,4,2,3,2,(VP(VBDsnorted))),"(1, 3, 0, 0)",lw1.mrg
+429,1.0,23,.,0.915,145,Allison,sentence,0,10,2,1,2,-1,(..)),"(2, 0)",lw1.mrg
+430,1.0,24,You,0.566,145,Allison,sentence,1,0,3,3,2,0,((NP-SBJ(PRPYou)),"(0, 0, 0)",lw1.mrg
+431,1.0,24,look,0.566,145,Allison,sentence,1,1,3,2,1,-1,(V(VBPlook),"(1, 0, 0)",lw1.mrg
+432,1.0,24,like,0.566,145,Allison,sentence,1,2,4,2,1,-1,(PP-CLR(INlike),"(1, 1, 0, 0)",lw1.mrg
+433,1.0,24,hell,0.566,145,Allison,sentence,1,3,5,2,3,2,(NP(NNhell))),"(1, 1, 1, 0, 0)",lw1.mrg
+434,1.0,24,",",0.566,145,Allison,sentence,0,3,3,1,1,-1,"(,,)","(1, 2, 0)",lw1.mrg
+435,1.0,24,Tar,0.566,145,Allison,sentence,1,4,4,2,3,2,(NP-VOC(NNPTar))),"(1, 3, 0, 0)",lw1.mrg
+436,1.0,24,.,0.566,145,Allison,sentence,0,4,2,1,2,-1,(..)),"(2, 0)",lw1.mrg
+437,1.0,25,*PRO*,0.605,145,Allison,sentence,0,-1,3,3,2,3,(S-IM(NP-SBJ(-NONE-*PRO*)),"(0, 0, 0)",lw1.mrg
+438,1.0,25,perste,0.605,145,Allison,pseudo_words,1,-1,0,0,0,-3,,0,lw1.mrg
+439,1.0,25,Do,0.605,145,Allison,sentence,1,0,3,2,1,0,(VP(VBDo),"(1, 0, 0)",lw1.mrg
+440,1.0,25,n't,0.605,145,Allison,sentence,1,1,3,1,1,-1,(RBn't),"(1, 1, 0)",lw1.mrg
+441,1.0,25,blow,0.605,145,Allison,sentence,1,2,4,2,1,-1,(VP(VBblow),"(1, 2, 0, 0)",lw1.mrg
+442,1.0,25,this,0.605,145,Allison,sentence,1,3,5,2,4,3,(NP(DTthis)))),"(1, 2, 1, 0, 0)",lw1.mrg
+443,1.0,25,.,0.605,145,Allison,sentence,0,3,2,1,2,-1,(..)),"(2, 0)",lw1.mrg
+444,1.0,26,*PRO*,0.746,145,Allison,sentence,0,-1,3,3,2,0,(S-IM(NP-SBJ(-NONE-*PRO*)),"(0, 0, 0)",lw1.mrg
+445,1.0,26,Do,0.746,145,Allison,sentence,1,0,3,2,1,0,(V(VBDo),"(1, 0, 0)",lw1.mrg
+446,1.0,26,n't,0.746,145,Allison,sentence,1,1,3,1,1,-1,(RBn't),"(1, 1, 0)",lw1.mrg
+447,1.0,26,let,0.746,145,Allison,sentence,1,2,4,2,1,-2,(V(VBlet),"(1, 2, 0, 0)",lw1.mrg
+448,1.0,26,fatigue,0.746,145,Allison,sentence,1,3,6,3,2,0,((NP-SBJ(NNfatigue)),"(1, 2, 1, 0, 0, 0)",lw1.mrg
+449,1.0,26,get,0.746,145,Allison,sentence,1,4,6,2,1,-1,(VP(VBget),"(1, 2, 1, 1, 0, 0)",lw1.mrg
+450,1.0,26,to,0.746,145,Allison,sentence,1,5,7,2,1,-1,(PP-CLR(TOto),"(1, 2, 1, 1, 1, 0, 0)",lw1.mrg
+451,1.0,26,you,0.746,145,Allison,sentence,1,6,8,2,7,6,(NP(PRPyou))))))),"(1, 2, 1, 1, 1, 1, 0, 0)",lw1.mrg
+452,1.0,26,.,0.746,145,Allison,sentence,0,6,2,1,2,-1,(..)),"(2, 0)",lw1.mrg
+453,1.0,27,She,0.477,145,Allison,sentence,1,0,3,3,2,0,((NP-SBJ-1(PRPShe)),"(0, 0, 0)",lw1.mrg
+454,1.0,27,used,0.477,145,Allison,sentence,1,1,3,2,1,-2,(V(VBDused),"(1, 0, 0)",lw1.mrg
+455,1.0,27,the,0.477,145,Allison,sentence,1,2,5,3,1,0,(N(NP(DTthe),"(1, 1, 0, 0, 0)",lw1.mrg
+456,1.0,27,discretion,0.477,145,Allison,sentence,1,3,5,1,2,0,(NNdiscretion)),"(1, 1, 0, 1, 0)",lw1.mrg
+457,1.0,27,of,0.477,145,Allison,sentence,1,4,5,2,1,-1,(PP(INof),"(1, 1, 1, 0, 0)",lw1.mrg
+458,1.0,27,the,0.477,145,Allison,sentence,1,5,6,2,1,0,(NP(DTthe),"(1, 1, 1, 1, 0, 0)",lw1.mrg
+459,1.0,27,mirrored,0.477,145,Allison,sentence,1,6,6,1,1,0,(JJmirrored),"(1, 1, 1, 1, 1, 0)",lw1.mrg
+460,1.0,27,window,0.477,145,Allison,sentence,1,7,6,1,4,1,(NNwindow)))),"(1, 1, 1, 1, 2, 0)",lw1.mrg
+461,1.0,27,*PRO*-1,0.477,145,Allison,sentence,1,7,5,3,2,5,(S-CL(NP-SBJ(-NONE-*PRO*-1)),"(1, 2, 0, 0, 0)",lw1.mrg
+462,1.0,27,rerorned,0.477,145,Allison,pseudo_words,1,7,0,0,0,-5,,0,lw1.mrg
+463,1.0,27,to,0.477,145,Allison,sentence,1,8,5,2,1,-1,(V(TOto),"(1, 2, 1, 0, 0)",lw1.mrg
+464,1.0,27,secretively,0.477,145,Allison,sentence,1,9,6,2,2,0,(ADVP-MNR(RBsecretively)),"(1, 2, 1, 1, 0, 0)",lw1.mrg
+465,1.0,27,survey,0.477,145,Allison,sentence,1,10,6,2,1,-1,(VP(VBsurvey),"(1, 2, 1, 2, 0, 0)",lw1.mrg
+466,1.0,27,her,0.477,145,Allison,sentence,1,11,7,2,1,0,(NP(PRP$her),"(1, 2, 1, 2, 1, 0, 0)",lw1.mrg
+467,1.0,27,crew,0.477,145,Allison,sentence,1,12,7,1,6,5,(NNcrew)))))),"(1, 2, 1, 2, 1, 1, 0)",lw1.mrg
+468,1.0,27,.,0.477,145,Allison,sentence,0,12,2,1,2,-2,(..)),"(2, 0)",lw1.mrg
+469,1.0,28,Harmon,0.051,145,Allison,sentence,1,0,4,4,2,0,(((NP-SBJ(NNPHarmon)),"(0, 0, 0, 0)",lw1.mrg
+470,1.0,28,was,0.051,145,Allison,sentence,1,1,4,2,1,-2,(V(VBDwas),"(0, 1, 0, 0)",lw1.mrg
+471,1.0,28,an,0.051,145,Allison,sentence,1,2,6,3,1,0,(NP-PR(NP(DTan),"(0, 1, 1, 0, 0, 0)",lw1.mrg
+472,1.0,28,excellent,0.051,145,Allison,sentence,1,3,6,1,1,0,(JJexcellent),"(0, 1, 1, 0, 1, 0)",lw1.mrg
+473,1.0,28,addition,0.051,145,Allison,sentence,1,4,6,1,2,0,(NNaddition)),"(0, 1, 1, 0, 2, 0)",lw1.mrg
+474,1.0,28,to,0.051,145,Allison,sentence,1,5,6,2,1,-1,(PP(TOto),"(0, 1, 1, 1, 0, 0)",lw1.mrg
+475,1.0,28,the,0.051,145,Allison,sentence,1,6,7,2,1,0,(NP(DTthe),"(0, 1, 1, 1, 1, 0, 0)",lw1.mrg
+476,1.0,28,bridge,0.051,145,Allison,sentence,1,7,7,1,1,0,(NNbridge),"(0, 1, 1, 1, 1, 1, 0)",lw1.mrg
+477,1.0,28,team,0.051,145,Allison,sentence,1,8,7,1,6,5,(NNteam)))))),"(0, 1, 1, 1, 1, 2, 0)",lw1.mrg
+478,1.0,28,",",0.051,145,Allison,sentence,0,8,2,1,1,0,"(,,)","(1, 0)",lw1.mrg
+479,1.0,28,but,0.051,145,Allison,sentence,1,9,2,1,1,-1,(CCbut),"(2, 0)",lw1.mrg
+480,1.0,28,was,0.051,145,Allison,sentence,1,10,3,2,1,-1,(S(VBDwas),"(3, 0, 0)",lw1.mrg
+481,1.0,28,she,0.051,145,Allison,sentence,1,11,4,2,2,0,(NP-SBJ-1(PRPshe)),"(3, 1, 0, 0)",lw1.mrg
+482,1.0,28,open,0.051,145,Allison,sentence,1,12,4,2,1,0,(ADJP-PR(JJopen),"(3, 2, 0, 0)",lw1.mrg
+483,1.0,28,minded,0.051,145,Allison,sentence,1,13,4,1,1,0,(JJminded),"(3, 2, 1, 0)",lw1.mrg
+484,1.0,28,enough,0.051,145,Allison,sentence,1,14,4,1,1,-2,(RBenough),"(3, 2, 2, 0)",lw1.mrg
+485,1.0,28,*PRO*-1,0.051,145,Allison,sentence,1,14,6,3,2,0,((NP-SBJ(-NONE-*PRO*-1)),"(3, 2, 3, 0, 0, 0)",lw1.mrg
+486,1.0,28,to,0.051,145,Allison,sentence,1,15,6,2,1,-2,(V(TOto),"(3, 2, 3, 1, 0, 0)",lw1.mrg
+487,1.0,28,defy,0.051,145,Allison,sentence,1,16,8,3,1,-2,(V(V(VBdefy),"(3, 2, 3, 1, 1, 0, 0, 0)",lw1.mrg
+488,1.0,28,United,0.051,145,Allison,sentence,1,17,10,3,1,0,(NP(NML(NNPUnited),"(3, 2, 3, 1, 1, 0, 1, 0, 0, 0)",lw1.mrg
+489,1.0,28,Earth,0.051,145,Allison,sentence,1,18,10,1,2,1,(NNPEarth)),"(3, 2, 3, 1, 1, 0, 1, 0, 1, 0)",lw1.mrg
+490,1.0,28,Command,0.051,145,Allison,sentence,1,19,9,1,3,2,(NNPCommand))),"(3, 2, 3, 1, 1, 0, 1, 1, 0)",lw1.mrg
+491,1.0,28,and,0.051,145,Allison,sentence,1,20,7,1,1,-1,(CCand),"(3, 2, 3, 1, 1, 1, 0)",lw1.mrg
+492,1.0,28,sever,0.051,145,Allison,sentence,1,21,8,2,1,-2,(V(VBsever),"(3, 2, 3, 1, 1, 2, 0, 0)",lw1.mrg
+493,1.0,28,all,0.051,145,Allison,sentence,1,22,10,3,1,0,(N(NP(DTall),"(3, 2, 3, 1, 1, 2, 1, 0, 0, 0)",lw1.mrg
+494,1.0,28,ties,0.051,145,Allison,sentence,1,23,10,1,2,0,(NNSties)),"(3, 2, 3, 1, 1, 2, 1, 0, 1, 0)",lw1.mrg
+495,1.0,28,from,0.051,145,Allison,sentence,1,24,10,2,1,-1,(PP(INfrom),"(3, 2, 3, 1, 1, 2, 1, 1, 0, 0)",lw1.mrg
+496,1.0,28,Earth,0.051,145,Allison,sentence,1,25,11,2,10,9,(NP(NNPEarth)))))))))),"(3, 2, 3, 1, 1, 2, 1, 1, 1, 0, 0)",lw1.mrg
+497,1.0,28,?,0.051,145,Allison,sentence,0,25,2,1,2,-1,(.?)),"(4, 0)",lw1.mrg
+498,2.0,29,She,0.19,145,Allison,sentence,1,0,3,3,2,0,((NP-SBJ(PRPShe)),"(0, 0, 0)",lw1.mrg
+499,2.0,29,watched,0.19,145,Allison,sentence,1,1,3,2,1,-2,(V(VBDwatched),"(1, 0, 0)",lw1.mrg
+500,2.0,29,the,0.19,145,Allison,sentence,1,2,5,3,1,0,((NP-SBJ-1(DTthe),"(1, 1, 0, 0, 0)",lw1.mrg
+501,2.0,29,psi,0.19,145,Allison,sentence,1,3,5,1,2,0,(NNpsi)),"(1, 1, 0, 1, 0)",lw1.mrg
+502,2.0,29,bob,0.19,145,Allison,sentence,1,4,5,2,1,-1,(V(VBbob),"(1, 1, 1, 0, 0)",lw1.mrg
+503,2.0,29,her,0.19,145,Allison,sentence,1,5,6,2,1,0,(NP(PRP$her),"(1, 1, 1, 1, 0, 0)",lw1.mrg
+504,2.0,29,head,0.19,145,Allison,sentence,1,6,6,1,2,1,(NNhead)),"(1, 1, 1, 1, 1, 0)",lw1.mrg
+505,2.0,29,",",0.19,145,Allison,sentence,0,6,5,1,1,-2,"(,,)","(1, 1, 1, 2, 0)",lw1.mrg
+506,2.0,29,*PRO*-1,0.19,145,Allison,sentence,0,6,7,3,2,0,(S-AD(NP-SBJ(-NONE-*PRO*-1)),"(1, 1, 1, 3, 0, 0, 0)",lw1.mrg
+507,2.0,29,unaware,0.19,145,Allison,sentence,1,7,7,2,1,-1,(ADJP-PR(JJunaware),"(1, 1, 1, 3, 1, 0, 0)",lw1.mrg
+508,2.0,29,of,0.19,145,Allison,sentence,1,8,8,2,1,-2,(P(INof),"(1, 1, 1, 3, 1, 1, 0, 0)",lw1.mrg
+509,2.0,29,the,0.19,145,Allison,sentence,1,9,10,3,1,0,(N(NP(DTthe),"(1, 1, 1, 3, 1, 1, 1, 0, 0, 0)",lw1.mrg
+510,2.0,29,rest,0.19,145,Allison,sentence,1,10,10,1,2,0,(NNrest)),"(1, 1, 1, 3, 1, 1, 1, 0, 1, 0)",lw1.mrg
+511,2.0,29,of,0.19,145,Allison,sentence,1,11,10,2,1,-1,(PP(INof),"(1, 1, 1, 3, 1, 1, 1, 1, 0, 0)",lw1.mrg
+512,2.0,29,the,0.19,145,Allison,sentence,1,12,11,2,1,0,(NP(DTthe),"(1, 1, 1, 3, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+513,2.0,29,bridge,0.19,145,Allison,sentence,1,13,11,1,7,6,(NNbridge))))))),"(1, 1, 1, 3, 1, 1, 1, 1, 1, 1, 0)",lw1.mrg
+514,2.0,29,",",0.19,145,Allison,sentence,0,13,5,1,1,-2,"(,,)","(1, 1, 1, 4, 0)",lw1.mrg
+515,2.0,29,*PRO*-1,0.19,145,Allison,sentence,0,13,7,3,2,0,(S-AD(NP-SBJ(-NONE-*PRO*-1)),"(1, 1, 1, 5, 0, 0, 0)",lw1.mrg
+516,2.0,29,shaking,0.19,145,Allison,sentence,1,14,7,2,1,-1,(V(VBGshaking),"(1, 1, 1, 5, 1, 0, 0)",lw1.mrg
+517,2.0,29,blonde,0.19,145,Allison,sentence,1,15,8,2,1,0,(NP(JJblonde),"(1, 1, 1, 5, 1, 1, 0, 0)",lw1.mrg
+518,2.0,29,curls,0.19,145,Allison,sentence,1,16,8,1,2,0,(NNScurls)),"(1, 1, 1, 5, 1, 1, 1, 0)",lw1.mrg
+519,2.0,29,as,0.19,145,Allison,sentence,1,17,8,2,1,-2,(SBAR-TM(INas),"(1, 1, 1, 5, 1, 2, 0, 0)",lw1.mrg
+520,2.0,29,she,0.19,145,Allison,sentence,1,18,10,3,2,0,((NP-SBJ(PRPshe)),"(1, 1, 1, 5, 1, 2, 1, 0, 0, 0)",lw1.mrg
+521,2.0,29,chattered,0.19,145,Allison,sentence,1,19,10,2,1,-1,(V(VBDchattered),"(1, 1, 1, 5, 1, 2, 1, 1, 0, 0)",lw1.mrg
+522,2.0,29,away,0.19,145,Allison,sentence,1,20,11,2,2,0,(PRT(RPaway)),"(1, 1, 1, 5, 1, 2, 1, 1, 1, 0, 0)",lw1.mrg
+523,2.0,29,with,0.19,145,Allison,sentence,1,21,11,2,1,-2,(PP-CL(INwith),"(1, 1, 1, 5, 1, 2, 1, 1, 2, 0, 0)",lw1.mrg
+524,2.0,29,the,0.19,145,Allison,sentence,1,22,13,3,1,0,(N(N(DTthe),"(1, 1, 1, 5, 1, 2, 1, 1, 2, 1, 0, 0, 0)",lw1.mrg
+525,2.0,29,approaching,0.19,145,Allison,sentence,1,23,13,1,1,0,(VBGapproaching),"(1, 1, 1, 5, 1, 2, 1, 1, 2, 1, 0, 1, 0)",lw1.mrg
+526,2.0,29,psi,0.19,145,Allison,sentence,1,24,13,1,1,0,(NNpsi),"(1, 1, 1, 5, 1, 2, 1, 1, 2, 1, 0, 2, 0)",lw1.mrg
+527,2.0,29,relay,0.19,145,Allison,sentence,1,25,13,1,2,0,(NNrelay)),"(1, 1, 1, 5, 1, 2, 1, 1, 2, 1, 0, 3, 0)",lw1.mrg
+528,2.0,29,on,0.19,145,Allison,sentence,1,26,13,2,1,-2,(P(INon),"(1, 1, 1, 5, 1, 2, 1, 1, 2, 1, 1, 0, 0)",lw1.mrg
+529,2.0,29,Mason,0.19,145,Allison,sentence,1,27,15,3,1,0,(NP(NP(NNPMason),"(1, 1, 1, 5, 1, 2, 1, 1, 2, 1, 1, 1, 0, 0, 0)",lw1.mrg
+530,2.0,29,'s,0.19,145,Allison,sentence,1,28,15,1,2,1,(POS's)),"(1, 1, 1, 5, 1, 2, 1, 1, 2, 1, 1, 1, 0, 1, 0)",lw1.mrg
+531,2.0,29,ship,0.19,145,Allison,sentence,1,29,14,1,13,12,(NNship))))))))))))),"(1, 1, 1, 5, 1, 2, 1, 1, 2, 1, 1, 1, 1, 0)",lw1.mrg
+532,2.0,29,.,0.19,145,Allison,sentence,0,29,2,1,2,-1,(..)),"(2, 0)",lw1.mrg
+533,2.0,30,She,0.2,145,Allison,sentence,1,0,3,3,2,0,((NP-SBJ-1(PRPShe)),"(0, 0, 0)",lw1.mrg
+534,2.0,30,seemed,0.2,145,Allison,sentence,1,1,3,2,1,-1,(V(VBDseemed),"(1, 0, 0)",lw1.mrg
+535,2.0,30,-NONE-,0.2,145,Allison,sentence,1,1,4,2,1,-2,((NP-SBJ-NONE-),"(1, 1, 0, 0)",lw1.mrg
+536,2.0,30,so,0.2,145,Allison,sentence,1,2,6,3,1,0,(ADJP-PR(ADJP(RBso),"(1, 1, 1, 0, 0, 0)",lw1.mrg
+537,2.0,30,depthless,0.2,145,Allison,sentence,1,3,6,1,2,1,(JJdepthless)),"(1, 1, 1, 0, 1, 0)",lw1.mrg
+538,2.0,30,-,0.2,145,Allison,sentence,0,3,5,1,1,-4,(:-),"(1, 1, 1, 1, 0)",lw1.mrg
+539,2.0,30,self,0.2,145,Allison,sentence,1,4,9,5,1,0,(UC(ADJ(ADJ(ADJP(NNself),"(1, 1, 1, 2, 0, 0, 0, 0, 0)",lw1.mrg
+540,2.0,30,conscious,0.2,145,Allison,sentence,1,5,9,1,2,1,(JJconscious)),"(1, 1, 1, 2, 0, 0, 0, 1, 0)",lw1.mrg
+541,2.0,30,and,0.2,145,Allison,sentence,1,6,8,1,1,-1,(CCand),"(1, 1, 1, 2, 0, 0, 1, 0)",lw1.mrg
+542,2.0,30,shallow,0.2,145,Allison,sentence,1,7,9,2,3,1,(ADJP(JJshallow))),"(1, 1, 1, 2, 0, 0, 2, 0, 0)",lw1.mrg
+543,2.0,30,on,0.2,145,Allison,sentence,1,8,8,2,1,-1,(PP(INon),"(1, 1, 1, 2, 0, 1, 0, 0)",lw1.mrg
+544,2.0,30,the,0.2,145,Allison,sentence,1,9,9,2,1,0,(NP(DTthe),"(1, 1, 1, 2, 0, 1, 1, 0, 0)",lw1.mrg
+545,2.0,30,outside,0.2,145,Allison,sentence,1,10,9,1,4,3,(NNoutside)))),"(1, 1, 1, 2, 0, 1, 1, 1, 0)",lw1.mrg
+546,2.0,30,",",0.2,145,Allison,sentence,0,10,6,1,1,0,"(,,)","(1, 1, 1, 2, 1, 0)",lw1.mrg
+547,2.0,30,but,0.2,145,Allison,sentence,1,11,6,1,1,-2,(CCbut),"(1, 1, 1, 2, 2, 0)",lw1.mrg
+548,2.0,30,*PRO*,0.2,145,Allison,sentence,1,11,8,3,2,0,((NP-SBJ(-NONE-*PRO*)),"(1, 1, 1, 2, 3, 0, 0, 0)",lw1.mrg
+549,2.0,30,having,0.2,145,Allison,sentence,1,12,8,2,1,-1,(V(VBGhaving),"(1, 1, 1, 2, 3, 1, 0, 0)",lw1.mrg
+550,2.0,30,that,0.2,145,Allison,sentence,1,13,9,2,1,0,(NP(DTthat),"(1, 1, 1, 2, 3, 1, 1, 0, 0)",lw1.mrg
+551,2.0,30,incredible,0.2,145,Allison,sentence,1,14,9,1,1,0,(JJincredible),"(1, 1, 1, 2, 3, 1, 1, 1, 0)",lw1.mrg
+552,2.0,30,gift,0.2,145,Allison,sentence,1,15,9,1,8,7,(NNgift)))))))),"(1, 1, 1, 2, 3, 1, 1, 2, 0)",lw1.mrg
+553,2.0,30,.,0.2,145,Allison,sentence,0,15,2,1,2,-1,(..)),"(2, 0)",lw1.mrg
+554,2.0,31,There,0.354,145,Allison,sentence,1,0,3,3,2,0,((NP-SBJ-1(EXThere)),"(0, 0, 0)",lw1.mrg
+555,2.0,31,had,0.354,145,Allison,sentence,1,1,3,2,1,-2,(V(VBDhad),"(1, 0, 0)",lw1.mrg
+556,2.0,31,*-1,0.354,145,Allison,sentence,1,1,5,3,2,0,((NP-SBJ(-NONE-*-1)),"(1, 1, 0, 0, 0)",lw1.mrg
+557,2.0,31,to,0.354,145,Allison,sentence,1,2,5,2,1,-1,(V(TOto),"(1, 1, 1, 0, 0)",lw1.mrg
+558,2.0,31,be,0.354,145,Allison,sentence,1,3,6,2,1,-2,(V(VBbe),"(1, 1, 1, 1, 0, 0)",lw1.mrg
+559,2.0,31,more,0.354,145,Allison,sentence,1,4,8,3,2,0,(NP-PRD(NP(JJRmore)),"(1, 1, 1, 1, 1, 0, 0, 0)",lw1.mrg
+560,2.0,31,to,0.354,145,Allison,sentence,1,5,8,2,1,-1,(PP(TOto),"(1, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+561,2.0,31,her,0.354,145,Allison,sentence,1,6,9,2,8,7,(NP(PRPher)))))))),"(1, 1, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+562,2.0,31,.,0.354,145,Allison,sentence,0,6,2,1,2,-1,(..)),"(2, 0)",lw1.mrg
+563,2.0,32,Well,0.903,145,Allison,sentence,1,0,3,3,2,1,((INTJ(UHWell)),"(0, 0, 0)",lw1.mrg
+564,2.0,32,",",0.903,145,Allison,sentence,0,0,2,1,1,-1,"(,,)","(1, 0)",lw1.mrg
+565,2.0,32,if,0.903,145,Allison,sentence,1,1,3,2,1,-2,(SBAR-AD(INif),"(2, 0, 0)",lw1.mrg
+566,2.0,32,she,0.903,145,Allison,sentence,1,2,5,3,2,0,((NP-SBJ(PRPshe)),"(2, 1, 0, 0, 0)",lw1.mrg
+567,2.0,32,did,0.903,145,Allison,sentence,1,3,5,2,1,0,(VP(VBDdid),"(2, 1, 1, 0, 0)",lw1.mrg
+568,2.0,32,n't,0.903,145,Allison,sentence,1,4,5,1,1,-1,(RBn't),"(2, 1, 1, 1, 0)",lw1.mrg
+569,2.0,32,pan,0.903,145,Allison,sentence,1,5,6,2,1,-1,(VP(VBpan),"(2, 1, 1, 2, 0, 0)",lw1.mrg
+570,2.0,32,out,0.903,145,Allison,sentence,1,6,7,2,6,5,(PRT(RPout)))))),"(2, 1, 1, 2, 1, 0, 0)",lw1.mrg
+571,2.0,32,",",0.903,145,Allison,sentence,0,6,2,1,1,-1,"(,,)","(3, 0)",lw1.mrg
+572,2.0,32,she,0.903,145,Allison,sentence,1,7,3,2,2,0,(NP-SBJ-1(PRPshe)),"(4, 0, 0)",lw1.mrg
+573,2.0,32,'d,0.903,145,Allison,sentence,1,8,3,2,1,-1,(VP(MD'd),"(5, 0, 0)",lw1.mrg
+574,2.0,32,be,0.903,145,Allison,sentence,1,9,4,2,1,-1,(VP(VBbe),"(5, 1, 0, 0)",lw1.mrg
+575,2.0,32,terminated,0.903,145,Allison,sentence,1,10,5,2,1,-1,(VP(VBNterminated),"(5, 1, 1, 0, 0)",lw1.mrg
+576,2.0,32,*-1,0.903,145,Allison,sentence,1,10,6,2,5,4,(NP(-NONE-*-1))))),"(5, 1, 1, 1, 0, 0)",lw1.mrg
+577,2.0,32,.,0.903,145,Allison,sentence,0,10,2,1,2,-2,(..)),"(6, 0)",lw1.mrg
+578,2.0,33,Any,0.053,145,Allison,sentence,1,0,4,4,1,0,((NP-SB(NP(DTAny),"(0, 0, 0, 0)",lw1.mrg
+579,2.0,33,crew,0.053,145,Allison,sentence,1,1,4,1,1,4,(NNcrew),"(0, 0, 1, 0)",lw1.mrg
+580,2.0,33,etuly,0.053,145,Allison,pseudo_words,1,1,0,0,0,-4,,0,lw1.mrg
+581,2.0,33,member,0.053,145,Allison,sentence,1,2,4,1,2,-1,(NNmember)),"(0, 0, 2, 0)",lw1.mrg
+582,2.0,33,that,0.053,145,Allison,sentence,1,3,5,3,2,-1,(SBA(WHNP-1(WDTthat)),"(0, 1, 0, 0, 0)",lw1.mrg
+583,2.0,33,*T*-1,0.053,145,Allison,sentence,1,3,6,3,2,0,((NP-SBJ(-NONE-*T*-1)),"(0, 1, 1, 0, 0, 0)",lw1.mrg
+584,2.0,33,would,0.053,145,Allison,sentence,1,4,6,2,1,-1,(V(MDwould),"(0, 1, 1, 1, 0, 0)",lw1.mrg
+585,2.0,33,jeopardize,0.053,145,Allison,sentence,1,5,7,2,1,-1,(VP(VBjeopardize),"(0, 1, 1, 1, 1, 0, 0)",lw1.mrg
+586,2.0,33,the,0.053,145,Allison,sentence,1,6,8,2,1,0,(NP(DTthe),"(0, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+587,2.0,33,project,0.053,145,Allison,sentence,1,7,8,1,7,5,(NNproject))))))),"(0, 1, 1, 1, 1, 1, 1, 0)",lw1.mrg
+588,2.0,33,was,0.053,145,Allison,sentence,1,8,3,2,1,-1,(VP(VBDwas),"(1, 0, 0)",lw1.mrg
+589,2.0,33,meat,0.053,145,Allison,sentence,1,9,4,2,3,2,(NP-PRD(NNmeat))),"(1, 1, 0, 0)",lw1.mrg
+590,2.0,33,.,0.053,145,Allison,sentence,0,9,2,1,2,-2,(..)),"(2, 0)",lw1.mrg
+591,2.0,34,It,0.471,145,Allison,sentence,1,0,4,4,2,0,((NP-SBJ(NP(PRPIt)),"(0, 0, 0, 0)",lw1.mrg
+592,2.0,34,*EXP*-1,0.471,145,Allison,sentence,1,0,4,2,3,1,(S(-NONE-*EXP*-1))),"(0, 1, 0, 0)",lw1.mrg
+593,2.0,34,would,0.471,145,Allison,sentence,1,1,3,2,1,-1,(V(MDwould),"(1, 0, 0)",lw1.mrg
+594,2.0,34,be,0.471,145,Allison,sentence,1,2,4,2,1,-1,(V(VBbe),"(1, 1, 0, 0)",lw1.mrg
+595,2.0,34,a,0.471,145,Allison,sentence,1,3,5,2,1,0,(NP-PRD(DTa),"(1, 1, 1, 0, 0)",lw1.mrg
+596,2.0,34,shame,0.471,145,Allison,sentence,1,4,5,1,2,-1,(NNshame)),"(1, 1, 1, 1, 0)",lw1.mrg
+597,2.0,34,*,0.471,145,Allison,sentence,1,4,6,1,0,0,(S-1,"(1, 1, 2, 0, 0, 0)",lw1.mrg
+598,2.0,34,to,0.471,145,Allison,sentence,1,5,6,2,2,-1,(NP-SBJ(-NONE-*)),"(1, 1, 2, 1, 0, 0)",lw1.mrg
+599,2.0,34,lose,0.471,145,Allison,sentence,1,6,7,2,1,-1,(VP(TOto),"(1, 1, 2, 1, 1, 0, 0)",lw1.mrg
+600,2.0,34,that,0.471,145,Allison,sentence,1,7,8,2,1,0,(VP(VBlose),"(1, 1, 2, 1, 1, 1, 0, 0)",lw1.mrg
+601,2.0,34,talent,0.471,145,Allison,sentence,1,8,8,2,1,4,(NP(DTthat),"(1, 1, 2, 1, 1, 1, 1, 0)",lw1.mrg
+602,2.0,34,",",0.471,145,Allison,sentence,0,8,4,1,5,-1,(NNtalent))))),"(1, 1, 3, 0)",lw1.mrg
+603,2.0,34,though,0.471,145,Allison,sentence,1,9,5,1,1,3,"(,,)","(1, 1, 4, 0, 0)",lw1.mrg
+604,2.0,34,.,0.471,145,Allison,sentence,0,9,2,2,4,-2,(ADVP(RBthough)))),"(2, 0)",lw1.mrg
+605,2.0,35,Rakal,0.526,145,Allison,sentence,1,0,4,4,2,1,((NP-SB(NP(NNPRakal)),"(0, 0, 0, 0)",lw1.mrg
+606,2.0,35,",",0.526,145,Allison,sentence,0,0,3,1,1,-1,"(,,)","(0, 1, 0)",lw1.mrg
+607,2.0,35,her,0.526,145,Allison,sentence,1,1,4,2,1,0,(NP(PRP$her),"(0, 2, 0, 0)",lw1.mrg
+608,2.0,35,first,0.526,145,Allison,sentence,1,2,4,1,1,0,(JJfirst),"(0, 2, 1, 0)",lw1.mrg
+609,2.0,35,officer,0.526,145,Allison,sentence,1,3,4,1,3,2,(NNofficer))),"(0, 2, 2, 0)",lw1.mrg
+610,2.0,35,",",0.526,145,Allison,sentence,0,3,2,1,1,-1,"(,,)","(1, 0)",lw1.mrg
+611,2.0,35,was,0.526,145,Allison,sentence,1,4,3,2,1,-1,(V(VBDwas),"(2, 0, 0)",lw1.mrg
+612,2.0,35,staring,0.526,145,Allison,sentence,1,5,4,2,1,-1,(V(VBGstaring),"(2, 1, 0, 0)",lw1.mrg
+613,2.0,35,pensively,0.526,145,Allison,sentence,1,6,5,2,2,0,(ADVP-MNR(RBpensively)),"(2, 1, 1, 0, 0)",lw1.mrg
+614,2.0,35,at,0.526,145,Allison,sentence,1,7,5,2,1,-1,(PP-CLR(INat),"(2, 1, 2, 0, 0)",lw1.mrg
+615,2.0,35,his,0.526,145,Allison,sentence,1,8,6,2,1,0,(NP(PRP$his),"(2, 1, 2, 1, 0, 0)",lw1.mrg
+616,2.0,35,panel,0.526,145,Allison,sentence,1,9,6,1,5,4,(NNpanel))))),"(2, 1, 2, 1, 1, 0)",lw1.mrg
+617,2.0,35,.,0.526,145,Allison,sentence,0,9,2,1,2,2,(..)),"(3, 0)",lw1.mrg
+618,2.0,36,color,0.719,145,Allison,word_list,1,0,0,0,0,0,,0,lw1.mrg
+619,2.0,36,psychic,0.719,145,Allison,word_list,1,1,0,0,0,0,,0,lw1.mrg
+620,2.0,36,metals,0.719,145,Allison,word_list,1,2,0,0,0,0,,0,lw1.mrg
+621,2.0,36,system,0.719,145,Allison,word_list,1,3,0,0,0,0,,0,lw1.mrg
+622,2.0,36,which,0.719,145,Allison,word_list,1,4,0,0,0,0,,0,lw1.mrg
+623,2.0,36,for,0.719,145,Allison,word_list,1,5,0,0,0,0,,0,lw1.mrg
+624,2.0,36,all,0.719,145,Allison,word_list,1,6,0,0,0,0,,0,lw1.mrg
+625,2.0,36,charges,0.719,145,Allison,word_list,1,7,0,0,0,0,,0,lw1.mrg
+626,2.0,36,if,0.719,145,Allison,word_list,1,8,0,0,0,0,,0,lw1.mrg
+627,2.0,36,this,0.719,145,Allison,word_list,1,9,0,0,0,0,,0,lw1.mrg
+628,2.0,36,discretion,0.719,145,Allison,word_list,1,10,0,0,0,0,,0,lw1.mrg
+629,2.0,36,meat,0.719,145,Allison,word_list,1,11,0,0,0,0,,0,lw1.mrg
+630,2.0,36,any,0.719,145,Allison,word_list,1,12,0,0,0,0,,0,lw1.mrg
+631,2.0,36,insurrection,0.719,145,Allison,word_list,1,13,0,0,0,0,,0,lw1.mrg
+632,2.0,36,air,0.719,145,Allison,word_list,1,14,0,0,0,0,,0,lw1.mrg
+633,2.0,36,member,0.719,145,Allison,word_list,1,15,0,0,0,0,,0,lw1.mrg
+634,2.0,36,2,0.719,145,Allison,word_list,1,16,0,0,0,-3,,0,lw1.mrg
+635,2.0,37,He,0.37,145,Allison,sentence,1,0,3,3,2,0,((NP-SBJ(PRPHe)),"(0, 0, 0)",lw1.mrg
+636,2.0,37,was,0.37,145,Allison,sentence,1,1,3,2,1,-2,(V(VBDwas),"(1, 0, 0)",lw1.mrg
+637,2.0,37,what,0.37,145,Allison,sentence,1,2,5,3,2,-1,(SBAR-NOM-PR(WHNP-1(WPwhat)),"(1, 1, 0, 0, 0)",lw1.mrg
+638,2.0,37,this,0.37,145,Allison,sentence,1,3,6,3,2,0,((NP-SBJ(DTthis)),"(1, 1, 1, 0, 0, 0)",lw1.mrg
+639,2.0,37,was,0.37,145,Allison,sentence,1,4,6,2,1,-2,(V(VBDwas),"(1, 1, 1, 1, 0, 0)",lw1.mrg
+640,2.0,37,all,0.37,145,Allison,sentence,1,5,8,3,2,1,(PP-PRD(ADVP(RBall)),"(1, 1, 1, 1, 1, 0, 0, 0)",lw1.mrg
+641,2.0,37,about,0.37,145,Allison,sentence,1,6,7,1,1,-1,(INabout),"(1, 1, 1, 1, 1, 1, 0)",lw1.mrg
+642,2.0,37,*T*-1,0.37,145,Allison,sentence,1,6,8,2,7,6,(NP(-NONE-*T*-1))))))),"(1, 1, 1, 1, 1, 2, 0, 0)",lw1.mrg
+643,2.0,37,.,0.37,145,Allison,sentence,0,6,2,1,2,-1,(..)),"(2, 0)",lw1.mrg
+644,2.0,38,She,0.472,145,Allison,sentence,1,0,3,3,2,0,((NP-SBJ(PRPShe)),"(0, 0, 0)",lw1.mrg
+645,2.0,38,watched,0.472,145,Allison,sentence,1,1,3,2,1,-3,(V(VBDwatched),"(1, 0, 0)",lw1.mrg
+646,2.0,38,his,0.472,145,Allison,sentence,1,2,6,4,1,0,((NP-SB(NP(PRP$his),"(1, 1, 0, 0, 0, 0)",lw1.mrg
+647,2.0,38,graceful,0.472,145,Allison,sentence,1,3,6,1,1,0,(JJgraceful),"(1, 1, 0, 0, 1, 0)",lw1.mrg
+648,2.0,38,fingers,0.472,145,Allison,sentence,1,4,6,1,2,0,(NNSfingers)),"(1, 1, 0, 0, 2, 0)",lw1.mrg
+649,2.0,38,ending,0.472,145,Allison,sentence,1,5,6,2,1,-1,(V(VBGending),"(1, 1, 0, 1, 0, 0)",lw1.mrg
+650,2.0,38,in,0.472,145,Allison,sentence,1,6,7,2,1,-1,(PP-CLR(INin),"(1, 1, 0, 1, 1, 0, 0)",lw1.mrg
+651,2.0,38,thick,0.472,145,Allison,sentence,1,7,8,2,1,0,(NP(JJthick),"(1, 1, 0, 1, 1, 1, 0, 0)",lw1.mrg
+652,2.0,38,black,0.472,145,Allison,sentence,1,8,8,1,1,0,(JJblack),"(1, 1, 0, 1, 1, 1, 1, 0)",lw1.mrg
+653,2.0,38,claws,0.472,145,Allison,sentence,1,9,8,1,5,3,(NNSclaws))))),"(1, 1, 0, 1, 1, 1, 2, 0)",lw1.mrg
+654,2.0,38,tap,0.472,145,Allison,sentence,1,10,5,2,1,-1,(V(VBtap),"(1, 1, 1, 0, 0)",lw1.mrg
+655,2.0,38,out,0.472,145,Allison,sentence,1,11,6,2,2,0,(PRT(RPout)),"(1, 1, 1, 1, 0, 0)",lw1.mrg
+656,2.0,38,calculations,0.472,145,Allison,sentence,1,12,6,2,2,0,(NP(NNScalculations)),"(1, 1, 1, 2, 0, 0)",lw1.mrg
+657,2.0,38,on,0.472,145,Allison,sentence,1,13,6,2,1,-1,(PP-LOC(INon),"(1, 1, 1, 3, 0, 0)",lw1.mrg
+658,2.0,38,the,0.472,145,Allison,sentence,1,14,7,2,1,0,(NP(DTthe),"(1, 1, 1, 3, 1, 0, 0)",lw1.mrg
+659,2.0,38,panel,0.472,145,Allison,sentence,1,15,7,1,6,5,(NNpanel)))))),"(1, 1, 1, 3, 1, 1, 0)",lw1.mrg
+660,2.0,38,.,0.472,145,Allison,sentence,0,15,2,1,2,-1,(..)),"(2, 0)",lw1.mrg
+661,2.0,39,His,0.926,145,Allison,sentence,1,0,3,3,1,0,((NP-SBJ-1(PRP$His),"(0, 0, 0)",lw1.mrg
+662,2.0,39,pointed,0.926,145,Allison,sentence,1,1,3,1,1,0,(JJpointed),"(0, 1, 0)",lw1.mrg
+663,2.0,39,ears,0.926,145,Allison,sentence,1,2,3,1,2,0,(NNSears)),"(0, 2, 0)",lw1.mrg
+664,2.0,39,swiveled,0.926,145,Allison,sentence,1,3,3,2,1,-1,(V(VBDswiveled),"(1, 0, 0)",lw1.mrg
+665,2.0,39,back,0.926,145,Allison,sentence,1,4,4,2,1,0,(ADVP-MNR(RBback),"(1, 1, 0, 0)",lw1.mrg
+666,2.0,39,and,0.926,145,Allison,sentence,1,5,4,1,1,0,(CCand),"(1, 1, 1, 0)",lw1.mrg
+667,2.0,39,forth,0.926,145,Allison,sentence,1,6,4,1,2,1,(RBforth)),"(1, 1, 2, 0)",lw1.mrg
+668,2.0,39,",",0.926,145,Allison,sentence,0,6,3,1,1,-2,"(,,)","(1, 2, 0)",lw1.mrg
+669,2.0,39,*PRO*-1,0.926,145,Allison,sentence,0,6,5,3,2,0,(S-AD(NP-SBJ(-NONE-*PRO*-1)),"(1, 3, 0, 0, 0)",lw1.mrg
+670,2.0,39,catching,0.926,145,Allison,sentence,1,7,5,2,1,-2,(V(VBGcatching),"(1, 3, 1, 0, 0)",lw1.mrg
+671,2.0,39,every,0.926,145,Allison,sentence,1,8,7,3,1,0,(N(NP(DTevery),"(1, 3, 1, 1, 0, 0, 0)",lw1.mrg
+672,2.0,39,sound,0.926,145,Allison,sentence,1,9,7,1,2,0,(NNsound)),"(1, 3, 1, 1, 0, 1, 0)",lw1.mrg
+673,2.0,39,from,0.926,145,Allison,sentence,1,10,7,2,1,-1,(PP(INfrom),"(1, 3, 1, 1, 1, 0, 0)",lw1.mrg
+674,2.0,39,the,0.926,145,Allison,sentence,1,11,8,2,1,8,(NP(DTthe),"(1, 3, 1, 1, 1, 1, 0, 0)",lw1.mrg
+675,2.0,39,wond,0.926,145,Allison,pseudo_words,1,11,0,0,0,-8,,0,lw1.mrg
+676,2.0,39,bridge,0.926,145,Allison,sentence,1,12,8,1,6,5,(NNbridge)))))),"(1, 3, 1, 1, 1, 1, 1, 0)",lw1.mrg
+677,2.0,39,",",0.926,145,Allison,sentence,0,12,3,1,1,-1,"(,,)","(1, 4, 0)",lw1.mrg
+678,2.0,39,while,0.926,145,Allison,sentence,1,13,4,2,1,-2,(SBAR-TM(INwhile),"(1, 5, 0, 0)",lw1.mrg
+679,2.0,39,his,0.926,145,Allison,sentence,1,14,6,3,1,0,((NP-SBJ(PRP$his),"(1, 5, 1, 0, 0, 0)",lw1.mrg
+680,2.0,39,long,0.926,145,Allison,sentence,1,15,6,1,1,0,(JJlong),"(1, 5, 1, 0, 1, 0)",lw1.mrg
+681,2.0,39,tail,0.926,145,Allison,sentence,1,16,6,1,2,0,(NNtail)),"(1, 5, 1, 0, 2, 0)",lw1.mrg
+682,2.0,39,swished,0.926,145,Allison,sentence,1,17,6,2,1,-1,(V(VBDswished),"(1, 5, 1, 1, 0, 0)",lw1.mrg
+683,2.0,39,to,0.926,145,Allison,sentence,1,18,7,2,1,-2,(P(TOto),"(1, 5, 1, 1, 1, 0, 0)",lw1.mrg
+684,2.0,39,the,0.926,145,Allison,sentence,1,19,9,3,1,0,(N(NP(DTthe),"(1, 5, 1, 1, 1, 1, 0, 0, 0)",lw1.mrg
+685,2.0,39,rhythm,0.926,145,Allison,sentence,1,20,9,1,2,0,(NNrhythm)),"(1, 5, 1, 1, 1, 1, 0, 1, 0)",lw1.mrg
+686,2.0,39,of,0.926,145,Allison,sentence,1,21,9,2,1,-1,(PP(INof),"(1, 5, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+687,2.0,39,his,0.926,145,Allison,sentence,1,22,10,2,1,0,(NP(PRP$his),"(1, 5, 1, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+688,2.0,39,thoughts,0.926,145,Allison,sentence,1,23,10,1,9,8,(NNSthoughts))))))))),"(1, 5, 1, 1, 1, 1, 1, 1, 1, 0)",lw1.mrg
+689,2.0,39,.,0.926,145,Allison,sentence,0,23,2,1,2,-2,(..)),"(2, 0)",lw1.mrg
+690,2.0,40,Only,0.66,145,Allison,sentence,1,0,4,4,1,0,((NP-SB(NP(RBOnly),"(0, 0, 0, 0)",lw1.mrg
+691,2.0,40,those,0.66,145,Allison,sentence,1,1,4,1,2,0,(DTthose)),"(0, 0, 1, 0)",lw1.mrg
+692,2.0,40,of,0.66,145,Allison,sentence,1,2,4,2,1,-1,(P(INof),"(0, 1, 0, 0)",lw1.mrg
+693,2.0,40,the,0.66,145,Allison,sentence,1,3,5,2,1,-1,(N(DTthe),"(0, 1, 1, 0, 0)",lw1.mrg
+694,2.0,40,Arrallin,0.66,145,Allison,sentence,1,4,6,2,1,0,(NML(NNPArrallin),"(0, 1, 1, 1, 0, 0)",lw1.mrg
+695,2.0,40,Insurrection,0.66,145,Allison,sentence,1,5,6,1,2,1,(NNPInsurrection)),"(0, 1, 1, 1, 1, 0)",lw1.mrg
+696,2.0,40,inner,0.66,145,Allison,sentence,1,6,5,1,1,0,(JJinner),"(0, 1, 1, 2, 0)",lw1.mrg
+697,2.0,40,team,0.66,145,Allison,sentence,1,7,5,1,4,2,(NNteam)))),"(0, 1, 1, 3, 0)",lw1.mrg
+698,2.0,40,knew,0.66,145,Allison,sentence,1,8,3,2,1,-1,(V(VBDknew),"(1, 0, 0)",lw1.mrg
+699,2.0,40,0,0.66,145,Allison,sentence,1,8,4,2,1,-2,(SBA(-NONE-0),"(1, 1, 0, 0)",lw1.mrg
+700,2.0,40,he,0.66,145,Allison,sentence,1,9,6,3,2,0,((NP-SBJ(PRPhe)),"(1, 1, 1, 0, 0, 0)",lw1.mrg
+701,2.0,40,was,0.66,145,Allison,sentence,1,10,6,2,1,6,(V(VBDwas),"(1, 1, 1, 1, 0, 0)",lw1.mrg
+702,2.0,40,awop,0.66,145,Allison,pseudo_words,1,10,0,0,0,-7,,0,lw1.mrg
+703,2.0,40,no,0.66,145,Allison,sentence,1,11,7,2,1,0,(NP-PR(DTno),"(1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+704,2.0,40,common,0.66,145,Allison,sentence,1,12,7,1,1,0,(JJcommon),"(1, 1, 1, 1, 1, 1, 0)",lw1.mrg
+705,2.0,40,',0.66,145,Allison,sentence,0,12,7,1,1,0,(``'),"(1, 1, 1, 1, 1, 2, 0)",lw1.mrg
+706,2.0,40,beta,0.66,145,Allison,sentence,1,13,7,1,1,0,(NNbeta),"(1, 1, 1, 1, 1, 3, 0)",lw1.mrg
+707,2.0,40,furry,0.66,145,Allison,sentence,1,14,7,1,1,0,(NNfurry),"(1, 1, 1, 1, 1, 4, 0)",lw1.mrg
+708,2.0,40,',0.66,145,Allison,sentence,0,14,7,1,6,5,(''')))))),"(1, 1, 1, 1, 1, 5, 0)",lw1.mrg
+709,2.0,40,.,0.66,145,Allison,sentence,0,14,2,1,2,-3,(..)),"(2, 0)",lw1.mrg
+710,2.0,41,His,0.84,145,Allison,sentence,1,0,5,3,0,0,(((NP-SBJ-2,"(0, 0, 0, 0, 0)",lw1.mrg
+711,2.0,41,silken,0.84,145,Allison,sentence,1,1,5,2,1,0,(NP(PRP$His),"(0, 0, 0, 1, 0)",lw1.mrg
+712,2.0,41,fur,0.84,145,Allison,sentence,1,2,5,1,1,1,(JJsilken),"(0, 0, 0, 2, 0)",lw1.mrg
+713,2.0,41,",",0.84,145,Allison,sentence,0,2,4,1,2,4,(NNfur)),"(0, 0, 1, 0)",lw1.mrg
+714,2.0,41,belis,0.84,145,Allison,pseudo_words,1,2,0,0,0,-6,,0,lw1.mrg
+715,2.0,41,which,0.84,145,Allison,sentence,1,3,6,1,1,-1,"(,,)","(0, 0, 2, 0, 0, 0)",lw1.mrg
+716,2.0,41,*T*-1,0.84,145,Allison,sentence,1,3,7,3,2,0,(SBA(WHNP-1(WDTwhich)),"(0, 0, 2, 1, 0, 0, 0)",lw1.mrg
+717,2.0,41,would,0.84,145,Allison,sentence,1,4,7,3,2,-1,((NP-SBJ(-NONE-*T*-1)),"(0, 0, 2, 1, 1, 0, 0)",lw1.mrg
+718,2.0,41,be,0.84,145,Allison,sentence,1,5,8,2,1,-2,(V(MDwould),"(0, 0, 2, 1, 1, 1, 0, 0)",lw1.mrg
+719,2.0,41,tawny,0.84,145,Allison,sentence,1,6,10,2,1,0,(V(VBbe),"(0, 0, 2, 1, 1, 1, 1, 0, 0, 0)",lw1.mrg
+720,2.0,41,golden,0.84,145,Allison,sentence,1,7,10,3,1,1,(ADJP-PR(ADJP(JJtawny),"(0, 0, 2, 1, 1, 1, 1, 0, 1, 0)",lw1.mrg
+721,2.0,41,and,0.84,145,Allison,sentence,1,8,9,1,2,-1,(JJgolden)),"(0, 0, 2, 1, 1, 1, 1, 1, 0)",lw1.mrg
+722,2.0,41,striped,0.84,145,Allison,sentence,1,9,10,1,1,-1,(CCand),"(0, 0, 2, 1, 1, 1, 1, 2, 0, 0)",lw1.mrg
+723,2.0,41,with,0.84,145,Allison,sentence,1,10,11,2,1,-2,(ADJ(JJstriped),"(0, 0, 2, 1, 1, 1, 1, 2, 1, 0, 0)",lw1.mrg
+724,2.0,41,jet,0.84,145,Allison,sentence,1,11,13,2,1,0,(P(INwith),"(0, 0, 2, 1, 1, 1, 1, 2, 1, 1, 0, 0, 0)",lw1.mrg
+725,2.0,41,black,0.84,145,Allison,sentence,1,12,13,3,1,1,(NP(ADJP(NNjet),"(0, 0, 2, 1, 1, 1, 1, 2, 1, 1, 0, 1, 0)",lw1.mrg
+726,2.0,41,bands,0.84,145,Allison,sentence,1,13,12,1,2,9,(JJblack)),"(0, 0, 2, 1, 1, 1, 1, 2, 1, 1, 1, 0)",lw1.mrg
+727,2.0,41,",",0.84,145,Allison,sentence,0,13,3,1,10,-1,(NNSbands)))))))))),"(0, 1, 0)",lw1.mrg
+728,2.0,41,was,0.84,145,Allison,sentence,1,14,4,1,1,-1,"(,,)","(0, 2, 0, 0)",lw1.mrg
+729,2.0,41,dyed,0.84,145,Allison,sentence,1,15,5,2,1,-1,(V(VBDwas),"(0, 2, 1, 0, 0)",lw1.mrg
+730,2.0,41,*-2,0.84,145,Allison,sentence,1,15,6,1,0,0,(VP-3,"(0, 2, 1, 1, 0, 0)",lw1.mrg
+731,2.0,41,perfectly,0.84,145,Allison,sentence,1,16,6,1,1,0,(VBNdyed),"(0, 2, 1, 2, 0, 0)",lw1.mrg
+732,2.0,41,to,0.84,145,Allison,sentence,1,17,6,2,2,-1,(NP(-NONE-*-2)),"(0, 2, 1, 3, 0, 0)",lw1.mrg
+733,2.0,41,a,0.84,145,Allison,sentence,1,18,7,2,2,0,(ADVP-MNR(RBperfectly)),"(0, 2, 1, 3, 1, 0, 0)",lw1.mrg
+734,2.0,41,pure,0.84,145,Allison,sentence,1,19,7,2,1,0,(PP-CLR(TOto),"(0, 2, 1, 3, 1, 1, 0)",lw1.mrg
+735,2.0,41,black,0.84,145,Allison,sentence,1,20,7,2,1,5,(NP(DTa),"(0, 2, 1, 3, 1, 2, 0)",lw1.mrg
+736,2.0,41,",",0.84,145,Allison,sentence,0,20,2,1,1,0,(JJpure),"(1, 0)",lw1.mrg
+737,2.0,41,and,0.84,145,Allison,sentence,1,21,2,1,6,-2,(NNblack)))))),"(2, 0)",lw1.mrg
+738,2.0,41,his,0.84,145,Allison,sentence,1,22,4,1,1,0,"(,,)","(3, 0, 0, 0)",lw1.mrg
+739,2.0,41,mane,0.84,145,Allison,sentence,1,23,4,1,1,0,(CCand),"(3, 0, 1, 0)",lw1.mrg
+740,2.0,41,trimmed,0.84,145,Allison,sentence,1,24,4,3,1,0,((NP-SBJ=2-4(PRP$his),"(3, 1, 0, 0)",lw1.mrg
+741,2.0,41,and,0.84,145,Allison,sentence,1,25,4,1,2,0,(NNmane)),"(3, 1, 1, 0)",lw1.mrg
+742,2.0,41,thinned,0.84,145,Allison,sentence,1,26,4,1,0,-1,(VP=3,"(3, 1, 2, 0)",lw1.mrg
+743,2.0,41,*-4,0.84,145,Allison,sentence,1,26,5,1,1,0,(VBNtrimmed),"(3, 1, 3, 0, 0)",lw1.mrg
+744,2.0,41,as,0.84,145,Allison,sentence,1,27,5,1,1,-2,(CCand),"(3, 1, 4, 0, 0)",lw1.mrg
+745,2.0,41,*PRO*-5,0.84,145,Allison,sentence,1,27,7,1,1,0,(VBNthinned),"(3, 1, 4, 1, 0, 0, 0)",lw1.mrg
+746,2.0,41,to,0.84,145,Allison,sentence,1,28,7,2,2,-1,(NP-5(-NONE-*-4)),"(3, 1, 4, 1, 1, 0, 0)",lw1.mrg
+747,2.0,41,be,0.84,145,Allison,sentence,1,29,8,2,1,-1,(SBAR-AD(INas),"(3, 1, 4, 1, 1, 1, 0, 0)",lw1.mrg
+748,2.0,41,indistinguishable,0.84,145,Allison,sentence,1,30,9,3,2,-1,((NP-SBJ(-NONE-*PRO*-5)),"(3, 1, 4, 1, 1, 1, 1, 0, 0)",lw1.mrg
+749,2.0,41,from,0.84,145,Allison,sentence,1,31,10,2,1,-2,(V(TOto),"(3, 1, 4, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+750,2.0,41,the,0.84,145,Allison,sentence,1,32,12,2,1,0,(V(VBbe),"(3, 1, 4, 1, 1, 1, 1, 1, 1, 0, 0, 0)",lw1.mrg
+751,2.0,41,rest,0.84,145,Allison,sentence,1,33,12,2,1,0,(ADJP-PR(JJindistinguishable),"(3, 1, 4, 1, 1, 1, 1, 1, 1, 0, 1, 0)",lw1.mrg
+752,2.0,41,of,0.84,145,Allison,sentence,1,34,12,2,1,-1,(P(INfrom),"(3, 1, 4, 1, 1, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+753,2.0,41,his,0.84,145,Allison,sentence,1,35,13,3,1,0,(N(NP(DTthe),"(3, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+754,2.0,41,coat,0.84,145,Allison,sentence,1,36,13,1,2,11,(NNrest)),"(3, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0)",lw1.mrg
+755,2.0,41,.,0.84,145,Allison,sentence,0,36,2,2,1,-1,(PP(INof),"(4, 0)",lw1.mrg
+756,2.0,42,His,0.068,205,Allison,sentence,1,0,3,3,1,0,((NP-SBJ-1(PRP$His),"(0, 0, 0)",lw1.mrg
+757,2.0,42,eyes,0.068,205,Allison,sentence,1,1,3,1,2,0,(NNSeyes)),"(0, 1, 0)",lw1.mrg
+758,2.0,42,had,0.068,205,Allison,sentence,1,2,3,2,1,-1,(V(VBDhad),"(1, 0, 0)",lw1.mrg
+759,2.0,42,been,0.068,205,Allison,sentence,1,3,4,2,1,-2,(V(VBNbeen),"(1, 1, 0, 0)",lw1.mrg
+760,2.0,42,treated,0.068,205,Allison,sentence,1,4,6,3,1,-1,(V(VP(VBNtreated),"(1, 1, 1, 0, 0, 0)",lw1.mrg
+761,2.0,42,*-1,0.068,205,Allison,sentence,1,4,7,2,3,2,(NP(-NONE-*-1))),"(1, 1, 1, 0, 1, 0, 0)",lw1.mrg
+762,2.0,42,and,0.068,205,Allison,sentence,1,5,5,1,1,-1,(CCand),"(1, 1, 1, 1, 0)",lw1.mrg
+763,2.0,42,darkened,0.068,205,Allison,sentence,1,6,6,2,1,-1,(V(VBNdarkened),"(1, 1, 1, 2, 0, 0)",lw1.mrg
+764,2.0,42,*-1,0.068,205,Allison,sentence,1,6,7,2,2,0,(NP(-NONE-*-1)),"(1, 1, 1, 2, 1, 0, 0)",lw1.mrg
+765,2.0,42,to,0.068,205,Allison,sentence,1,7,7,2,1,-1,(PP-CLR(TOto),"(1, 1, 1, 2, 2, 0, 0)",lw1.mrg
+766,2.0,42,a,0.068,205,Allison,sentence,1,8,8,2,1,0,(NP(DTa),"(1, 1, 1, 2, 2, 1, 0, 0)",lw1.mrg
+767,2.0,42,rich,0.068,205,Allison,sentence,1,9,8,1,1,0,(JJrich),"(1, 1, 1, 2, 2, 1, 1, 0)",lw1.mrg
+768,2.0,42,purple,0.068,205,Allison,sentence,1,10,8,1,4,1,(NNpurple)))),"(1, 1, 1, 2, 2, 1, 2, 0)",lw1.mrg
+769,2.0,42,*PRO*,0.068,205,Allison,sentence,1,10,7,3,2,0,(S-PR(NP-SBJ(-NONE-*PRO*)),"(1, 1, 1, 3, 0, 0, 0)",lw1.mrg
+770,2.0,42,to,0.068,205,Allison,sentence,1,11,7,2,1,-1,(V(TOto),"(1, 1, 1, 3, 1, 0, 0)",lw1.mrg
+771,2.0,42,disguise,0.068,205,Allison,sentence,1,12,8,2,1,-2,(V(VBdisguise),"(1, 1, 1, 3, 1, 1, 0, 0)",lw1.mrg
+772,2.0,42,the,0.068,205,Allison,sentence,1,13,10,3,1,0,(N(N(DTthe),"(1, 1, 1, 3, 1, 1, 1, 0, 0, 0)",lw1.mrg
+773,2.0,42,brilliant,0.068,205,Allison,sentence,1,14,10,1,1,0,(JJbrilliant),"(1, 1, 1, 3, 1, 1, 1, 0, 1, 0)",lw1.mrg
+774,2.0,42,golden,0.068,205,Allison,sentence,1,15,10,1,1,0,(JJgolden),"(1, 1, 1, 3, 1, 1, 1, 0, 2, 0)",lw1.mrg
+775,2.0,42,yellow,0.068,205,Allison,sentence,1,16,10,1,1,0,(JJyellow),"(1, 1, 1, 3, 1, 1, 1, 0, 3, 0)",lw1.mrg
+776,2.0,42,color,0.068,205,Allison,sentence,1,17,10,1,2,-1,(NNcolor)),"(1, 1, 1, 3, 1, 1, 1, 0, 4, 0)",lw1.mrg
+777,2.0,42,that,0.068,205,Allison,sentence,1,18,11,3,2,-1,(SBA(WHNP-2(WDTthat)),"(1, 1, 1, 3, 1, 1, 1, 1, 0, 0, 0)",lw1.mrg
+778,2.0,42,*T*-2,0.068,205,Allison,sentence,1,18,12,3,2,0,((NP-SBJ(-NONE-*T*-2)),"(1, 1, 1, 3, 1, 1, 1, 1, 1, 0, 0, 0)",lw1.mrg
+779,2.0,42,would,0.068,205,Allison,sentence,1,19,12,2,1,-1,(V(MDwould),"(1, 1, 1, 3, 1, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+780,2.0,42,mark,0.068,205,Allison,sentence,1,20,13,2,1,-1,(V(VBmark),"(1, 1, 1, 3, 1, 1, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+781,2.0,42,him,0.068,205,Allison,sentence,1,21,14,2,2,0,(NP(PRPhim)),"(1, 1, 1, 3, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+782,2.0,42,as,0.068,205,Allison,sentence,1,22,14,2,1,-2,(PP-CL(INas),"(1, 1, 1, 3, 1, 1, 1, 1, 1, 1, 1, 2, 0, 0)",lw1.mrg
+783,2.0,42,an,0.068,205,Allison,sentence,1,23,16,3,1,0,(N(NP(DTan),"(1, 1, 1, 3, 1, 1, 1, 1, 1, 1, 1, 2, 1, 0, 0, 0)",lw1.mrg
+784,2.0,42,Alpha,0.068,205,Allison,sentence,1,24,16,1,1,0,(NNPAlpha),"(1, 1, 1, 3, 1, 1, 1, 1, 1, 1, 1, 2, 1, 0, 1, 0)",lw1.mrg
+785,2.0,42,Arrallin,0.068,205,Allison,sentence,1,25,16,1,2,1,(NNPArrallin)),"(1, 1, 1, 3, 1, 1, 1, 1, 1, 1, 1, 2, 1, 0, 2, 0)",lw1.mrg
+786,2.0,42,",",0.068,205,Allison,sentence,0,25,15,1,1,0,"(,,)","(1, 1, 1, 3, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 0)",lw1.mrg
+787,2.0,42,and,0.068,205,Allison,sentence,1,26,15,1,1,-2,(CCand),"(1, 1, 1, 3, 1, 1, 1, 1, 1, 1, 1, 2, 1, 2, 0)",lw1.mrg
+788,2.0,42,leader,0.068,205,Allison,sentence,1,27,17,3,2,0,(N(NP(NNleader)),"(1, 1, 1, 3, 1, 1, 1, 1, 1, 1, 1, 2, 1, 3, 0, 0, 0)",lw1.mrg
+789,2.0,42,of,0.068,205,Allison,sentence,1,28,17,2,1,-1,(PP(INof),"(1, 1, 1, 3, 1, 1, 1, 1, 1, 1, 1, 2, 1, 3, 1, 0, 0)",lw1.mrg
+790,2.0,42,his,0.068,205,Allison,sentence,1,29,18,2,1,0,(NP(PRP$his),"(1, 1, 1, 3, 1, 1, 1, 1, 1, 1, 1, 2, 1, 3, 1, 1, 0, 0)",lw1.mrg
+791,2.0,42,hive,0.068,205,Allison,sentence,1,30,18,1,17,16,(NNhive))))))))))))))))),"(1, 1, 1, 3, 1, 1, 1, 1, 1, 1, 1, 2, 1, 3, 1, 1, 1, 0)",lw1.mrg
+792,2.0,42,.,0.068,205,Allison,sentence,0,30,2,1,2,-1,(..)),"(2, 0)",lw1.mrg
+793,3.0,43,Right,0.474,205,Allison,sentence,1,0,3,3,1,0,((ADVP-TMP(RBRight),"(0, 0, 0)",lw1.mrg
+794,3.0,43,now,0.474,205,Allison,sentence,1,1,3,1,2,1,(RBnow)),"(0, 1, 0)",lw1.mrg
+795,3.0,43,",",0.474,205,Allison,sentence,0,1,2,1,1,-1,"(,,)","(1, 0)",lw1.mrg
+796,3.0,43,he,0.474,205,Allison,sentence,1,2,3,2,2,0,(NP-SBJ(PRPhe)),"(2, 0, 0)",lw1.mrg
+797,3.0,43,looked,0.474,205,Allison,sentence,1,3,3,2,1,-1,(V(VBDlooked),"(3, 0, 0)",lw1.mrg
+798,3.0,43,like,0.474,205,Allison,sentence,1,4,4,2,1,-2,(PP-CL(INlike),"(3, 1, 0, 0)",lw1.mrg
+799,3.0,43,an,0.474,205,Allison,sentence,1,5,6,3,1,0,(N(NP(DTan),"(3, 1, 1, 0, 0, 0)",lw1.mrg
+800,3.0,43,overgrown,0.474,205,Allison,sentence,1,6,6,1,1,0,(JJovergrown),"(3, 1, 1, 0, 1, 0)",lw1.mrg
+801,3.0,43,wolf,0.474,205,Allison,sentence,1,7,6,1,2,-1,(NNwolf)),"(3, 1, 1, 0, 2, 0)",lw1.mrg
+802,3.0,43,who,0.474,205,Allison,sentence,1,8,7,3,2,-1,(SBA(WHNP-1(WPwho)),"(3, 1, 1, 1, 0, 0, 0)",lw1.mrg
+803,3.0,43,*T*-1,0.474,205,Allison,sentence,1,8,8,3,2,0,((NP-SBJ(-NONE-*T*-1)),"(3, 1, 1, 1, 1, 0, 0, 0)",lw1.mrg
+804,3.0,43,'d,0.474,205,Allison,sentence,1,9,8,2,1,-1,(V(VBD'd),"(3, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+805,3.0,43,learned,0.474,205,Allison,sentence,1,10,9,2,1,-1,(VP(VBNlearned),"(3, 1, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+806,3.0,43,touch,0.474,205,Allison,sentence,1,11,10,2,1,0,(NP(NNtouch),"(3, 1, 1, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+807,3.0,43,-,0.474,205,Allison,sentence,0,11,10,1,1,0,(HYPH-),"(3, 1, 1, 1, 1, 1, 1, 1, 1, 0)",lw1.mrg
+808,3.0,43,typing,0.474,205,Allison,sentence,1,12,10,1,9,8,(NNtyping))))))))),"(3, 1, 1, 1, 1, 1, 1, 1, 2, 0)",lw1.mrg
+809,3.0,43,.,0.474,205,Allison,sentence,0,12,2,1,2,-1,(..)),"(4, 0)",lw1.mrg
+810,3.0,44,The,0.623,205,Allison,sentence,1,0,3,3,1,0,((NP-SBJ(DTThe),"(0, 0, 0)",lw1.mrg
+811,3.0,44,scout,0.623,205,Allison,sentence,1,1,3,1,1,0,(NNscout),"(0, 1, 0)",lw1.mrg
+812,3.0,44,ship,0.623,205,Allison,sentence,1,2,3,1,2,0,(NNship)),"(0, 2, 0)",lw1.mrg
+813,3.0,44,re-emerged,0.623,205,Allison,sentence,1,3,3,2,1,-1,(V(VBDre-emerged),"(1, 0, 0)",lw1.mrg
+814,3.0,44,from,0.623,205,Allison,sentence,1,4,4,2,1,-1,(PP-CLR(INfrom),"(1, 1, 0, 0)",lw1.mrg
+815,3.0,44,the,0.623,205,Allison,sentence,1,5,5,2,1,0,(NP(DTthe),"(1, 1, 1, 0, 0)",lw1.mrg
+816,3.0,44,hole,0.623,205,Allison,sentence,1,6,5,1,3,2,(NNhole))),"(1, 1, 1, 1, 0)",lw1.mrg
+817,3.0,44,-,0.623,205,Allison,sentence,0,6,3,1,1,-2,(:-),"(1, 2, 0)",lw1.mrg
+818,3.0,44,a,0.623,205,Allison,sentence,1,7,5,3,1,0,(S-AD(NP-SBJ(DTa),"(1, 3, 0, 0, 0)",lw1.mrg
+819,3.0,44,brilliant,0.623,205,Allison,sentence,1,8,5,1,1,0,(JJbrilliant),"(1, 3, 0, 1, 0)",lw1.mrg
+820,3.0,44,speck,0.623,205,Allison,sentence,1,9,5,1,2,5,(NNspeck)),"(1, 3, 0, 2, 0)",lw1.mrg
+821,3.0,44,agimmed,0.623,205,Allison,pseudo_words,1,9,0,0,0,-5,,0,lw1.mrg
+822,3.0,44,emerging,0.623,205,Allison,sentence,1,10,5,2,1,-1,(V(VBGemerging),"(1, 3, 1, 0, 0)",lw1.mrg
+823,3.0,44,from,0.623,205,Allison,sentence,1,11,6,2,1,-2,(PP-CL(INfrom),"(1, 3, 1, 1, 0, 0)",lw1.mrg
+824,3.0,44,a,0.623,205,Allison,sentence,1,12,8,3,1,0,(N(NP(DTa),"(1, 3, 1, 1, 1, 0, 0, 0)",lw1.mrg
+825,3.0,44,sphere,0.623,205,Allison,sentence,1,13,8,1,2,0,(NNsphere)),"(1, 3, 1, 1, 1, 0, 1, 0)",lw1.mrg
+826,3.0,44,of,0.623,205,Allison,sentence,1,14,8,2,1,-1,(PP(INof),"(1, 3, 1, 1, 1, 1, 0, 0)",lw1.mrg
+827,3.0,44,velvety,0.623,205,Allison,sentence,1,15,9,2,1,0,(NP(JJvelvety),"(1, 3, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+828,3.0,44,blackness,0.623,205,Allison,sentence,1,16,9,1,8,7,(NNblackness)))))))),"(1, 3, 1, 1, 1, 1, 1, 1, 0)",lw1.mrg
+829,3.0,44,.,0.623,205,Allison,sentence,0,16,2,1,2,-2,(..)),"(2, 0)",lw1.mrg
+830,3.0,45,It's,0.611,205,Allison,sentence,1,0,4,4,1,0,(((NP-SBJ(PRP$It's),"(0, 0, 0, 0)",lw1.mrg
+831,3.0,45,hail,0.611,205,Allison,sentence,1,1,4,1,2,0,(NNhail)),"(0, 0, 1, 0)",lw1.mrg
+832,3.0,45,crackled,0.611,205,Allison,sentence,1,2,4,2,1,-1,(VP(VBDcrackled),"(0, 1, 0, 0)",lw1.mrg
+833,3.0,45,across,0.611,205,Allison,sentence,1,3,5,2,1,-1,(PP-CLR(INacross),"(0, 1, 1, 0, 0)",lw1.mrg
+834,3.0,45,the,0.611,205,Allison,sentence,1,4,6,2,1,0,(NP(DTthe),"(0, 1, 1, 1, 0, 0)",lw1.mrg
+835,3.0,45,comm,0.611,205,Allison,sentence,1,5,6,1,5,4,(NNcomm))))),"(0, 1, 1, 1, 1, 0)",lw1.mrg
+836,3.0,45,",",0.611,205,Allison,sentence,0,5,2,1,1,0,"(,,)","(1, 0)",lw1.mrg
+837,3.0,45,and,0.611,205,Allison,sentence,1,6,2,1,1,-2,(CCand),"(2, 0)",lw1.mrg
+838,3.0,45,Tara,0.611,205,Allison,sentence,1,7,4,3,2,0,((NP-SBJ-1(NNPTara)),"(3, 0, 0, 0)",lw1.mrg
+839,3.0,45,spun,0.611,205,Allison,sentence,1,8,4,2,1,-2,(V(VBDspun),"(3, 1, 0, 0)",lw1.mrg
+840,3.0,45,*PRO*-1,0.611,205,Allison,sentence,1,8,6,3,2,0,(S-PR(NP-SBJ(-NONE-*PRO*-1)),"(3, 1, 1, 0, 0, 0)",lw1.mrg
+841,3.0,45,to,0.611,205,Allison,sentence,1,9,6,2,1,-1,(V(TOto),"(3, 1, 1, 1, 0, 0)",lw1.mrg
+842,3.0,45,retake,0.611,205,Allison,sentence,1,10,7,2,1,-2,(V(VBretake),"(3, 1, 1, 1, 1, 0, 0)",lw1.mrg
+843,3.0,45,her,0.611,205,Allison,sentence,1,11,9,3,1,0,(N(NP(PRP$her),"(3, 1, 1, 1, 1, 1, 0, 0, 0)",lw1.mrg
+844,3.0,45,seat,0.611,205,Allison,sentence,1,12,9,1,2,0,(NNseat)),"(3, 1, 1, 1, 1, 1, 0, 1, 0)",lw1.mrg
+845,3.0,45,at,0.611,205,Allison,sentence,1,13,9,2,1,-1,(PP-LOC(INat),"(3, 1, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+846,3.0,45,the,0.611,205,Allison,sentence,1,14,10,2,1,0,(NP(DTthe),"(3, 1, 1, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+847,3.0,45,helm,0.611,205,Allison,sentence,1,15,10,1,9,8,(NNhelm))))))))),"(3, 1, 1, 1, 1, 1, 1, 1, 1, 0)",lw1.mrg
+848,3.0,45,.,0.611,205,Allison,sentence,0,15,2,1,2,0,(..)),"(4, 0)",lw1.mrg
+849,3.0,46,"""",0.728,205,Allison,sentence,0,-1,2,2,1,-1,"(S-IM(``"")","(0, 0)",lw1.mrg
+850,3.0,46,*PRO*,0.728,205,Allison,sentence,0,-1,3,2,2,0,(NP-SBJ(-NONE-*PRO*)),"(1, 0, 0)",lw1.mrg
+851,3.0,46,Launch,0.728,205,Allison,sentence,1,0,3,2,1,-1,(VP(VBLaunch),"(2, 0, 0)",lw1.mrg
+852,3.0,46,the,0.728,205,Allison,sentence,1,1,4,2,1,0,(NP(DTthe),"(2, 1, 0, 0)",lw1.mrg
+853,3.0,46,second,0.728,205,Allison,sentence,1,2,4,1,1,0,(JJsecond),"(2, 1, 1, 0)",lw1.mrg
+854,3.0,46,probe,0.728,205,Allison,sentence,1,3,4,1,3,2,(NNprobe))),"(2, 1, 2, 0)",lw1.mrg
+855,3.0,46,.,0.728,205,Allison,sentence,0,3,2,1,2,0,(..)),"(3, 0)",lw1.mrg
+856,3.0,47,Wo,0.673,205,Allison,sentence,1,0,2,2,1,0,(S(MDWo),"(0, 0)",lw1.mrg
+857,3.0,47,n't,0.673,205,Allison,sentence,1,1,2,1,1,-1,(RBn't),"(1, 0)",lw1.mrg
+858,3.0,47,Central,0.673,205,Allison,sentence,1,2,3,2,2,0,(NP-SBJ-1(NNPCentral)),"(2, 0, 0)",lw1.mrg
+859,3.0,47,be,0.673,205,Allison,sentence,1,3,3,2,1,-1,(V(VBbe),"(3, 0, 0)",lw1.mrg
+860,3.0,47,crushed,0.673,205,Allison,sentence,1,4,4,2,1,-1,(V(VBNcrushed),"(3, 1, 0, 0)",lw1.mrg
+861,3.0,47,*-1,0.673,205,Allison,sentence,1,4,5,2,2,-1,(NP-2(-NONE-*-1)),"(3, 1, 1, 0, 0)",lw1.mrg
+862,3.0,47,*PRO*-2,0.673,205,Allison,sentence,1,4,6,3,2,0,(S-PR(NP-SBJ(-NONE-*PRO*-2)),"(3, 1, 2, 0, 0, 0)",lw1.mrg
+863,3.0,47,to,0.673,205,Allison,sentence,1,5,6,2,1,-1,(V(TOto),"(3, 1, 2, 1, 0, 0)",lw1.mrg
+864,3.0,47,learn,0.673,205,Allison,sentence,1,6,7,2,1,-1,(V(VBlearn),"(3, 1, 2, 1, 1, 0, 0)",lw1.mrg
+865,3.0,47,that,0.673,205,Allison,sentence,1,7,8,2,1,-2,(SBA(INthat),"(3, 1, 2, 1, 1, 1, 0, 0)",lw1.mrg
+866,3.0,47,another,0.673,205,Allison,sentence,1,8,10,3,1,0,((NP-SBJ(DTanother),"(3, 1, 2, 1, 1, 1, 1, 0, 0, 0)",lw1.mrg
+867,3.0,47,gateway,0.673,205,Allison,sentence,1,9,10,1,2,0,(NNgateway)),"(3, 1, 2, 1, 1, 1, 1, 0, 1, 0)",lw1.mrg
+868,3.0,47,has,0.673,205,Allison,sentence,1,10,10,2,1,-1,(V(VBZhas),"(3, 1, 2, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+869,3.0,47,yielded,0.673,205,Allison,sentence,1,11,11,2,1,-3,(V(VBNyielded),"(3, 1, 2, 1, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+870,3.0,47,little,0.673,205,Allison,sentence,1,12,14,4,1,0,(N(NP(ADJP(RBlittle),"(3, 1, 2, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0)",lw1.mrg
+871,3.0,47,more,0.673,205,Allison,sentence,1,13,14,1,3,14,(JJRmore))),"(3, 1, 2, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0)",lw1.mrg
+872,3.0,47,fims,0.673,205,Allison,pseudo_words,1,13,0,0,0,-13,,0,lw1.mrg
+873,3.0,47,than,0.673,205,Allison,sentence,1,14,13,2,1,-2,(P(INthan),"(3, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+874,3.0,47,a,0.673,205,Allison,sentence,1,15,15,3,1,-1,(N(N(DTa),"(3, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0)",lw1.mrg
+875,3.0,47,class,0.673,205,Allison,sentence,1,16,16,2,1,0,(NML(NNclass),"(3, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0)",lw1.mrg
+876,3.0,47,F,0.673,205,Allison,sentence,1,17,16,1,2,1,(NNF)),"(3, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0)",lw1.mrg
+877,3.0,47,planet,0.673,205,Allison,sentence,1,18,15,1,2,1,(NNplanet)),"(3, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 2, 0)",lw1.mrg
+878,3.0,47,and,0.673,205,Allison,sentence,1,19,14,1,1,-1,(CCand),"(3, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0)",lw1.mrg
+879,3.0,47,a,0.673,205,Allison,sentence,1,20,15,2,1,-1,(N(DTa),"(3, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 0, 0)",lw1.mrg
+880,3.0,47,white,0.673,205,Allison,sentence,1,21,16,2,1,0,(NML(JJwhite),"(3, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 0, 0)",lw1.mrg
+881,3.0,47,dwarf,0.673,205,Allison,sentence,1,22,16,1,2,1,(NNdwarf)),"(3, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 0)",lw1.mrg
+882,3.0,47,system,0.673,205,Allison,sentence,1,23,15,1,14,13,(NNsystem)))))))))))))),"(3, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 0)",lw1.mrg
+883,3.0,47,.,0.673,205,Allison,sentence,0,23,2,1,2,-2,(..)),"(4, 0)",lw1.mrg
+884,3.0,48,Level,0.277,205,Allison,sentence,1,0,4,4,1,0,((NP-SBJ-1(NML(NNLevel),"(0, 0, 0, 0)",lw1.mrg
+885,3.0,48,1,0.277,205,Allison,sentence,1,1,4,1,1,0,(CD1),"(0, 0, 1, 0)",lw1.mrg
+886,3.0,48,and,0.277,205,Allison,sentence,1,2,4,1,1,0,(CCand),"(0, 0, 2, 0)",lw1.mrg
+887,3.0,48,2,0.277,205,Allison,sentence,1,3,4,1,2,1,(CD2)),"(0, 0, 3, 0)",lw1.mrg
+888,3.0,48,staffers,0.277,205,Allison,sentence,1,4,3,1,2,0,(NNSstaffers)),"(0, 1, 0)",lw1.mrg
+889,3.0,48,should,0.277,205,Allison,sentence,1,5,3,2,1,-1,(V(MDshould),"(1, 0, 0)",lw1.mrg
+890,3.0,48,prepare,0.277,205,Allison,sentence,1,6,4,2,1,-2,(V(VBprepare),"(1, 1, 0, 0)",lw1.mrg
+891,3.0,48,*PRO*-1,0.277,205,Allison,sentence,1,6,6,3,2,0,((NP-SBJ-2(-NONE-*PRO*-1)),"(1, 1, 1, 0, 0, 0)",lw1.mrg
+892,3.0,48,to,0.277,205,Allison,sentence,1,7,6,2,1,-2,(V(TOto),"(1, 1, 1, 1, 0, 0)",lw1.mrg
+893,3.0,48,be,0.277,205,Allison,sentence,1,8,8,3,1,-1,(V(VP(VBbe),"(1, 1, 1, 1, 1, 0, 0, 0)",lw1.mrg
+894,3.0,48,briefed,0.277,205,Allison,sentence,1,9,9,2,1,-1,(VP(VBNbriefed),"(1, 1, 1, 1, 1, 0, 1, 0, 0)",lw1.mrg
+895,3.0,48,*-2,0.277,205,Allison,sentence,1,9,10,2,4,3,(NP(-NONE-*-2)))),"(1, 1, 1, 1, 1, 0, 1, 1, 0, 0)",lw1.mrg
+896,3.0,48,and,0.277,205,Allison,sentence,1,10,7,1,1,-1,(CCand),"(1, 1, 1, 1, 1, 1, 0)",lw1.mrg
+897,3.0,48,move,0.277,205,Allison,sentence,1,11,8,2,1,-1,(VP(VBmove),"(1, 1, 1, 1, 1, 2, 0, 0)",lw1.mrg
+898,3.0,48,out,0.277,205,Allison,sentence,1,12,9,2,8,7,(PRT(RPout)))))))),"(1, 1, 1, 1, 1, 2, 1, 0, 0)",lw1.mrg
+899,3.0,48,.,0.277,205,Allison,sentence,0,12,2,1,2,-1,(..)),"(2, 0)",lw1.mrg
+900,3.0,49,This,0.311,205,Allison,sentence,1,0,3,3,2,0,((NP-SBJ(DTThis)),"(0, 0, 0)",lw1.mrg
+901,3.0,49,sounds,0.311,205,Allison,sentence,1,1,3,2,1,-1,(V(VBZsounds),"(1, 0, 0)",lw1.mrg
+902,3.0,49,like,0.311,205,Allison,sentence,1,2,4,2,1,-2,(SBA(INlike),"(1, 1, 0, 0)",lw1.mrg
+903,3.0,49,it,0.311,205,Allison,sentence,1,3,6,3,2,0,(S(NP-SBJ(PRPit)),"(1, 1, 1, 0, 0, 0)",lw1.mrg
+904,3.0,49,'s,0.311,205,Allison,sentence,1,4,6,2,1,-1,(VP(VBZ's),"(1, 1, 1, 1, 0, 0)",lw1.mrg
+905,3.0,49,the,0.311,205,Allison,sentence,1,5,7,2,1,0,(NP-PRD(DTthe),"(1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+906,3.0,49,one,0.311,205,Allison,sentence,1,6,7,1,6,5,(NNone)))))),"(1, 1, 1, 1, 1, 1, 0)",lw1.mrg
+907,3.0,49,.,0.311,205,Allison,sentence,0,6,2,1,1,0,(..),"(2, 0)",lw1.mrg
+908,3.0,49,"""",0.311,205,Allison,sentence,0,6,2,1,2,-3,"(''""))","(3, 0)",lw1.mrg
+909,3.0,50,The,0.75,205,Allison,sentence,1,0,5,5,1,0,(((NP-SB(NP(DTThe),"(0, 0, 0, 0, 0)",lw1.mrg
+910,3.0,50,distinctive,0.75,205,Allison,sentence,1,1,5,1,1,0,(JJdistinctive),"(0, 0, 0, 1, 0)",lw1.mrg
+911,3.0,50,whuffle,0.75,205,Allison,sentence,1,2,5,1,2,0,(NNwhuffle)),"(0, 0, 0, 2, 0)",lw1.mrg
+912,3.0,50,of,0.75,205,Allison,sentence,1,3,5,2,1,-1,(PP(INof),"(0, 0, 1, 0, 0)",lw1.mrg
+913,3.0,50,pleasure,0.75,205,Allison,sentence,1,4,6,2,4,2,(NP(NNpleasure)))),"(0, 0, 1, 1, 0, 0)",lw1.mrg
+914,3.0,50,rippled,0.75,205,Allison,sentence,1,5,4,2,1,-1,(V(VBDrippled),"(0, 1, 0, 0)",lw1.mrg
+915,3.0,50,through,0.75,205,Allison,sentence,1,6,5,2,1,-2,(PP-CL(INthrough),"(0, 1, 1, 0, 0)",lw1.mrg
+916,3.0,50,the,0.75,205,Allison,sentence,1,7,7,3,1,0,(N(NP(DTthe),"(0, 1, 1, 1, 0, 0, 0)",lw1.mrg
+917,3.0,50,betas,0.75,205,Allison,sentence,1,8,7,1,2,0,(NNSbetas)),"(0, 1, 1, 1, 0, 1, 0)",lw1.mrg
+918,3.0,50,on,0.75,205,Allison,sentence,1,9,7,2,1,-1,(PP-LOC(INon),"(0, 1, 1, 1, 1, 0, 0)",lw1.mrg
+919,3.0,50,the,0.75,205,Allison,sentence,1,10,8,2,1,0,(NP(DTthe),"(0, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+920,3.0,50,bridge,0.75,205,Allison,sentence,1,11,8,1,7,6,(NNbridge))))))),"(0, 1, 1, 1, 1, 1, 1, 0)",lw1.mrg
+921,3.0,50,",",0.75,205,Allison,sentence,0,11,2,1,1,0,"(,,)","(1, 0)",lw1.mrg
+922,3.0,50,and,0.75,205,Allison,sentence,1,12,2,1,1,-2,(CCand),"(2, 0)",lw1.mrg
+923,3.0,50,Rakal,0.75,205,Allison,sentence,1,13,4,3,2,0,((NP-SBJ(NNPRakal)),"(3, 0, 0, 0)",lw1.mrg
+924,3.0,50,let,0.75,205,Allison,sentence,1,14,4,2,1,-1,(V(VBlet),"(3, 1, 0, 0)",lw1.mrg
+925,3.0,50,loose,0.75,205,Allison,sentence,1,15,5,2,2,0,(ADVP(RBloose)),"(3, 1, 1, 0, 0)",lw1.mrg
+926,3.0,50,a,0.75,205,Allison,sentence,1,16,5,2,1,0,(NP(DTa),"(3, 1, 2, 0, 0)",lw1.mrg
+927,3.0,50,small,0.75,205,Allison,sentence,1,17,5,1,1,0,(JJsmall),"(3, 1, 2, 1, 0)",lw1.mrg
+928,3.0,50,growl,0.75,205,Allison,sentence,1,18,5,1,2,1,(NNgrowl)),"(3, 1, 2, 2, 0)",lw1.mrg
+929,3.0,50,",",0.75,205,Allison,sentence,0,18,4,1,1,-1,"(,,)","(3, 1, 3, 0)",lw1.mrg
+930,3.0,50,as,0.75,205,Allison,sentence,1,19,5,2,1,0,(SBAR-AD(INas),"(3, 1, 4, 0, 0)",lw1.mrg
+931,3.0,50,if,0.75,205,Allison,sentence,1,20,5,1,1,-2,(INif),"(3, 1, 4, 1, 0)",lw1.mrg
+932,3.0,50,*PRO*,0.75,205,Allison,sentence,1,20,7,3,2,7,((NP-SBJ(-NONE-*PRO*)),"(3, 1, 4, 2, 0, 0, 0)",lw1.mrg
+933,3.0,50,ro,0.75,205,Allison,pseudo_words,1,20,0,0,0,-7,,0,lw1.mrg
+934,3.0,50,to,0.75,205,Allison,sentence,1,21,7,2,1,-1,(V(TOto),"(3, 1, 4, 2, 1, 0, 0)",lw1.mrg
+935,3.0,50,caution,0.75,205,Allison,sentence,1,22,8,2,1,-1,(V(VBcaution),"(3, 1, 4, 2, 1, 1, 0, 0)",lw1.mrg
+936,3.0,50,his,0.75,205,Allison,sentence,1,23,9,2,1,0,(NP(PRP$his),"(3, 1, 4, 2, 1, 1, 1, 0, 0)",lw1.mrg
+937,3.0,50,charges,0.75,205,Allison,sentence,1,24,9,1,2,0,(NNScharges)),"(3, 1, 4, 2, 1, 1, 1, 1, 0)",lw1.mrg
+938,3.0,50,against,0.75,205,Allison,sentence,1,25,9,2,1,-1,(PP-CLR(INagainst),"(3, 1, 4, 2, 1, 1, 2, 0, 0)",lw1.mrg
+939,3.0,50,false,0.75,205,Allison,sentence,1,26,10,2,1,0,(NP(JJfalse),"(3, 1, 4, 2, 1, 1, 2, 1, 0, 0)",lw1.mrg
+940,3.0,50,hope,0.75,205,Allison,sentence,1,27,10,1,9,8,(NNhope))))))))),"(3, 1, 4, 2, 1, 1, 2, 1, 1, 0)",lw1.mrg
+941,3.0,50,.,0.75,205,Allison,sentence,0,27,2,1,2,-2,(..)),"(4, 0)",lw1.mrg
+942,3.0,51,They,0.333,205,Allison,sentence,1,0,4,4,2,0,(((NP-SBJ(PRPThey)),"(0, 0, 0, 0)",lw1.mrg
+943,3.0,51,'d,0.333,205,Allison,sentence,1,1,4,2,1,-1,(V(VBD'd),"(0, 1, 0, 0)",lw1.mrg
+944,3.0,51,scouted,0.333,205,Allison,sentence,1,2,5,2,1,-2,(V(VBNscouted),"(0, 1, 1, 0, 0)",lw1.mrg
+945,3.0,51,twenty,0.333,205,Allison,sentence,1,3,7,3,1,0,(NP(QP(CDtwenty),"(0, 1, 1, 1, 0, 0, 0)",lw1.mrg
+946,3.0,51,-,0.333,205,Allison,sentence,0,3,7,1,1,0,(HYPH-),"(0, 1, 1, 1, 0, 1, 0)",lw1.mrg
+947,3.0,51,seven,0.333,205,Allison,sentence,1,4,7,1,2,1,(CDseven)),"(0, 1, 1, 1, 0, 2, 0)",lw1.mrg
+948,3.0,51,gates,0.333,205,Allison,sentence,1,5,6,1,2,0,(NNSgates)),"(0, 1, 1, 1, 1, 0)",lw1.mrg
+949,3.0,51,so,0.333,205,Allison,sentence,1,6,6,2,1,0,(ADVP-TMP(RBso),"(0, 1, 1, 2, 0, 0)",lw1.mrg
+950,3.0,51,far,0.333,205,Allison,sentence,1,7,6,1,5,4,(RBfar))))),"(0, 1, 1, 2, 1, 0)",lw1.mrg
+951,3.0,51,",",0.333,205,Allison,sentence,0,7,2,1,1,0,"(,,)","(1, 0)",lw1.mrg
+952,3.0,51,and,0.333,205,Allison,sentence,1,8,2,1,1,-2,(CCand),"(2, 0)",lw1.mrg
+953,3.0,51,none,0.333,205,Allison,sentence,1,9,4,3,2,0,((NP-SBJ(NNnone)),"(3, 0, 0, 0)",lw1.mrg
+954,3.0,51,had,0.333,205,Allison,sentence,1,10,4,2,1,-1,(V(VBDhad),"(3, 1, 0, 0)",lw1.mrg
+955,3.0,51,turned,0.333,205,Allison,sentence,1,11,5,2,1,-1,(V(VBNturned),"(3, 1, 1, 0, 0)",lw1.mrg
+956,3.0,51,up,0.333,205,Allison,sentence,1,12,6,2,2,-1,(PRT(RPup)),"(3, 1, 1, 1, 0, 0)",lw1.mrg
+957,3.0,51,anything,0.333,205,Allison,sentence,1,13,7,3,2,0,(N(NP(NNanything)),"(3, 1, 1, 2, 0, 0, 0)",lw1.mrg
+958,3.0,51,worth,0.333,205,Allison,sentence,1,14,7,2,1,-2,(ADJ(JJworth),"(3, 1, 1, 2, 1, 0, 0)",lw1.mrg
+959,3.0,51,the,0.333,205,Allison,sentence,1,15,9,3,1,0,(NP(NP(DTthe),"(3, 1, 1, 2, 1, 1, 0, 0, 0)",lw1.mrg
+960,3.0,51,Insurrection,0.333,205,Allison,sentence,1,16,9,1,1,0,(NNPInsurrection),"(3, 1, 1, 2, 1, 1, 0, 1, 0)",lw1.mrg
+961,3.0,51,'s,0.333,205,Allison,sentence,1,17,9,1,2,1,(POS's)),"(3, 1, 1, 2, 1, 1, 0, 2, 0)",lw1.mrg
+962,3.0,51,time,0.333,205,Allison,sentence,1,18,8,1,7,6,(NNtime))))))),"(3, 1, 1, 2, 1, 1, 1, 0)",lw1.mrg
+963,3.0,51,.,0.333,205,Allison,sentence,0,18,2,1,2,2,(..)),"(4, 0)",lw1.mrg
+964,3.0,52,,0.044,205,Allison,word_list,1,0,0,0,0,0,,0,lw1.mrg
+965,3.0,52,military,0.044,205,Allison,word_list,1,1,0,0,0,0,,0,lw1.mrg
+966,3.0,52,jumpsuit,0.044,205,Allison,word_list,1,2,0,0,0,0,,0,lw1.mrg
+967,3.0,52,it,0.044,205,Allison,word_list,1,3,0,0,0,0,,0,lw1.mrg
+968,3.0,52,waiting,0.044,205,Allison,word_list,1,4,0,0,0,0,,0,lw1.mrg
+969,3.0,52,hydrocarbons,0.044,205,Allison,word_list,1,5,0,0,0,0,,0,lw1.mrg
+970,3.0,52,those,0.044,205,Allison,word_list,1,6,0,0,0,0,,0,lw1.mrg
+971,3.0,52,mahoganyblack,0.044,205,Allison,word_list,1,7,0,0,0,0,,0,lw1.mrg
+972,3.0,52,six,0.044,205,Allison,word_list,1,8,0,0,0,0,,0,lw1.mrg
+973,3.0,52,reflection,0.044,205,Allison,word_list,1,9,0,0,0,0,,0,lw1.mrg
+974,3.0,52,of,0.044,205,Allison,word_list,1,10,0,0,0,0,,0,lw1.mrg
+975,3.0,52,fatigue,0.044,205,Allison,word_list,1,11,0,0,0,-3,,0,lw1.mrg
+976,3.0,53,Tara,0.47,205,Allison,sentence,1,0,3,3,2,0,((NP-SBJ(NNPTara)),"(0, 0, 0)",lw1.mrg
+977,3.0,53,would,0.47,205,Allison,sentence,1,1,3,2,1,0,(V(MDwould),"(1, 0, 0)",lw1.mrg
+978,3.0,53,not,0.47,205,Allison,sentence,1,2,3,1,1,3,(RBnot),"(1, 1, 0)",lw1.mrg
+979,3.0,53,amsla,0.47,205,Allison,pseudo_words,1,2,0,0,0,-4,,0,lw1.mrg
+980,3.0,53,let,0.47,205,Allison,sentence,1,3,4,2,1,-2,(V(VBlet),"(1, 2, 0, 0)",lw1.mrg
+981,3.0,53,giddy,0.47,205,Allison,sentence,1,4,6,3,1,0,((NP-SBJ(JJgiddy),"(1, 2, 1, 0, 0, 0)",lw1.mrg
+982,3.0,53,hopes,0.47,205,Allison,sentence,1,5,6,1,2,0,(NNShopes)),"(1, 2, 1, 0, 1, 0)",lw1.mrg
+983,3.0,53,drag,0.47,205,Allison,sentence,1,6,6,2,1,-1,(V(VBdrag),"(1, 2, 1, 1, 0, 0)",lw1.mrg
+984,3.0,53,them,0.47,205,Allison,sentence,1,7,7,2,2,0,(NP(PRPthem)),"(1, 2, 1, 1, 1, 0, 0)",lw1.mrg
+985,3.0,53,onto,0.47,205,Allison,sentence,1,8,7,2,1,-2,(PP-CL(INonto),"(1, 2, 1, 1, 2, 0, 0)",lw1.mrg
+986,3.0,53,a,0.47,205,Allison,sentence,1,9,9,3,1,0,(N(NP(DTa),"(1, 2, 1, 1, 2, 1, 0, 0, 0)",lw1.mrg
+987,3.0,53,rock,0.47,205,Allison,sentence,1,10,9,1,2,-1,(NNrock)),"(1, 2, 1, 1, 2, 1, 0, 1, 0)",lw1.mrg
+988,3.0,53,that,0.47,205,Allison,sentence,1,11,10,3,2,-1,(SBA(WHNP-1(WDTthat)),"(1, 2, 1, 1, 2, 1, 1, 0, 0, 0)",lw1.mrg
+989,3.0,53,*T*-1,0.47,205,Allison,sentence,1,11,11,3,2,0,((NP-SBJ(-NONE-*T*-1)),"(1, 2, 1, 1, 2, 1, 1, 1, 0, 0, 0)",lw1.mrg
+990,3.0,53,would,0.47,205,Allison,sentence,1,12,11,2,1,-1,(V(MDwould),"(1, 2, 1, 1, 2, 1, 1, 1, 1, 0, 0)",lw1.mrg
+991,3.0,53,spell,0.47,205,Allison,sentence,1,13,12,2,1,-1,(V(VBspell),"(1, 2, 1, 1, 2, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+992,3.0,53,the,0.47,205,Allison,sentence,1,14,13,2,1,0,(NP(DTthe),"(1, 2, 1, 1, 2, 1, 1, 1, 1, 1, 1, 0, 0)",lw1.mrg
+993,3.0,53,end,0.47,205,Allison,sentence,1,15,13,1,2,0,(NNend)),"(1, 2, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 0)",lw1.mrg
+994,3.0,53,for,0.47,205,Allison,sentence,1,16,13,2,1,-2,(P(INfor),"(1, 2, 1, 1, 2, 1, 1, 1, 1, 1, 2, 0, 0)",lw1.mrg
+995,3.0,53,the,0.47,205,Allison,sentence,1,17,15,3,1,0,(N(NP(DTthe),"(1, 2, 1, 1, 2, 1, 1, 1, 1, 1, 2, 1, 0, 0, 0)",lw1.mrg
+996,3.0,53,project,0.47,205,Allison,sentence,1,18,15,1,2,1,(NNproject)),"(1, 2, 1, 1, 2, 1, 1, 1, 1, 1, 2, 1, 0, 1, 0)",lw1.mrg
+997,3.0,53,",",0.47,205,Allison,sentence,0,18,14,1,1,0,"(,,)","(1, 2, 1, 1, 2, 1, 1, 1, 1, 1, 2, 1, 1, 0)",lw1.mrg
+998,3.0,53,and,0.47,205,Allison,sentence,1,19,14,1,1,-1,(CCand),"(1, 2, 1, 1, 2, 1, 1, 1, 1, 1, 2, 1, 2, 0)",lw1.mrg
+999,3.0,53,the,0.47,205,Allison,sentence,1,20,15,2,1,0,(NP(DTthe),"(1, 2, 1, 1, 2, 1, 1, 1, 1, 1, 2, 1, 3, 0, 0)",lw1.mrg
+1000,3.0,53,Arrallin,0.47,205,Allison,sentence,1,21,15,1,1,0,(NNPArrallin),"(1, 2, 1, 1, 2, 1, 1, 1, 1, 1, 2, 1, 3, 1, 0)",lw1.mrg
+1001,3.0,53,species,0.47,205,Allison,sentence,1,22,15,1,14,13,(NNspecies)))))))))))))),"(1, 2, 1, 1, 2, 1, 1, 1, 1, 1, 2, 1, 3, 2, 0)",lw1.mrg
+1002,3.0,53,.,0.47,205,Allison,sentence,0,22,2,1,2,-1,(..)),"(2, 0)",lw1.mrg

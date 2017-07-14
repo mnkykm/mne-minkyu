@@ -1,0 +1,20 @@
+trial {
+   trial_type = specific_response;
+	terminator_button = 3;
+   trial_duration = stimuli_length;
+	 
+
+   stimulus_event {
+
+sound {
+        wavefile $soundName;
+    };
+	
+	time = 1000;
+	code = "INTRO";
+
+
+};
+
+
+};
