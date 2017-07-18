@@ -9,6 +9,8 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import KFold
 from sklearn.linear_model import LogisticRegression, Ridge
+from sklearn.metrics import make_scorer
+from jr.gat import scorer_spearman
 
 from mk_config import raw_folder, resultsdir, path_data, subjects
 from mk_config import evokplot_times
@@ -56,7 +58,9 @@ for subject in subjects:
         fname_evokd = os.path.join(resultsdir, subject) + '/evoked_%s_%s-ave.fif' % (subject, analysis)
         fname_image = os.path.join(resultsdir, subject) + '/topomap_%s_%s.jpg' % (subject, analysis)
 
-        if 'rot' in analysis:
+        if np.all(np.isnan(np.array(bhv_events[analysis]))) is True:
+            continue
+        elif 'rot' in analysis:
             y = np.array(bhv_events[analysis])
             a = np.where((y == -40) | (y == +40))
             y[a] = 1
@@ -76,10 +80,19 @@ for subject in subjects:
                                         n_jobs=-1, **kwargs)
         else:
             continue
+            # y = np.array(bhv_events[analysis])
+            # #  ------------ Spearman corr ----------------
+            # clf = make_pipeline(StandardScaler(),
+            #                     LinearModel(Ridge()))
+            # scorer = scorer_spearman
+            # kwargs = dict()
+            # gat = GeneralizingEstimator(clf, scoring=make_scorer(scorer),
+            #                             n_jobs=-1, **kwargs)
 
         cv = KFold(5)
         scores = list()
         patterns = list()
+
         for train, test in cv.split(epochs._data, y):
             gat.fit(epochs._data[train], y[train])
             score = gat.score(epochs._data[test], y[test])
