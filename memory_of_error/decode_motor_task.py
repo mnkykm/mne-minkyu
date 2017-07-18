@@ -1,32 +1,49 @@
+# import os
+# import os.path as op
+# import scipy.io as sio
+# import numpy as np
+# from base import ScoringAUC
+# import mne
+# from mne.io import read_raw_ctf
+# from mne import Epochs
+# from mne.decoding import GeneralizingEstimator, cross_val_multiscore, LinearModel, get_coef
+# from sklearn.pipeline import make_pipeline
+# from sklearn import preprocessing
+# from sklearn.preprocessing import StandardScaler
+# from sklearn.model_selection import KFold
+# from sklearn.linear_model import LogisticRegression, Ridge
+# from sklearn.metrics import make_scorer
+# import pandas
+# from pandas import DataFrame as df
+# from jr.gat import (AngularRegression, scorer_spearman,
+#                     scorer_angle)
+# import matplotlib.pyplot as plt
+# from mne import EvokedArray
+
 import os
 import os.path as op
-import scipy.io as sio
 import numpy as np
-from base import ScoringAUC
 import mne
-from mne.io import read_raw_ctf
-from mne import Epochs
+from mne import EvokedArray
 from mne.decoding import GeneralizingEstimator, cross_val_multiscore, LinearModel, get_coef
 from sklearn.pipeline import make_pipeline
-from sklearn import preprocessing
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import KFold
 from sklearn.linear_model import LogisticRegression, Ridge
 from sklearn.metrics import make_scorer
-import pandas
 from pandas import DataFrame as df
 from jr.gat import (AngularRegression, scorer_spearman,
                     scorer_angle)
-import matplotlib.pyplot as plt
-from mne import EvokedArray
 
-path_data = '/Users/minkyu/AnacondaProjects/nih_summer/memory_of_error/minkyu/'
-subjects = ['sub01', 'sub02']
+# path_data = op.join(op.dirname(__file__), 'RAW_DATA')
+path_data = op.join(os.getcwd(),'RAW_DATA')
+subjects = [f for f in os.listdir(path_data) if not f.startswith('.')]
+
 analyses = ['rotation', 'target', 'IDEat100ms', 'IDEat200ms',
             'IDEatVp', 'MoveDir100ms']
 analyses = ['target', 'IDEat100ms', 'MoveDir100ms', 'err_sens']
 for subject in subjects:
-    epochs = mne.read_epochs(op.join(path_data, subject, 'epochs.fif'))
+    epochs = mne.read_epochs(op.join(path_data, subject, subject+'-epo.fif'))
     epochs.pick_types(meg=True)
     epochs.plot()
 
@@ -42,7 +59,7 @@ for subject in subjects:
     events_behavior = df(events)
 
     for analysis in analyses:
-        results_folder = op.join(path_data + 'results/' + subject)
+        results_folder = op.join(path_data + '_results/' + subject)
         if not os.path.exists(results_folder):
             os.makedirs(results_folder)
         fname_score = results_folder +\

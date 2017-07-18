@@ -2,7 +2,7 @@ import os
 import os.path as op
 import scipy.io as sio
 import numpy as np
-from base import ScoringAUC
+# from base import ScoringAUC
 import mne
 from mne.io import read_raw_ctf
 from mne import Epochs
@@ -50,7 +50,8 @@ def _rolling_decoder(clf, epochs, y, scoring):
     return np.array(scores)
 
 
-path_data = op.join(op.dirname(__file__), 'RAW_DATA')
+# path_data = op.join(op.dirname(__file__), 'RAW_DATA')
+path_data = op.join(os.getcwd(), 'memory_of_error','RAW_DATA')
 subjects = [f for f in os.listdir(path_data) if not f.startswith('.')]
 
 analyses = ['rotation', 'target', 'IDEat100ms', 'IDEat200ms', 'IDEatVp']
