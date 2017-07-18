@@ -1,4 +1,5 @@
 # Roadmap Friday July 14th
+_Last Updated: July 18th_
 
 Purpose: First empirical evidence of the maintenance of our previous error
 (memory of error) during motor learning and description of the spatiotemporal dynamics of the 
@@ -11,8 +12,8 @@ Test at the individual level and at the group level (14 participants)
 - [ ] Cleaning data: remove blink component with ICA (or others)
 - [ ] Cleaning data: remove heart beat component with ICA (or others)
 - [ ] Test the robustness of decoding with and without cleaning the data
-- [ ] Test which measure of error is the most reliable in term of decoding (waiting for others measures from Ethan)
-- [ ] Epoch the data with the movement onset and not the target onset as a reference time (waiting for reaction time from Ethan)
+- [ ] Test which measure of error is the most reliable in term of decoding
+- [ ] Epoch the data with the movement onset and not the target onset as a reference time
 - [ ] Identify the duration of the memory of error (one, two, three trials...)
 - [ ] Test the decoding of the error in stable vs. random environment
 - [ ] Generalize over condition: apply target decoding to error decoding (to test if our error decoding is specific to the error and not related to the target)
