@@ -53,6 +53,8 @@ for subject in subjects:
     for analysis in analyses:
         fname_score = os.path.join(resultsdir, subject) + '/scores_%s_%s.npy' % (subject, analysis)
         fname_pttrn = os.path.join(resultsdir, subject) + '/patterns_%s_%s.npy' % (subject, analysis)
+        fname_evokd = os.path.join(resultsdir, subject) + '/evoked_%s_%s-ave.fif' % (subject, analysis)
+        fname_image = os.path.join(resultsdir, subject) + '/topomap_%s_%s.jpg' % (subject, analysis)
 
         if 'rot' in analysis:
             y = np.array(bhv_events[analysis])
@@ -65,7 +67,7 @@ for subject in subjects:
             gat = GeneralizingEstimator(clf, scoring='roc_auc',
                                         n_jobs=-1, **kwargs)
         elif 'targ' in analysis:
-            y = np.array(events[analysis])
+            y = np.array(bhv_events[analysis])
             # ------------- LogisticRegression --------------------
             clf = make_pipeline(StandardScaler(),
                                 LinearModel(LogisticRegression()))
@@ -91,4 +93,5 @@ for subject in subjects:
         np.save(fname_pttrn, np.array(patterns))
 
         evoked = mne.EvokedArray(patterns, epochs.info, tmin=epochs.tmin)
-        evoked.plot_topomap(title='%s, %s' % (subject, analysis), times=evokplot_times)
+        evoked.save(fname_evokd)
+        evoked.plot_topomap(title='%s, %s' % (subject, analysis), times=evokplot_times, show=False).savefig(fname_image)
