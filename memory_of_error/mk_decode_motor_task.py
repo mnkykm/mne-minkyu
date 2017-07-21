@@ -51,14 +51,14 @@ for subject in subjects:
     # epochs.plot()
 
     analyses = list(bhv_events.dtype.names)
-    print(analyses)
+
     for analysis in analyses:
         fname_score = os.path.join(resultsdir, subject) + '/scores_%s_%s.npy' % (subject, analysis)
         fname_pttrn = os.path.join(resultsdir, subject) + '/patterns_%s_%s.npy' % (subject, analysis)
         fname_evokd = os.path.join(resultsdir, subject) + '/evoked_%s_%s-ave.fif' % (subject, analysis)
         fname_image = os.path.join(resultsdir, subject) + '/topomap_%s_%s.jpg' % (subject, analysis)
 
-        if np.all(np.isnan(np.array(bhv_events[analysis]))) is True:
+        if np.sum(np.isnan(bhv_events[analysis])) > len(bhv_events[analysis])/2:
             continue
         elif 'rot' in analysis:
             y = np.array(bhv_events[analysis])
@@ -79,23 +79,28 @@ for subject in subjects:
             gat = GeneralizingEstimator(clf, scoring='roc_auc',
                                         n_jobs=-1, **kwargs)
         else:
-            continue
-            # y = np.array(bhv_events[analysis])
-            # #  ------------ Spearman corr ----------------
-            # clf = make_pipeline(StandardScaler(),
-            #                     LinearModel(Ridge()))
-            # scorer = scorer_spearman
-            # kwargs = dict()
-            # gat = GeneralizingEstimator(clf, scoring=make_scorer(scorer),
-            #                             n_jobs=-1, **kwargs)
+            y = np.array(bhv_events[analysis])
+            #  ------------ Spearman corr ----------------
+            clf = make_pipeline(StandardScaler(),
+                                LinearModel(Ridge()))
+            scorer = scorer_spearman
+            kwargs = dict()
+            gat = GeneralizingEstimator(clf, scoring=make_scorer(scorer),
+                                        n_jobs=-1, **kwargs)
 
         cv = KFold(5)
         scores = list()
         patterns = list()
 
-        for train, test in cv.split(epochs._data, y):
-            gat.fit(epochs._data[train], y[train])
-            score = gat.score(epochs._data[test], y[test])
+        epochs_instance = epochs.copy()
+
+        mask = list(np.isnan(bhv_events[analysis]))
+        epochs_instance.drop(mask)
+        y = y[np.where(-np.isnan(y))]
+
+        for train, test in cv.split(epochs_instance._data, y):
+            gat.fit(epochs_instance._data[train], y[train])
+            score = gat.score(epochs_instance._data[test], y[test])
             scores.append(score)
             patterns.append(get_coef(gat, 'patterns_', inverse_transform=True))
 
@@ -105,6 +110,7 @@ for subject in subjects:
         np.save(fname_score, np.array(scores))
         np.save(fname_pttrn, np.array(patterns))
 
-        evoked = mne.EvokedArray(patterns, epochs.info, tmin=epochs.tmin)
+        evoked = mne.EvokedArray(patterns, epochs_instance.info, tmin=epochs_instance.tmin)
         evoked.save(fname_evokd)
         evoked.plot_topomap(title='%s, %s' % (subject, analysis), times=evokplot_times, show=False).savefig(fname_image)
+        del cv, scores, patterns, mask, y, epochs_instance, evoked

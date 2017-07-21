@@ -4,8 +4,8 @@ from __future__ import unicode_literals
 import os, mne, pandas
 import numpy as np
 
-from mk_config import raw_folder, path_data, subjects, event_id_want
-from mk_config import freq_low, freq_high, base_interval, tmin, tmax, decim
+from mk_config import (raw_folder, path_data, subjects, event_id_want,
+                       freq_low, freq_high, base_interval, tmin, tmax, decim)
 
 print("*** Save Epochs from the data in %s ***" % raw_folder)
 
@@ -43,7 +43,7 @@ for subject in subjects:
 
     # Filter the raw data
     # raw.notch_filter(freq_notch)  # if needed
-    raw.filter(freq_low, freq_high, fir_design='firwin')
+    full_raw.filter(l_freq=freq_low, h_freq=freq_high, fir_design='firwin',)
 
     # Epoch the raw data (configs are imported from mk_config.py)
     epochs = mne.Epochs(full_raw, events, event_id=event_id_want.keys(),
@@ -51,5 +51,6 @@ for subject in subjects:
                        baseline=(tmin, tmin + base_interval), decim=decim)
 
     # Save the epochs into -epo.fif file
-    epochs.pick_types(meg=True)
-    epochs.save(os.path.join(path_data, subject, subject + '-epo.fif'))
+    # epochs.pick_types(meg=True)
+    # epochs.save(os.path.join(path_data, subject, subject + '-epo.fif'))
+    epochs.save(os.path.join(path_data, subject + '-epo.fif'))

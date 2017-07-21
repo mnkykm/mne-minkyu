@@ -25,7 +25,3 @@ decim = 15
 evokplot_times = [0, 0.1, 0.3, 0.6, 0.9, 1.3, 1.5, 1.8, 2.5]
 
 # Below are dump codes! Never mind!
-
-# save_epochs.py
-# bhv_events = np.genfromtxt(bhv_file, dtype=float, delimiter=',', names=True)
-# bhv_labels = bhv_events.dtype.names
