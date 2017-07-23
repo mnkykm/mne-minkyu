@@ -2,6 +2,7 @@ import numpy as np
 from mne.stats import spatio_temporal_cluster_1samp_test
 from mne.stats import permutation_cluster_1samp_test
 
+ticks = np.linspace(0.0, 2.8, 8)
 
 # Decoding plots parameters
 sfreq = 40
@@ -12,18 +13,14 @@ sample_times = np.linspace(0, (tmax-tmin)*sfreq, (tmax-tmin)*sfreq + 1)
 times = sample_times/sfreq + tmin
 
 def plot(scores, ax, analysis):
-    im = ax.matshow(scores, origin='lower', cmap='RdBu_r',
-                    extent=[tmin, tmax, tmin, tmax])
-    # im = ax.matshow(scores, origin='lower', cmap='RdBu_r',
-    #                  extent=[tmin, tmax, tmin, tmax], vmin=-0.15, vmax=0.15)
-
-    ax.set_xticks([0, 0.4, 0.8, 1.2, 1.6, 2, 2.4, 2.8 ])
-    ax.set_yticks([0, 0.4, 0.8, 1.2, 1.6, 2, 2.4, 2.8 ])
+    ax.set_xticks(ticks)
+    ax.set_yticks(ticks)
     ax.set_xlabel('Train Times', fontsize='x-large')
     ax.set_ylabel('Test Times', fontsize='x-large')
+    ax.set_title(analysis, fontsize='x-large')
     ax.xaxis.set_ticks_position('bottom')
-    ax.set_title(analysis)
-    return im
+    return ax.matshow(scores, origin='lower', cmap='RdBu_r',
+                      extent=[tmin, tmax, tmin, tmax])
 
 def decod_stats(X, chance):
     """Statistical test applied across subjects"""

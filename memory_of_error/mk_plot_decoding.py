@@ -1,30 +1,42 @@
-import os, pandas
-import numpy as np
-import matplotlib.pyplot as plt
-from jr.plot import share_clim
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 
+import os, mne, pandas, time
+import numpy as np
+
+import matplotlib.pyplot as plt
+import matplotlib.cm as cm
+from jr.plot import share_clim
 import seaborn as sns
 sns.set_style("whitegrid")
 np.seterr(divide='ignore', invalid='ignore')
 
 from mk_config import res_path, plt_path, analyses
-from mk_modules import initialize, get_subjects
-from mk_plot_module import (times, plot, decod_stats, gat_stats)
+from mk_modules import (initialize, get_subjects,
+                        ticks, times, plot, decod_stats, gat_stats)
 
 print("*** Plot the decoding results in %s ***" % res_path)
+init_time = time.time()
 
 input_path, output_path = res_path, plt_path
 subjects = get_subjects(input_path)
 initialize(subjects, input_path, output_path, input_type='res', output_type='plt')
+# subjects = ['ADGGGJAZ']
+# analyses = ['rot']
 
 plot_df = pandas.DataFrame(index=subjects, columns=analyses).fillna(0)
+print("List of anlyses: %s" % (', '.join(analyses)))
 
 for analysis in analyses:
-    all_scores, all_diag, all_patterns = [], [], []
+    print("Plotting %s..." % (analysis))
+    start_time = time.time()
+    fname_image = [output_path + '/plot%i_%s.jpg' % (i, analysis) for i in range(1, 5)]
 
+    all_scores, all_diag, all_patterns = [], [], []
     for subject in subjects:
-        fname_score = os.path.join(input_path, subject) + '/scores_%s_%s.npy' % (subject, analysis)
-        fname_pttrn = os.path.join(input_path, subject) + '/patterns_%s_%s.npy' % (subject, analysis)
+        path_subj = os.path.join(input_path, subject)
+        fname_score = path_subj + '/scores_%s_%s.npy' % (subject, analysis)
+        fname_pttrn = path_subj + '/patterns_%s_%s.npy' % (subject, analysis)
 
         if not os.path.isfile(fname_score) or not os.path.isfile(fname_pttrn) :
             continue
@@ -34,108 +46,107 @@ for analysis in analyses:
             all_patterns.append(np.load(fname_pttrn))
             plot_df[analysis][subject] = 1
 
-    all_scores = np.array(all_scores)
-    all_diag = np.array(all_diag)
-    all_patterns = np.array(all_patterns)
-    chance = 0
+    if not all_scores or not all_patterns:
+        continue
+    else:
+        all_scores, all_diag, all_patterns = np.array(all_scores), np.array(all_diag), np.array(all_patterns)
+        n = np.sum(plot_df[analysis])
+
     if ('rot' in analysis) or ('targ' in analysis):
         chance = .5
-    # XXX FIXME AUC are inverted with LR
-    # all_scores = 1 - all_scores
-    # all_diag = 1 - all_diag
+    else:
+        chance = 0
 
-    fname_image = [None]*6
-    for i in range(6):
-        fname_image[i] = output_path + '/plot%i_%s.jpg' % (i+1, analysis)
+    decod_p = decod_stats(np.array(all_diag) - chance, chance)
+    gat_p = gat_stats(np.array(all_scores) - chance)
 
-
-    decod_p_values = decod_stats(np.array(all_diag) - chance, chance)
-    sig = decod_p_values < 0.05
-    gat_p_values = gat_stats(np.array(all_scores) - chance)
+    decod_sig = decod_p < 0.05
+    gat_sig = gat_p < 0.05
 
     # Plot diagonal curve
     fig_diag, axes = plt.subplots()
-    # Show the mean curve
-    # im = axes.plot(times, np.mean(all_diag, axis=0), color='k')
-    axes.set_title('analysis')
-    plt.xticks([0, 0.4, 0.8, 1.2, 1.6, 2, 2.4, 2.8 ])
-    # plt.ylim(-0.04, 0.15)
-    plt.xlabel('Time', fontsize='x-large')
-    plt.ylabel('Decoding Performance (r)', fontsize='x-large')
-    plt.text(0.8, 0, 'chance')
-    if ('rot' in analysis) or ('targ' in analysis):
-        plt.ylabel('Decoding Performance (AUC)', fontsize='x-large')
-        plt.text(0.8, 0.5, 'chance')
+    axes.set_title("%s (n=%i)" % (analysis, n))
+    plt.xticks(ticks)
+
     axes.axhline(y=chance, linewidth=0.7, color='k', ls='dashed')
     axes.axvline(x=0, linewidth=0.7, color='k', ls='dashed')
+
+    if ('rot' in analysis) or ('targ' in analysis):
+        plt.xlabel('Time', fontsize='x-large')
+        plt.ylabel('Decoding Performance (AUC)', fontsize='x-large')
+        plt.text(0.8, 0.5, 'chance')
+    else:
+        plt.xlabel('Time', fontsize='x-large')
+        plt.ylabel('Decoding Performance (r)', fontsize='x-large')
+        plt.text(0.8, 0.0, 'chance')
+
     sem = np.std(all_diag, axis=0)/np.sqrt(len(subjects))
     axes.fill_between(times,
-                      np.array(np.mean(all_diag, axis=0))+(np.array(sem)),
-                      np.array(np.mean(all_diag, axis=0))-(np.array(sem)),
+                      np.mean(all_diag, axis=0) + sem,
+                      np.mean(all_diag, axis=0) - sem,
                       color='0.5')
     axes.fill_between(times,
-                      np.array(np.mean(all_diag, axis=0))+(np.array(sem)),
-                      np.array(np.mean(all_diag, axis=0))-(np.array(sem)),
-                      where=sig, color='red')
+                      np.mean(all_diag, axis=0) + sem,
+                      np.mean(all_diag, axis=0) - sem,
+                      where=decod_sig, color='red')
     plt.savefig(fname_image[0])
 
     # Plot mean subjects
     fig_mean, axes = plt.subplots()
+    plt.xticks(ticks)
+    plt.yticks(ticks)
+
     im_mean = plot(np.mean(all_scores, axis=0), axes, analysis=analysis)
     plt.colorbar(im_mean, ax=axes)
-    sig = np.array(gat_p_values < 0.05)
     xx, yy = np.meshgrid(times, times, copy=False, indexing='xy')
-    plt.contour(xx, yy, sig, colors='Gray', levels=[0],
-                linestyles='solid')
+    plt.contour(xx, yy, gat_sig, colors='Gray', levels=[0], linestyles='solid')
+    axes.set_title("%s (n=%i)" % (analysis, n))
     plt.savefig(fname_image[1])
-    # im_stat = plot(gat_p_values < 0.05, axes[1])
-    # plt.colorbar(im_stat, ax=axes[1])
 
-    # plot individual subjects
+    # Plot individual subjects
     fig_all, axes = plt.subplots(3, 5)
     axes = np.reshape(axes, -1)
-    for scores, ax in zip(all_scores, axes):
-        im = plot(scores, ax, analysis=analysis)
+    for idx, ax in enumerate(axes):
+        if idx < n:
+            im = plot(all_scores[idx], ax, analysis=analysis)
+        else:
+            im = plot(np.empty_like(all_scores[-1]), ax, analysis=analysis)
         ax.set_xticks([])
         ax.set_yticks([])
         ax.set_xlabel('Train Times', fontsize='small')
         ax.set_ylabel('Test Times', fontsize='small')
-        ax.set_title('')
-    share_clim(axes)
-
+        ax.set_title(analysis, fontsize='small')
+    share_clim(axes[:n])
+    plt.tight_layout()
     plt.savefig(fname_image[2])
-
 
     # Plot preliminary figure
     fig_diag, axes = plt.subplots()
     # Show the mean curve
     # im = axes.plot(times, np.mean(all_diag, axis=0), color='k')
-    axes.set_title('Decoding the Error', fontsize=20)
-    plt.xticks([0, 0.4, 0.8, 1.2, 1.6, 2, 2.4, 2.8 ])
-    # plt.ylim(-0.04, 0.15)
-    plt.xlabel('Time', fontsize=14)
-    plt.ylabel('Decoding Performance (r)', fontsize=14)
-    plt.text(0.8, 0, 'chance')
+
+    axes.set_title("%s (n=%i)" % (analysis, n))
+    plt.xticks(ticks)
     axes.axhline(y=chance, linewidth=0.7, color='k', ls='dashed')
     axes.axvline(x=0, linewidth=0.7, color='k', ls='dashed')
-    axes.plot(times, all_diag[0], color='b')
-    axes.plot(times, all_diag[1], color='g')
-    axes.plot(times, all_diag[2], color='r')
-    axes.plot(times, all_diag[3], color='c')
-    axes.plot(times, all_diag[4], color='m')
-    axes.plot(times, all_diag[5], color='y')
-    axes.plot(times, all_diag[6], color='k')
+
+    if ('rot' in analysis) or ('targ' in analysis):
+        plt.xlabel('Time', fontsize='x-large')
+        plt.ylabel('Decoding Performance (AUC)', fontsize='x-large')
+        plt.text(0.8, 0.5, 'chance')
+    else:
+        plt.xlabel('Time', fontsize='x-large')
+        plt.ylabel('Decoding Performance (r)', fontsize='x-large')
+        plt.text(0.8, 0.0, 'chance')
+
+    colors = cm.rainbow(np.linspace(0, 1, len(subjects)))
+    for i in range(n):
+        axes.plot(times, all_diag[i], color=colors[i])
     plt.savefig(fname_image[3])
 
     plt.close('all')
-    print analysis + " Done"
+    print("Done: %s, %i results, %i seconds " % (analysis, n, time.time() - start_time))
 
-# sem = np.std(all_diag, axis=0)/np.sqrt(len(subjects))
-# axes.fill_between(times,
-#                   np.array(np.mean(all_diag, axis=0))+(np.array(sem)),
-#                   np.array(np.mean(all_diag, axis=0))-(np.array(sem)),
-#                   color='0.5')
-# axes.fill_between(times,
-#                   np.array(np.mean(all_diag, axis=0))+(np.array(sem)),
-#                   np.array(np.mean(all_diag, axis=0))-(np.array(sem)),
-#                   where=sig, color='red')
+plot_df.to_csv(os.path.join(output_path, 'plot.csv'))
+
+print("Total %i seconds." % (time.time() - init_time))

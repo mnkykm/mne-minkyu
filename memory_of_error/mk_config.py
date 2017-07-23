@@ -3,11 +3,22 @@ from __future__ import unicode_literals
 
 import os
 
+# shift event time?
+shift = False
+
 # pathway information
 raw_folder = 'mk_raw_epoch_decim15'
 epo_folder = 'mk_raw_epoch_decim15'
 res_folder = 'mk_results_epoch_decim15'
-plt_folder = 'mk_plots_epoch_decim15'
+plt_folder = 'mk_plots_epoch_decim15_3'
+
+if shift:
+    epo_folder += '_SHIFT'
+    res_folder += '_SHIFT'
+    plt_folder += '_SHIFT'
+else:
+    pass
+
 cur_path = os.getcwd()
 raw_path = os.path.join(cur_path, raw_folder)
 epo_path = os.path.join(cur_path, epo_folder)

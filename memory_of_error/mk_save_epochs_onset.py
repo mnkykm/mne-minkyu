@@ -1,37 +1,29 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-import os, mne, pandas
+import os, mne, pandas, time
 import numpy as np
 
-from mk_config import (raw_folder, path_data, subjects, event_id_want,
+from mk_config import (raw_path, epo_path, event_id_want,
                        freq_low, freq_high, base_interval, tmin, tmax, decim)
+from mk_modules import get_subjects, initialize
 
-print("*** Save Epochs from the data in %s ***" % raw_folder)
+init_time = time.time()
+print("*** Save Epochs from the data in %s ***" % raw_path)
 
-# Create a directory for result files
+input_path, output_path = raw_path, epo_path
+subjects = get_subjects(input_path)
+initialize(subjects, input_path, output_path, input_type='raw', output_type='epo')
+
 for subject in subjects:
-    try:
-        os.makedirs(os.path.join(path_data, 'mvnt_onset', subject))
-    except OSError:
-        if not os.path.isdir(os.path.join(path_data, 'mvnt_onset', subject)): raise
-
-for subject in subjects:
-    path_subj = os.path.join(path_data, subject)
+    path_subj = os.path.join(raw_path, subject)
     bhv_list = [os.path.join(path_subj, file) for file in os.listdir(path_subj)
                 if file.endswith('.csv')]
-    raw_list = [os.path.join(path_subj, file) for file in os.listdir(path_subj)
-                if file.endswith('.ds')]
-
-    # There should be one and only .csv file in the directory.
-    if len(bhv_list) == 1:
-        bhv_df = pandas.read_csv(bhv_list.pop())
-    elif len(bhv_list) == 0:
-        raise Exception("No behavorial data (.csv) in %s!" % subject)
-    else:
-        raise Exception("Multiple data files (.csv) in %s!" % subject)
+    bhv_df = np.genfromtxt(bhv_list.pop(), dtype=float, delimiter=',', names=True)
 
     # Create a list of raw data and concatenate them into full_raw
+    raw_list = [os.path.join(path_subj, file) for file in os.listdir(path_subj)
+                if file.endswith('.ds')]
     all_raws = list()
     for raw_file in raw_list:
         this_raw = mne.io.read_raw_ctf(raw_file, preload=True, system_clock='ignore')
@@ -61,6 +53,6 @@ for subject in subjects:
                        baseline=(tmin, tmin + base_interval))
 
     # Save the epochs into -epo.fif file
-    # epochs.pick_types(meg=True)
-    # epochs.save(os.path.join(path_data, subject, subject + '-epo.fif'))
-    epochs.save(os.path.join(path_data, 'mvnt_onset', subject, subject + '-epo.fif'))
+    epochs.save(os.path.join(output_path, subject, subject + '-epo.fif'))
+
+print("Total %i seconds." % (init_time - time.time()))

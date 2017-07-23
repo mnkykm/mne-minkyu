@@ -1,13 +1,14 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-import os, mne, time
+import os, mne, pandas, time
 import numpy as np
 
 from mk_config import epo_path, res_path
 from mk_modules import get_subjects, initialize
 
 print("*** Decode Motor Task from the epoched data in %s ***" % epo_path)
+init_time = time.time()
 
 input_path, output_path = epo_path, res_path
 subjects = get_subjects(input_path)
@@ -55,15 +56,15 @@ for subject in subjects:
             y[np.where((y == -40) | (y == +40))] = 1
             # LogisticRegression
             scaler, model = StandardScaler(), LinearModel(LogisticRegression())
-            kwargs = {'scoring': 'roc_auc', 'n_jobs': -1}
+            kwargs = dict(scoring='roc_auc', n_jobs=-1)
         elif 'targ' in analysis:
             # LogisticRegression
             scaler, model = StandardScaler(), LinearModel(LogisticRegression())
-            kwargs = {'scoring': 'roc_auc', 'n_jobs': -1}
+            kwargs = dict(scoring='roc_auc', n_jobs=-1)
         else:
             # Spearman Corr.
             scaler, model = StandardScaler(), LinearModel(Ridge())
-            kwargs = {'scoring': make_scorer(scorer_spearman), 'n_jobs': -1}
+            kwargs = dict(scoring=make_scorer(scorer_spearman), n_jobs=-1)
 
         clf = make_pipeline(scaler, model)
         gat = GeneralizingEstimator(clf, **kwargs)
@@ -94,4 +95,6 @@ for subject in subjects:
         topomap.savefig(fname_image)
 
         del y, X, clf, gat, cv, epochs_instance, mask, scores, patterns, evoked, topomap
-        print("Done: %s of %s, %s seconds " % (analysis, subject, time.time() - start_time))
+        print("Done: %s of %s, %i seconds " % (analysis, subject, time.time() - start_time))
+
+print("Total %i seconds." % (time.time() - init_time))

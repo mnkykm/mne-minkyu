@@ -2,6 +2,7 @@
 from __future__ import unicode_literals
 
 import os
+from mk_plot_module import *
 
 def get_subjects(input_path):
     return [file for file in os.listdir(input_path) if not file.startswith('.')]
