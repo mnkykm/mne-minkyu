@@ -1,116 +1,97 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-import os, mne, pandas, sklearn
+import os, mne, time
 import numpy as np
 
-from mne.decoding import GeneralizingEstimator, cross_val_multiscore, LinearModel, get_coef
-from sklearn.pipeline import make_pipeline
-from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import KFold
-from sklearn.linear_model import LogisticRegression, Ridge
-from sklearn.metrics import make_scorer
-from jr.gat import scorer_spearman
+from mk_config import epo_path, res_path
+from mk_modules import get_subjects, initialize
 
-from mk_config import raw_folder, resultsdir, path_data, subjects
-from mk_config import evokplot_times
+print("*** Decode Motor Task from the epoched data in %s ***" % epo_path)
 
-print("*** Decode Motor Task from the epoched data in %s ***" % raw_folder)
-
-# Create a directory for result files
-for subject in subjects:
-    try:
-        os.makedirs(os.path.join(resultsdir, subject))
-    except OSError:
-        if not os.path.isdir(os.path.join(resultsdir, subject)): raise
+input_path, output_path = epo_path, res_path
+subjects = get_subjects(input_path)
+initialize(subjects, input_path, output_path, input_type='epo', output_type='res')
 
 for subject in subjects:
-    path_subj = os.path.join(path_data, subject)
+    path_subj = os.path.join(input_path, subject)
+
     bhv_list = [os.path.join(path_subj, file) for file in os.listdir(path_subj)
                 if file.endswith('.csv')]
+    bhv_events = np.genfromtxt(bhv_list.pop(), dtype=float, delimiter=',', names=True)
+
     epo_list = [os.path.join(path_subj, file) for file in os.listdir(path_subj)
                 if file.endswith('epo.fif')]
-
-    # There should be one and only .csv file in the directory.
-    if len(bhv_list) == 1:
-        bhv_events = np.genfromtxt(bhv_list.pop(), dtype=float, delimiter=',', names=True)
-    elif len(bhv_list) == 0:
-        raise Exception("No behavorial data (.csv) in %s!" % subject)
-    else:
-        raise Exception("Multiple data files (.csv) in %s!" % subject)
-
-    # There should be one and only epoch file in the directory.
-    if len(epo_list) == 1:
-        epochs = mne.read_epochs(epo_list.pop())
-    elif len(epo_list) == 0:
-        raise Exception("No epoched data (-epo.fif) in %s!" % subject)
-    else:
-        raise Exception("Multiple epoched files (-epo.fif) in %s!" % subject)
-
+    epochs = mne.read_epochs(epo_list.pop())
+    # epochs.decimate(decim=15)
     epochs.pick_types(meg=True)
-    # epochs.plot()
 
     analyses = list(bhv_events.dtype.names)
 
     for analysis in analyses:
-        fname_score = os.path.join(resultsdir, subject) + '/scores_%s_%s.npy' % (subject, analysis)
-        fname_pttrn = os.path.join(resultsdir, subject) + '/patterns_%s_%s.npy' % (subject, analysis)
-        fname_evokd = os.path.join(resultsdir, subject) + '/evoked_%s_%s-ave.fif' % (subject, analysis)
-        fname_image = os.path.join(resultsdir, subject) + '/topomap_%s_%s.jpg' % (subject, analysis)
+        print("** Decoding %s of %s **" % (analysis, subject))
+        start_time = time.time()
 
-        if np.sum(np.isnan(bhv_events[analysis])) > len(bhv_events[analysis])/2:
+        from mne.decoding import GeneralizingEstimator, cross_val_multiscore, LinearModel, get_coef
+        from sklearn.pipeline import make_pipeline
+        from sklearn.preprocessing import StandardScaler
+        from sklearn.model_selection import KFold
+        from sklearn.linear_model import LogisticRegression, Ridge
+        from sklearn.metrics import make_scorer
+        from jr.gat import scorer_spearman
+
+        cv, scores, patterns = KFold(5), [], []
+
+        y = np.array(bhv_events[analysis])
+        mask = np.isfinite(y)
+        y = y[np.where(mask)]
+
+        epochs_instance = epochs.copy().drop(np.invert(mask))
+        X = epochs_instance._data
+
+        if np.sum(mask) < len(y) * 0.75:
             continue
         elif 'rot' in analysis:
-            y = np.array(bhv_events[analysis])
-            a = np.where((y == -40) | (y == +40))
-            y[a] = 1
-            # ------------- LogisticRegression --------------------
-            clf = make_pipeline(StandardScaler(),
-                                LinearModel(LogisticRegression()))
-            kwargs = dict()
-            gat = GeneralizingEstimator(clf, scoring='roc_auc',
-                                        n_jobs=-1, **kwargs)
+            y[np.where((y == -40) | (y == +40))] = 1
+            # LogisticRegression
+            scaler, model = StandardScaler(), LinearModel(LogisticRegression())
+            kwargs = {'scoring': 'roc_auc', 'n_jobs': -1}
         elif 'targ' in analysis:
-            y = np.array(bhv_events[analysis])
-            # ------------- LogisticRegression --------------------
-            clf = make_pipeline(StandardScaler(),
-                                LinearModel(LogisticRegression()))
-            kwargs = dict()
-            gat = GeneralizingEstimator(clf, scoring='roc_auc',
-                                        n_jobs=-1, **kwargs)
+            # LogisticRegression
+            scaler, model = StandardScaler(), LinearModel(LogisticRegression())
+            kwargs = {'scoring': 'roc_auc', 'n_jobs': -1}
         else:
-            y = np.array(bhv_events[analysis])
-            #  ------------ Spearman corr ----------------
-            clf = make_pipeline(StandardScaler(),
-                                LinearModel(Ridge()))
-            scorer = scorer_spearman
-            kwargs = dict()
-            gat = GeneralizingEstimator(clf, scoring=make_scorer(scorer),
-                                        n_jobs=-1, **kwargs)
+            # Spearman Corr.
+            scaler, model = StandardScaler(), LinearModel(Ridge())
+            kwargs = {'scoring': make_scorer(scorer_spearman), 'n_jobs': -1}
 
-        cv = KFold(5)
-        scores = list()
-        patterns = list()
+        clf = make_pipeline(scaler, model)
+        gat = GeneralizingEstimator(clf, **kwargs)
+        del scaler, model, kwargs
 
-        epochs_instance = epochs.copy()
-
-        mask = list(np.isnan(bhv_events[analysis]))
-        epochs_instance.drop(mask)
-        y = y[np.where(-np.isnan(y))]
-
-        for train, test in cv.split(epochs_instance._data, y):
-            gat.fit(epochs_instance._data[train], y[train])
-            score = gat.score(epochs_instance._data[test], y[test])
-            scores.append(score)
+        for train, test in cv.split(X, y):
+            gat.fit(X[train], y[train])
+            scores.append(gat.score(X[test], y[test]))
             patterns.append(get_coef(gat, 'patterns_', inverse_transform=True))
 
-        # scores = cross_val_multiscore(gat, epochs._data[sel], y=y[sel])
-        scores = np.mean(scores, axis=0)
+        # Get scores, patterns, evoked, topomap
+        scores   = np.mean(scores, axis=0)
         patterns = np.mean(patterns, axis=0)
-        np.save(fname_score, np.array(scores))
-        np.save(fname_pttrn, np.array(patterns))
+        evoked   = mne.EvokedArray(patterns, epochs_instance.info, tmin=epochs_instance.tmin)
+        topomap  = evoked.plot_topomap(title='%s, %s' % (subject, analysis), show=False,
+                                       times=[0, 0.1, 0.3, 0.6, 0.9, 1.3, 1.5, 1.8, 2.5])
 
-        evoked = mne.EvokedArray(patterns, epochs_instance.info, tmin=epochs_instance.tmin)
+        # Save scores, patterns, evoked, topomap
+        output_path_subj = os.path.join(output_path, subject)
+        fname_score = output_path_subj + '/scores_%s_%s.npy' % (subject, analysis)
+        fname_pttrn = output_path_subj + '/patterns_%s_%s.npy' % (subject, analysis)
+        fname_evokd = output_path_subj + '/evoked_%s_%s-ave.fif' % (subject, analysis)
+        fname_image = output_path_subj + '/topomap_%s_%s.jpg' % (subject, analysis)
+
+        np.save(fname_score, scores)
+        np.save(fname_pttrn, patterns)
         evoked.save(fname_evokd)
-        evoked.plot_topomap(title='%s, %s' % (subject, analysis), times=evokplot_times, show=False).savefig(fname_image)
-        del cv, scores, patterns, mask, y, epochs_instance, evoked
+        topomap.savefig(fname_image)
+
+        del y, X, clf, gat, cv, epochs_instance, mask, scores, patterns, evoked, topomap
+        print("Done: %s of %s, %s seconds " % (analysis, subject, time.time() - start_time))
