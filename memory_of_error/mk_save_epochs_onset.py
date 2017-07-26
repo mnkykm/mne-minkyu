@@ -6,13 +6,13 @@ import numpy as np
 
 from mk_config import (raw_path, epo_path, event_id_want,
                        freq_low, freq_high, base_interval, tmin, tmax, decim)
-from mk_modules import get_subjects, initialize
+from mk_modules import get_dirs, initialize
 
 init_time = time.time()
 print("*** Save Epochs from the data in %s ***" % raw_path)
 
 input_path, output_path = raw_path, epo_path
-subjects = get_subjects(input_path)
+subjects = get_dirs(input_path)
 initialize(subjects, input_path, output_path, input_type='raw', output_type='epo')
 
 for subject in subjects:

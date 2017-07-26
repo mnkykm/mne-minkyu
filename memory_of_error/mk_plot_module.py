@@ -5,6 +5,7 @@ from mne.stats import permutation_cluster_1samp_test
 ticks = np.linspace(0.0, 2.8, 8)
 
 # Decoding plots parameters
+decim = 15
 sfreq = 40
 tmin = -0.2
 tmax = 3.0

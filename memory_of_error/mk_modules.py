@@ -4,8 +4,13 @@ from __future__ import unicode_literals
 import os
 from mk_plot_module import *
 
-def get_subjects(input_path):
-    return [file for file in os.listdir(input_path) if not file.startswith('.')]
+def get_dirs(input_path, suffix=None):
+    if suffix is None:
+        return [file for file in os.listdir(input_path)
+                if not file.startswith('.') and not file.startswith('_')]
+    else:
+        return [os.path.join(input_path, file) for file in os.listdir(input_path)
+                if not file.startswith('.') and not file.startswith('_') and file.endswith(suffix)]
 
 def initialize(subjects, input_path, output_path, input_type='raw', output_type='epo'):
     if len(subjects) is 0:
@@ -15,7 +20,7 @@ def initialize(subjects, input_path, output_path, input_type='raw', output_type=
         path_subj = os.path.join(input_path, subject)
 
         if input_type is 'raw':
-            raw_list = [os.path.join(path_subj, file) for file in os.listdir(path_subj)
+            raw_list = [os.path.join(path_subj, file) for file in get_dirs(path_subj)
                         if file.endswith('.ds')]
             # There should be at least one .ds file in the directory.
             if len(raw_list):
@@ -23,7 +28,7 @@ def initialize(subjects, input_path, output_path, input_type='raw', output_type=
             else:
                 raise Exception("No raw data (.ds) in %s!" % subject)
 
-            bhv_list = [os.path.join(path_subj, file) for file in os.listdir(path_subj)
+            bhv_list = [os.path.join(path_subj, file) for file in get_dirs(path_subj)
                         if file.endswith('.csv')]
             # There should be one and only .csv file in the directory.
             if len(bhv_list) is 1:
@@ -34,7 +39,7 @@ def initialize(subjects, input_path, output_path, input_type='raw', output_type=
                 raise Exception("Multiple data files (.csv) in %s!" % subject)
 
         elif input_type is 'epo':
-            epo_list = [os.path.join(path_subj, file) for file in os.listdir(path_subj)
+            epo_list = [os.path.join(path_subj, file) for file in get_dirs(path_subj)
                         if file.endswith('epo.fif')]
             # There should be one and only -epo.fif file in the directory.
             if len(epo_list) is 1:
@@ -44,7 +49,7 @@ def initialize(subjects, input_path, output_path, input_type='raw', output_type=
             else:
                 raise Exception("Multiple epoched files (-epo.fif) in %s!" % subject)
 
-            bhv_list = [os.path.join(path_subj, file) for file in os.listdir(path_subj)
+            bhv_list = [os.path.join(path_subj, file) for file in get_dirs(path_subj)
                         if file.endswith('.csv')]
 
             # There should be one and only .csv file in the directory.
@@ -56,7 +61,7 @@ def initialize(subjects, input_path, output_path, input_type='raw', output_type=
                 raise Exception("Multiple data files (.csv) in %s!" % subject)
 
         elif input_type is 'res':
-            npy_list = [os.path.join(path_subj, file) for file in os.listdir(path_subj)
+            npy_list = [os.path.join(path_subj, file) for file in get_dirs(path_subj)
                         if file.endswith('.npy')]
             # There should be at least one .npy file in the directory.
             if len(npy_list):
@@ -76,7 +81,11 @@ def initialize(subjects, input_path, output_path, input_type='raw', output_type=
                 os.makedirs(os.path.join(output_path, subject))
             except OSError:
                 if not os.path.isdir(os.path.join(output_path, subject)): raise
-    elif output_type in ['plt']:
+        try:
+            os.makedirs(os.path.join(output_path, '_average'))
+        except OSError:
+            if not os.path.isdir(os.path.join(output_path, '_average')): raise
+    elif output_type is 'plt':
         pass
     else:
         pass
