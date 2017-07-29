@@ -38,3 +38,21 @@ Analyzing MEG data with MNE-python, and their extensions
 6. Run __mk_plot_decoding.py__
     * This will create `xx_plots_zzdecim/` with no sub-directory.
     * Four plots will be generated from the decoding results per analysis.
+
+
+## When using SWARM
+1. Create .swarm files
+2. Change these lines:
+    ```python
+       # subject = sys.argv[1]     # Use these lines when using swarm!
+       # if True:                  # Use these lines when using swarm!
+       for subject in subjects:    # Delete this line when using swarm!
+    ```
+    to this:
+    ```python
+       subject = sys.argv[1]       # Use these lines when using swarm!
+       if True:                    # Use these lines when using swarm!
+       # for subject in subjects:  # Delete this line when using swarm!
+    ```
+3. Do NOT use swarm for __mk_make_topomap.py__
+4. For __mk_plot_decoding.py__, `argv[1]` should be the name of analyses, not subjects
