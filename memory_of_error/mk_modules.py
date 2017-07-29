@@ -2,6 +2,7 @@
 from __future__ import unicode_literals
 
 import os
+import numpy as np
 from mk_plot_module import *
 
 def get_dirs(input_path, suffix=None):
@@ -91,3 +92,10 @@ def initialize(subjects, input_path, output_path, input_type='raw', output_type=
         pass
 
     return 0
+
+def compare_events(events, bhv_df, event_id_want):
+    target_bhv = np.array(bhv_df['targ'])
+    target_meg = events[np.where(np.in1d(events[:, 2], event_id_want.keys()))][:, 2]
+                                # use np.isin instead of np.in1d if numpy >= 1.13.0
+    if np.array_equal(map(lambda x: event_id_want[x], target_meg), target_bhv) is False:
+        raise Exception('The events in behavorial data (.csv) and the events in MEG trigger are NOT consistent!')

@@ -2,14 +2,12 @@ import numpy as np
 from mne.stats import spatio_temporal_cluster_1samp_test
 from mne.stats import permutation_cluster_1samp_test
 
-ticks = np.linspace(0.0, 2.8, 8)
+from mk_config import tmin, tmax, epoch_decim, decode_decim
+ticks = np.linspace(0.0, 4.8, 13)
 
 # Decoding plots parameters
-decim = 15
-sfreq = 40
-tmin = -0.2
-tmax = 3.0
-
+decim = epoch_decim * decode_decim
+sfreq = 600 / decim
 sample_times = np.linspace(0, (tmax-tmin)*sfreq, (tmax-tmin)*sfreq + 1)
 times = sample_times/sfreq + tmin
 
