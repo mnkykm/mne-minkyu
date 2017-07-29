@@ -17,6 +17,7 @@ Analyzing MEG data with MNE-python, and their extensions
     * Set `split_cond` as `True` if you want to decode by each condition.
     * Set `decode_next` as `True` if you want to decode (n+1)th trial.
     * Set filter parameters and epoch parameters.
+    * Choose which variables to decode in the list `analyses`.
     * Set directory names for epoched, results, and plots directories.
     * Naming convention: `xx_yyyyyy_zzdecim/`
 

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-import os, mne, pandas, time
+import os, mne, pandas, time, sys
 import numpy as np
 
 from mk_config import (epo_path, res_path, decode_decim, topo_times,
