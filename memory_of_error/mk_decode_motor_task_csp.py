@@ -118,3 +118,31 @@ for subject in subjects:    # Delete this line when using swarm!
             print("Done: %s of %s, %i seconds " % (analysis, subject, time.time() - start_time))
 
 print("Total %i seconds." % (time.time() - init_time))
+
+# ??
+# def _rolling_decoder(clf, epochs, y, scoring):
+#     """Roll a decoder over a window of time and return a cross val score"""
+#     # Prepare rolling windows
+#     window_spacing = .050
+#     n_cycles = 4.
+#     centered_w_times = np.arange(-.200, 1.2, window_spacing)[1:]
+#
+#     # Infer window spacing from the max freq and number of cycles to avoid gaps
+#     tmin, tmax = epochs.times[[0, -1]]
+#     w_size = n_cycles / ((fmax + fmin) / 2.)  # in seconds
+#
+#     # Roll covariance, csp and lda over time
+#     scores = list()
+#     for w_time in centered_w_times:
+#         w_tmin = np.where(epochs.times > (w_time - w_size / 2.))[0]
+#         w_tmax = np.where(epochs.times > (w_time + w_size / 2.))[0]
+#         if len(w_tmax) == 0:
+#             continue
+#
+#         X = epochs._data[..., w_tmin[0]:w_tmax[0]]
+#
+#         # Save mean scores over folds for each frequency and time window
+#         score = cross_val_multiscore(estimator=clf, X=X, y=y,
+#                                      cv=5, n_jobs=-1, scoring=scoring)
+#         scores.append(score.mean())
+#     return np.array(scores)
