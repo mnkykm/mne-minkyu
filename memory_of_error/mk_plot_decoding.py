@@ -15,10 +15,9 @@ from mk_config import res_path, plt_path, analyses, shift_onset, split_cond
 from mk_modules import (initialize, get_dirs,
                         ticks, times, plot, decod_stats, gat_stats)
 
-# Start process..
+# Start process
 print("*** Plot the decoding results in %s ***" % res_path)
 init_time = time.time()
-
 
 # Get pathway information and list of subjects and create result directories
 input_path, output_path = res_path, plt_path

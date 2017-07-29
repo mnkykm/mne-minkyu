@@ -4,10 +4,10 @@ from __future__ import unicode_literals
 import os
 
 # shift event time?
-shift_onset = True
+shift_onset = False
 
 # split by cond?
-split_cond = True
+split_cond = False
 
 # decode next trial?
 decode_next = False
@@ -26,7 +26,7 @@ decode_decim = 1
 
 # pathway information
 raw_folder = 'mk_RAW'
-epo_folder = 'mk_epoched_15decim'
+epo_folder = 'mk_epoched_decim15'
 res_folder = 'mk_results_15decim'
 plt_folder = 'mk_plots_15decim'
 bhv_folder = 'mk_bhv'
