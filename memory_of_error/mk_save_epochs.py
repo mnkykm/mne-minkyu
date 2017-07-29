@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 import os, mne, pandas, time, shutil
 import numpy as np
 
-from mk_config import (Epochs_params, filter_params, filter_notch_freq,
+from mk_config import (Epochs_params, filter_params, if_notch, filter_notch_freq,
                        shift_onset, raw_path, epo_path, event_id_want)
 from mk_modules import get_dirs, initialize, compare_events
 
@@ -48,7 +48,8 @@ for subject in subjects:    # Delete this line when using swarm!
         events[:, 0] += (np.array(bhv_df['RT']) * 600).astype(int)
 
     # Filter the raw data
-    # raw.notch_filter(filter_notch_freq)   # if needed!
+    if if_notch:
+        raw_full.notch_filter(filter_notch_freq)
     raw_full.filter(**filter_params)
 
     # Epoch the raw data (configs are imported from mk_config.py)

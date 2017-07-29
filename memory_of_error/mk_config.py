@@ -15,6 +15,7 @@ decode_next = False
 # Filter parameters
 filter_low_freq = 0.1
 filter_high_freq = 30
+if_notch = False
 filter_notch_freq = 60
 
 # Epoch parameters
