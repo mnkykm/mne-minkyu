@@ -32,6 +32,8 @@ Analyzing MEG data with MNE-python, and their extensions
     * Data-only numpy array (.npy) of filters, patterns and scores will be generated per analysis per subject.
     * `xx_results_zzdecim/_average/` will be created also and the average data across subjects are stored.
 
+    (Note: _mk_decode_motor_task_csp.py is under construction!_)
+
 5. Run __mk_make_topomap.py__
     * Topomaps of patterns and filters will be created per analysis per subject.
     * Topomaps of average across subjects will be created in `xx_results_zzdecim/_average/`.
