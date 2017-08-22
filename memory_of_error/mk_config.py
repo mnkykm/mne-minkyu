@@ -28,14 +28,14 @@ filter_notch_freq = 60
 tmin = -3
 tmax = 3.0
 base_interval = 0.2
-epoch_decim = 15
-decode_decim = 1
+epoch_decim = 1
+decode_decim = 5
 
 # pathway information
 raw_folder = 'mk_RAW'
-epo_folder = 'mk_epoched_15decim_2'
-res_folder = 'mk_results_15decim_2'
-plt_folder = 'mk_plots_15decim_2'
+epo_folder = 'mk_epoched_nodecim'
+res_folder = 'mk_results_5decim'
+plt_folder = 'mk_plots_5decim'
 bhv_folder = 'mk_bhv'
 
 if shift_onset:
@@ -65,7 +65,7 @@ bhv_path = os.path.join(cur_path, bhv_folder)
 
 # List of analysis
 # analyses = ['targ', 'RMSE', 'IDE100signed', 'VpDEsigned', 'IDEdist_signed', 'IDE200signed']
-analyses = ['rot', 'RMSE', 'IDE100', 'IDE100signed']
+analyses = ['rot', 'RMSE', 'IDE100', 'IDE100signed', 'IDE200', 'IDE200signed']
 if split_targ and ('targ' in analyses): analyses.remove('targ')
 
 # Event id's we want to see

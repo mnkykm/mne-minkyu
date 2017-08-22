@@ -73,7 +73,7 @@ for subject in subjects:    # Delete this line when using swarm!
         for cond in cond_list:
             for targ in targ_list:
                 # Make a pipeline
-                cv = KFold(5, shuffle=True)
+                cv = KFold(8, shuffle=True)
                 scores, patterns, filters = [], [], []
 
                 all_y = np.array(bhv_events[analysis])
