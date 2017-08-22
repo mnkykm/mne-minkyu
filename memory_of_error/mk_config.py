@@ -6,8 +6,14 @@ import os
 # shift event time?
 shift_onset = False
 
+# shift event time to target contact?
+contact_onset = True
+
 # split by cond?
 split_cond = False
+
+# split by targ?
+split_targ = True
 
 # decode next trial?
 decode_next = False
@@ -19,17 +25,17 @@ if_notch = False
 filter_notch_freq = 60
 
 # Epoch parameters
-tmin = -0.2
+tmin = -3
 tmax = 3.0
 base_interval = 0.2
-epoch_decim = 5
+epoch_decim = 15
 decode_decim = 1
 
 # pathway information
 raw_folder = 'mk_RAW'
-epo_folder = 'mk_epoched_decim15'
-res_folder = 'mk_results_15decim'
-plt_folder = 'mk_plots_15decim'
+epo_folder = 'mk_epoched_15decim_2'
+res_folder = 'mk_results_15decim_2'
+plt_folder = 'mk_plots_15decim_2'
 bhv_folder = 'mk_bhv'
 
 if shift_onset:
@@ -37,9 +43,18 @@ if shift_onset:
     res_folder += '_SHIFT'
     plt_folder += '_SHIFT'
 
+if contact_onset:
+    epo_folder += '_CONTACT'
+    res_folder += '_CONTACT'
+    plt_folder += '_CONTACT'
+
 if split_cond:
-    res_folder += '_SPLIT'
-    plt_folder += '_SPLIT'
+    res_folder += '_SPLITc'
+    plt_folder += '_SPLITc'
+
+if split_targ:
+    res_folder += '_SPLITt'
+    plt_folder += '_SPLITt'
 
 cur_path = os.getcwd()
 raw_path = os.path.join(cur_path, raw_folder)
@@ -50,7 +65,8 @@ bhv_path = os.path.join(cur_path, bhv_folder)
 
 # List of analysis
 # analyses = ['targ', 'RMSE', 'IDE100signed', 'VpDEsigned', 'IDEdist_signed', 'IDE200signed']
-analyses = ['IDE100signed', 'VpDEsigned', 'IDEdist_signed']
+analyses = ['rot', 'RMSE', 'IDE100', 'IDE100signed']
+if split_targ and ('targ' in analyses): analyses.remove('targ')
 
 # Event id's we want to see
 event_list = [2, 3]     # numbers in MEG data
@@ -69,6 +85,6 @@ filter_params = dict(
 Epochs_params = dict(
     tmin = tmin,
     tmax = tmax,
-    baseline = (tmin, tmin + base_interval),
+    baseline = (tmin, tmin+base_interval),
     decim = epoch_decim
 )

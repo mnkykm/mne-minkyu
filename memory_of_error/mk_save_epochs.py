@@ -5,7 +5,7 @@ import os, mne, pandas, time, shutil
 import numpy as np
 
 from mk_config import (Epochs_params, filter_params, if_notch, filter_notch_freq,
-                       shift_onset, raw_path, epo_path, event_id_want)
+                       shift_onset, contact_onset, raw_path, epo_path, event_id_want)
 from mk_modules import get_dirs, initialize, compare_events
 
 # Start process
@@ -46,6 +46,11 @@ for subject in subjects:    # Delete this line when using swarm!
     if shift_onset:
         events = np.array(filter(lambda x: x[2] in event_id_want.keys(), events))
         events[:, 0] += (np.array(bhv_df['RT']) * 600).astype(int)
+
+    # If shifting the onset to movement onset instead of target appearance:
+    if contact_onset:
+        events = np.array(filter(lambda x: x[2] in event_id_want.keys(), events))
+        events[:, 0] += ((np.array(bhv_df['RT'])+np.array(bhv_df['MT'])) * 600).astype(int)
 
     # Filter the raw data
     if if_notch:

@@ -8,6 +8,9 @@ from mk_config import (epo_path, res_path, decode_decim, topo_times,
                        analyses, split_cond, split_targ, decode_next)
 from mk_modules import get_dirs, initialize
 
+# !!!!!!!!!!!!!!
+split_targ = True
+
 # Start process
 print("*** Decode Motor Task from the epoched data in %s ***" % epo_path)
 init_time = time.time()
@@ -74,7 +77,8 @@ for subject in subjects:    # Delete this line when using swarm!
                 scores, patterns, filters = [], [], []
 
                 all_y = np.array(bhv_events[analysis])
-                epochs_inst = epochs.copy()
+                epochs_inst1 = epochs.copy()
+                epochs_inst2 = epochs.copy()
 
                 mask = np.isfinite(all_y)
 
@@ -88,32 +92,30 @@ for subject in subjects:    # Delete this line when using swarm!
                     mask2 = np.array(([False] * 25 + [True] * 100 + [False] * 25) * 2)
                     mask = np.logical_and(mask, np.logical_and(mask1, mask2))
 
-                # Split targets
-                if targ is not 'all':
-                    mask3 = np.array(bhv_targs == targ)
-                    mask = np.logical_and(mask, mask3)
-
-                #
-                if np.sum(mask) < 10:
-                    continue
+                mask_targ1 = np.logical_and(mask, np.array(bhv_targs == '1'))
+                mask_targ2 = np.logical_and(mask, np.array(bhv_targs == '2'))
 
                 # Decoding nth trial or (n+1)th trial for nth variable?
                 if decode_next is True:
                     all_y.pop(-1)
                     mask.pop(-1)
-                    epochs.inst.drop(0)
+                    epochs_inst1.drop(0)
+                    epochs_inst2.drop(0)
 
                 # Make X and y for machine learning
-                y = all_y[np.where(mask)]
-                X = epochs_inst.drop(np.invert(mask))._data
+                y1 = all_y[np.where(mask_targ1)]
+                X1 = epochs_inst1.drop(np.invert(mask_targ1))._data
+                y2 = all_y[np.where(mask_targ2)]
+                X2 = epochs_inst2.drop(np.invert(mask_targ2))._data
 
                 #
-                if len(set(y)) == 1:
+                if len(set(y1)) == 1 or len(set(y2)) == 1:
                     continue
 
                 # Select a model
                 if 'rot' in analysis:
-                    y[np.where((y == -40) | (y == +40))] = 1
+                    y1[np.where((y1 == -40) | (y1 == +40))] = 1
+                    y2[np.where((y2 == -40) | (y2 == +40))] = 1
                     # LogisticRegression
                     scaler, model = StandardScaler(), LinearModel(LogisticRegression())
                     kwargs = dict(scoring='roc_auc', n_jobs=-1)
@@ -132,11 +134,11 @@ for subject in subjects:    # Delete this line when using swarm!
                 del scaler, model, kwargs
 
                 # Do machine learning, get scores
-                for train, test in cv.split(X, y):
+                for train, test in cv.split(X1, y1):
                     try:
-                        gat.fit(X[train], y[train])
-                        scores.append(gat.score(X[test], y[test]))
-                    except ValueError:
+                        gat.fit(X1[train], y1[train])
+                        scores.append(gat.score(X2[test], y2[test]))
+                    except:
                         warnings.warn("Oops! Try again.")
                         continue
                     patterns.append(get_coef(gat, 'patterns_', inverse_transform=True))
@@ -144,8 +146,8 @@ for subject in subjects:    # Delete this line when using swarm!
 
                 # Get the mean value of scores, patterns, evoked
                 scores, patterns, filters = map(lambda x: np.mean(x, axis=0), (scores, patterns, filters))
-                evoked_p = mne.EvokedArray(patterns, epochs_inst.info, tmin=epochs_inst.tmin)
-                evoked_f = mne.EvokedArray(filters, epochs_inst.info, tmin=epochs_inst.tmin)
+                evoked_p = mne.EvokedArray(patterns, epochs_inst1.info, tmin=epochs_inst1.tmin)
+                evoked_f = mne.EvokedArray(filters, epochs_inst1.info, tmin=epochs_inst1.tmin)
 
                 # Make filenames of scores, patterns, evoked
                 fname_score = output_path_subj + '/scores_%s_%s_%s_%s.npy' % (subject, analysis, cond, str(targ))
@@ -159,7 +161,7 @@ for subject in subjects:    # Delete this line when using swarm!
                 evoked_p.save(fname_evokp)
                 evoked_f.save(fname_evokf)
 
-                del y, X, clf, gat, cv, epochs_inst, mask, scores, patterns, evoked_p, evoked_f
+                del y1, X1, y2, X2, clf, gat, cv, epochs_inst1, epochs_inst2, mask, scores, patterns, evoked_p, evoked_f
                 print("Done: %s of %s, %i seconds " % (analysis, subject, time.time() - start_time))
 
 print("Total %i seconds." % (time.time() - init_time))
